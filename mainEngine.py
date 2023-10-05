@@ -22,7 +22,6 @@ def initializeEnvironmentVariables():
     now = datetime.datetime.now()
     os.environ["CURRENT_SEASON_YEAR"] = str(now.year)
 
-
 def beginCoreDataExtractionProcesses():
     DataExtraction.main()
 
