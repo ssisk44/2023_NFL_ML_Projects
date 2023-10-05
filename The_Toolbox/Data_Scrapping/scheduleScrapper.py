@@ -6,58 +6,20 @@ from selenium import webdriver
 from selenium.webdriver import ActionChains
 import numpy as np
 import time, os
+#import tensorflow
+
+def getNFLScheduleForRange(yearStart: int, yearEnd: int):
+    print("Hello")
 
 
-teams_list = ['Arizona Cardinals', 'Atlanta Falcons', 'Baltimore Ravens', 'Buffalo Bills', 'Carolina Panthers', 'Chicago Bears', 'Cincinnati Bengals', 'Cleveland Browns', 'Dallas Cowboys', 'Denver Broncos', 'Detroit Lions', 'Green Bay Packers', 'Houston Texans', 'Indianapolis Colts', 'Jacksonville Jaguars', 'Kansas City Chiefs', 'Las Vegas Raiders', 'Los Angeles Chargers', 'Los Angeles Rams', 'Miami Dolphins', 'Minnesota Vikings', 'New England Patriots', 'New Orleans Saints', 'New York Giants', 'New York Jets', 'Philadelphia Eagles', 'Pittsburgh Steelers', 'San Francisco 49ers', 'Seattle Seahawks', 'Tampa Bay Buccaneers', 'Tennessee Titans', 'Washington Football Team']
-
-team_name_dict = {
-    1:  {
-            2002: "Arizona Cardinals",
-            2003: "Arizona Cardinals",
-            2004: "Arizona Cardinals",
-            2005: "Arizona Cardinals",
-            2006: "Arizona Cardinals",
-            2007: "Arizona Cardinals",
-            2008: "Arizona Cardinals",
-            2009: "Arizona Cardinals",
-            2010: "Arizona Cardinals",
-            2011: "Arizona Cardinals",
-            2012: "Arizona Cardinals",
-            2013: "Arizona Cardinals",
-            2014: "Arizona Cardinals",
-            2016: "",
-            2017: "",
-            2015: "",
-            2018: "",
-            2019: "",
-            2020: "",
-            2021: "",
-            2022: "",
-            2023: ""
-        }
-
-}
-
-'''
-Oakland Raiders 1995 to 2019
-Las Vegas Raiders 2020 ->
-
-San Diego Chargers 1961 to 2016
-Los Angeles Chargers 2017 ->
-
-St. Louis Rams 1995 to 2015
-Los Angeles Rams 2016 ->
 
 
-Washington Redskins ---- to 2019
-Washington Football Team 2020 to 2021
-Washington Commanders 2023 ->
-'''
 
-"""
-- create a legend for mapping old team names to current teams
-    - lets take data since 2002 when the Houston Texans became the last and 32nd team to join the NFL
-"""
+
+
+
+
+
 
 ##### WORKSHOPING #####
 def getNFLPlayersScores():
