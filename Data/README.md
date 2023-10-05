@@ -1,5 +1,5 @@
 ## Goal: Create pipelines to collect and store sets of NFL data
-1) Yearly Schedules & Results by Week
+1) Yearly Schedules & Results by Week (COMPLETE)
    1) Season
    2) Week
    3) Day
@@ -15,7 +15,7 @@
    13) YdsL
    14) TOL
 ####
-2) Weekly Game Metadata
+2) Weekly Game Metadata (IN PROGRESS)
    1) Season
    2) Week
    3) Date

@@ -1,6 +1,7 @@
 import datetime
 import os
-import The_Course.constructionHQ as DataExtraction
+import Controllers.scrappingController as ScrappingController
+import Controllers.dataProcessingController as DataProcessingController
 
 
 def main():
@@ -13,16 +14,17 @@ def main():
     initializeEnvironmentVariables()
 
     # THIS WILL BE CHANGED BUT FOR NOW DATA SCRAPPING WILL HAPPEN NOW
-    beginCoreDataExtractionProcesses()
+    beginDataAcquisitionProcesses()
 
 
 def initializeEnvironmentVariables():
     """initializes certain environment variables"""
-    # time
-    now = datetime.datetime.now()
-    os.environ["CURRENT_SEASON_YEAR"] = str(now.year)
+    ## time
+    # now = datetime.datetime.now()
+    # os.environ["CURRENT_SEASON_YEAR"] = str(now.year)
 
-def beginCoreDataExtractionProcesses():
-    DataExtraction.main()
+def beginDataAcquisitionProcesses():
+    ScrappingController.main()
+    DataProcessingController.main()
 
 main()

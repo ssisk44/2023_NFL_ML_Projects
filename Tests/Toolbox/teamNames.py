@@ -1,6 +1,6 @@
 import unittest
 import os
-from The_Toolbox import teamNames
+from Toolbox import teamNaming
 
 
 class CaseControllerTest(unittest.TestCase):
@@ -9,11 +9,11 @@ class CaseControllerTest(unittest.TestCase):
         testYearsTeamNames = []
 
         os.environ["CURRENT_SEASON_YEAR"] = "2023"
-        teamNames.getAllTeamNamesForEverySeason()
+        teamNaming.getAllTeamNamesForEverySeason()
 
     def testGetCurrentTeamNameForFranchise(self):
-        res1 = teamNames.getCurrentTeamNameForFranchise("Washington Football Team")
-        res2 = teamNames.getCurrentTeamNameForFranchise("Washington Commanders")
+        res1 = teamNaming.getCurrentTeamNameForFranchise("Washington Football Team")
+        res2 = teamNaming.getCurrentTeamNameForFranchise("Washington Commanders")
         self.assertEqual(res1, res2)
         self.assertEqual("Washington Commanders", res1)
 
