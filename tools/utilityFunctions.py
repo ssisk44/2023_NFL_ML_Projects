@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 
 
-def getScheduleDataForRange(yearStart: int, yearEnd: int):
-    scheduleDataDir = "Data/Raw/Schedules/"
+def getScheduleDataForRange(yearStart: int, yearEnd: int, dataCondition: str):
+    scheduleDataDir = "data/RAW/Schedules/"
     scheduleDataDirFileList = os.listdir(scheduleDataDir)
     allSeasonsGameArr = []
     for file in scheduleDataDirFileList:
@@ -13,3 +13,4 @@ def getScheduleDataForRange(yearStart: int, yearEnd: int):
             thisSeasonGameArr = pd.read_csv(scheduleDataDir + file).to_numpy()
             allSeasonsGameArr.append(thisSeasonGameArr)
     return allSeasonsGameArr
+

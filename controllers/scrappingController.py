@@ -1,5 +1,5 @@
-from Toolbox.Data_Scrapping import scheduleDataScrapper
-from Toolbox.Data_Scrapping import gameMetadataScrapper
+from src.dataScrapping import scheduleDataScrapper
+from src.dataScrapping import gameMetadataScrapper
 
 def main():
     # Obtain Schedule
@@ -7,7 +7,7 @@ def main():
     # try:
     #     print("Beginning Schedule Scrapping")
     #     currentSeasonInt = int(os.environ.get("CURRENT_SEASON_YEAR"))
-    #     scheduleScrapper.scrapeNFLScheduleForRange(2002, currentSeasonInt)
+    #     scheduleDataScrapper.scrapeNFLScheduleForRange(2002, currentSeasonInt)
     # except Exception:
     #     print("Schedule Scrapping Failed")
     #     exit()

@@ -1,20 +1,26 @@
 import datetime
 import os
-import Controllers.scrappingController as ScrappingController
-import Controllers.dataProcessingController as DataProcessingController
+import controllers.scrappingController as ScrappingController
+import controllers.dataManipulationController as DataProcessingController
 
 
-def main():
+def main(testDataAcquisition=False, testAnalysis=True):
     ################################################################################
     ######                                                                    ######
     #  This should be the first code hit when this script is loaded onto a server  #
     ######                                                                    ######
     ################################################################################
 
+    ### Note -> find out what time/how long after a game sportsreference uploads game data (scrape at noon everyday?)
     initializeEnvironmentVariables()
 
-    # THIS WILL BE CHANGED BUT FOR NOW DATA SCRAPPING WILL HAPPEN NOW
-    beginDataAcquisitionProcesses()
+    # the BELOW subsequences are currently performed through manual triggers, this will eventually be moved to a cron
+    # TODO: Get the simplest version of this app running on a server with self updating crons/logs with text notifications
+    if testDataAcquisition:
+        completeDataAcquisitionProcesses()
+
+    elif testAnalysis:
+        completeAnalysisProcesses()
 
 
 def initializeEnvironmentVariables():
@@ -23,8 +29,17 @@ def initializeEnvironmentVariables():
     # now = datetime.datetime.now()
     # os.environ["CURRENT_SEASON_YEAR"] = str(now.year)
 
-def beginDataAcquisitionProcesses():
+def completeDataAcquisitionProcesses():
     ScrappingController.main()
+
     DataProcessingController.main()
+
+    print("Data Acquisition Complete")
+
+def completeAnalysisProcesses():
+
+
+    print()
+
 
 main()

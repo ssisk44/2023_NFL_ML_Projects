@@ -1,4 +1,4 @@
 .env
 */chromedriver.exe
-Data/
-Temporary/
+data/
+tmp/

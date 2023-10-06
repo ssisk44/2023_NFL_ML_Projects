@@ -2,11 +2,11 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 import time, os
-from Toolbox.teamNaming import teamNameToSportsReferenceAbbreviationMap
+from tools.teamNaming import teamNameToSportsReferenceAbbreviationMap
 
 def scrapeNFLGameMetadata():
     # TODO: attempt to only scrape metadata for games not already in data, or at least for only the current year
-    scheduleDataDir = "Data/Schedules/"
+    scheduleDataDir = "data/Schedules/"
     scheduleDataDirFileList = os.listdir(scheduleDataDir)
     for file in scheduleDataDirFileList:
         seasonGamesArr = pd.read_csv(scheduleDataDir + file).to_numpy()

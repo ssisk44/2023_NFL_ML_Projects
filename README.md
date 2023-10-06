@@ -1,6 +1,15 @@
 # 2023 NFL ML/DS/DE Project Sandbox
 #### by Samuel Sisk
 ###
+###
+JIRA - https://ssisk44.atlassian.net/jira/software/projects/BH2023/boards/1/timeline?timeline=WEEKS
+
+# Objectives
+1) Create flawless pipelines to collect and store sets of NFL data
+2) Design methods for various data acquisition and manipulation requirements
+3) Train models
+4) Engineer a system for testing/training analysis methods on historical data
+
 
 ## Project Introduction
 As I currently take the beginning steps in my third attempt to perfect my sports betting prediction skills, I realize how far I have come both as a programmer and active thinker.
@@ -53,10 +62,6 @@ here is that reality often translates poorly to computer data representations.
 ###
 ## The Purpose and Intention Behind This Project ##
 Figma - https://www.figma.com/file/EJoeKfV4QVjThu3oXcM2YD/2023-ML-Injection-into-DFS-Project-Overview?type=whiteboard&node-id=904-177&t=OdMaRGOZrR9U2E0s-0
-- Create pipelines to collect and store sets of NFL data
-- Create helper libraries for various data acquisition and manipulation requirements
-- Create a system for testing predictive analysis methods on historical data using helper libraries
-
 ###
 ## Coding Standards
 - ***Folder*** names should all capitalized and underscore spacing
@@ -75,3 +80,4 @@ Figma - https://www.figma.com/file/EJoeKfV4QVjThu3oXcM2YD/2023-ML-Injection-into
 
 ###
 ## Maintenance Notes
+Incorporate a research mode feature with a team or players dashboard stats - https://www.teamrankings.com/nfl/stats/
