@@ -1,6 +1,6 @@
 import unittest
 import os
-from tools import teamNaming
+from src import teamNaming
 
 
 class CaseControllerTest(unittest.TestCase):

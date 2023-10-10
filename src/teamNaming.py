@@ -152,6 +152,46 @@ teamNameToSportsReferenceAbbreviationMap = {
     "Washington Redskins": "was"
 }
 
+teamNameFranchiseNumMap = {
+    "Arizona Cardinals": "0",
+    "Atlanta Falcons": "1",
+    "Baltimore Ravens": "2",
+    "Buffalo Bills": "3",
+    "Carolina Panthers": "4",
+    "Chicago Bears": "5",
+    "Cincinnati Bengals": "6",
+    "Cleveland Browns": "7",
+    "Dallas Cowboys": "8",
+    "Denver Broncos": "9",
+    "Detroit Lions": "10",
+    "Green Bay Packers": "11",
+    "Houston Texans": "12",
+    "Indianapolis Colts": "13",
+    "Jacksonville Jaguars": "14",
+    "Kansas City Chiefs": "15",
+    "Las Vegas Raiders": "16",
+    "Los Angeles Chargers": "17",
+    "Los Angeles Rams": "18",
+    "Miami Dolphins": "19",
+    "Minnesota Vikings": "20",
+    "New England Patriots": "21",
+    "New Orleans Saints": "22",
+    "New York Giants": "23",
+    "New York Jets": "24",
+    "Oakland Raiders": "16",
+    "Philadelphia Eagles": "25",
+    "Pittsburgh Steelers": "26",
+    "San Diego Chargers": "17",
+    "San Francisco 49ers": "27",
+    "Seattle Seahawks": "28",
+    "St. Louis Rams": "18",
+    "Tampa Bay Buccaneers": "29",
+    "Tennessee Titans": "30",
+    "Washington Commanders": "31",
+    "Washington Football Team": "31",
+    "Washington Redskins": "31"
+}
+
 def getAllTeamNamesBySeason(season: int):
     """This function returns every team name for a given season"""
 
@@ -190,3 +230,6 @@ def getCurrentTeamNameForFranchise(teamName: str):
         return franchise_current_team_name
 
 
+def getTeamFranchiseInt(franchiseName):
+    teamFranchiseInt = teamNameFranchiseNumMap[franchiseName]
+    return int(teamFranchiseInt)

@@ -1,13 +1,12 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-import time, os
-from tools.teamNaming import teamNameToSportsReferenceAbbreviationMap
+from src.teamNaming import teamNameToSportsReferenceAbbreviationMap
 
 def scrapeNFLScheduleForRange(yearStart: int, yearEnd: int):
     for year in range(yearStart, yearEnd+1):
         response = requests.get('https://www.pro-football-reference.com/years/' + str(year) + '/games.htm')
-        print("Parsing data for", year)
+        print("Parsing Schedule Data for: ", year)
         ## TO DO: Prevent overriding already existing data by checking for output filenames
         soup = BeautifulSoup(response.content, "html.parser")
         table = soup.find_all("tr")
@@ -40,4 +39,4 @@ def scrapeNFLScheduleForRange(yearStart: int, yearEnd: int):
             entry[7] = link
 
         header = ['Week #', 'Day', 'Date', 'Time', 'Winning Team', '@', 'Losing Team', 'Link', 'W Score', 'L Score', 'W Yds', 'W TO', 'L Yds', 'L TO']
-        pd.DataFrame(schedule).to_csv('data/Schedules/'+str(year)+'NFLScheduleAndResults.csv', index=False, header=header)
+        pd.DataFrame(schedule).to_csv('data/Raw/Schedules/'+str(year)+'NFLScheduleAndResults.csv', index=False, header=header)

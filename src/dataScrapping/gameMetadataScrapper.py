@@ -1,8 +1,6 @@
-from bs4 import BeautifulSoup
-import requests
 import pandas as pd
-import time, os
-from tools.teamNaming import teamNameToSportsReferenceAbbreviationMap
+import os
+
 
 def scrapeNFLGameMetadata():
     # TODO: attempt to only scrape metadata for games not already in data, or at least for only the current year
