@@ -1,10 +1,9 @@
-from analysis.Single_Game_Outcome_Schedule_Data.versions import SGOSD_V1
-
+from src.dataAnalysis.scheduleDataAnalysis import predictScheduleDataOutcomes
 
 def main():
     print('Attempting Schedule Data Analysis')
     # try:
-    SGOSD_V1.main()
+    predictScheduleDataOutcomes("SGOSD_V1.py", "2023-10-10", "2023-10-17")
     # except Exception as e:
     #     print("Schedule Data Analysis Failed")
     #     print(str(e))

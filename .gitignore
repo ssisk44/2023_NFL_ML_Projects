@@ -2,3 +2,5 @@
 */chromedriver.exe
 data/
 tmp/
+analysis/singleGame/models/
+analysis/singleGame/scalars/
