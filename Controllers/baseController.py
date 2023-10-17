@@ -47,11 +47,11 @@ class BaseController:
 
 
     def completeModelTrainingRequest(self):
-        # TODO: Reformation - add training date range, option to exclude week 1?
+        # TODO: PENDING - add training date range, option to exclude week 1?
         ModelTrainingController.completeRequest([self.dataTypes])
 
     def completeDataPredictionRequest(self):
-        # TODO: Reformation - add predictions for date range not exceeding current week + 1
+        # TODO: PENDING - add predictions for date range not exceeding current week + 1
         # if len(self.args.values()) > 0 and "gameIDs" not in self.args.values():
         #     gameIDs = self.args["gameIDs"]
         #     DataAnalysisController.completeRequest([gameIDs, self.dataTypes])

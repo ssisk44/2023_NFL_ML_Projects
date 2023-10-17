@@ -61,7 +61,7 @@ def transformScheduleData():
 
 
 # def removeUnplayedGamesFromSchedule(game, overloadDay=10, overloadMonth=10):
-#     # TODO: Reformation - move this filtering functionality to depend on model training/prediction args
+#     # TODO: PENDING - move this filtering functionality to depend on model training/prediction args
 #     now = datetime.datetime.now()
 #     year = now.year
 #     month = now.month
@@ -247,7 +247,7 @@ def returnStatMapValues(year, week, teamName, statMap):
     return retValues
 
 def saveFinalDataForML(allSeasonsGames, statmap):
-    # TODO: Smolder - Get all/include all game/schedule value
+    # TODO: PENDING - Get all/include all game/schedule value
     # finalCols = ["season", "weekNum", "isDayGame", "isPrimetime", "isPlayoffs", "homeIsWinner", "homeFranchiseInt",
     #              "homeOffPointsAvg", "homeOffYardsAvg", "homeOffTOAvg", "homeDefPointsAvg", "homeDefYardsAvg",
     #              "homeDefTOAvg", "awayFranchiseInt", "awayOffPointsAvg", "awayOffYardsAvg", "awayOffTOAvg",
