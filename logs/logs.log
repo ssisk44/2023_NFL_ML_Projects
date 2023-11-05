@@ -2,26 +2,3 @@ INFO:root:Beginning Request Processing
 INFO:root:Initializing Local Data Through Pipeline
 INFO:root:Beginning Schedule Data Transformation
 INFO:root:Transforming Schedule Data for:2002
-INFO:root:Transforming Schedule Data for:2003
-INFO:root:Transforming Schedule Data for:2004
-INFO:root:Transforming Schedule Data for:2005
-INFO:root:Transforming Schedule Data for:2006
-INFO:root:Transforming Schedule Data for:2007
-INFO:root:Transforming Schedule Data for:2008
-INFO:root:Transforming Schedule Data for:2009
-INFO:root:Transforming Schedule Data for:2010
-INFO:root:Transforming Schedule Data for:2011
-INFO:root:Transforming Schedule Data for:2012
-INFO:root:Transforming Schedule Data for:2013
-INFO:root:Transforming Schedule Data for:2014
-INFO:root:Transforming Schedule Data for:2015
-INFO:root:Transforming Schedule Data for:2016
-INFO:root:Transforming Schedule Data for:2017
-INFO:root:Transforming Schedule Data for:2018
-INFO:root:Transforming Schedule Data for:2019
-INFO:root:Transforming Schedule Data for:2020
-INFO:root:Transforming Schedule Data for:2021
-INFO:root:Transforming Schedule Data for:2022
-INFO:root:Transforming Schedule Data for:2023
-INFO:root:Transformed Schedule Data Successful!
-INFO:root:Request Process Successful!

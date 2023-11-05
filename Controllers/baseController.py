@@ -12,9 +12,9 @@ from models.DataPipelineModel import DataPipeline
 class BaseController:
     def __init__(self, requestType, dataTypes, actionType, args):
         """
-       :param requestType ("Pipeline", "Training", "Prediction", "Dashboard", "DFS"):
+       :param requestType (Pipeline "PI", Model Training "MT", Prediction "PR", "Dashboard", "DFS"):
        :param dataTypes ("Schedule", "Game", "PlayerGame", "PlayerBio", "Team", "Injury", "Weather", "Depth Chart"):
-       :param actionType ("I", "U): initialize or update local dataset
+       :param actionType ("I", "U", "T"): initialize/update/transform local dataset
        :param {} args:
        """
         self.requestType = requestType
@@ -40,7 +40,7 @@ class BaseController:
             self.completeModelTrainingRequest()
 
         # handle data prediction requests
-        elif self.requestType == "DP":
+        elif self.requestType == "PR":
             self.completeDataPredictionRequest()
 
         logging.info("Request Process Successful!")

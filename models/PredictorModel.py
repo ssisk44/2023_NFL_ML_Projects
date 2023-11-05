@@ -77,4 +77,4 @@ class PredictorModel:
 
 model = PredictorModel()
 # model.predictScheduleDataOutcomes("ignore", "2023-10-04", "2023-10-10")
-model.predictScheduleDataOutcomes("ignore", "2023-10-10", "2023-10-17")
+model.predictScheduleDataOutcomes("ignore", "2023-10-18", "2023-10-20")

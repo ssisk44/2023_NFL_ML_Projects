@@ -103,7 +103,3 @@ def trainSingleGameV1Model(predictionStartDate, predictionEndDate):
     joblib.dump(scaler, scalerFilepath)
 
 trainSingleGameV1Model("2002-06-01", "2023-06-01")
-trainSingleGameV1Model("2002-06-01", "2023-06-01")
-trainSingleGameV1Model("2002-06-01", "2023-06-01")
-trainSingleGameV1Model("2002-06-01", "2023-06-01")
-trainSingleGameV1Model("2002-06-01", "2023-06-01")

@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-from src.teamNaming import teamNameToSportsReferenceAbbreviationMap
+from src import constants as Constants
 import os
 import logging
 
@@ -37,11 +37,11 @@ def scrapeNFLScheduleForRange(yearStart: int, yearEnd: int):
                 # normalize value
                 entry[5] = '@'
                 homeTeamName = entry[6]
-            homeTeamAbbreviation = teamNameToSportsReferenceAbbreviationMap[homeTeamName].lower()
+            homeTeamAbbreviation = Constants.teamNameToFranchiseAbbrevMap[homeTeamName].lower()
             link = 'https://www.pro-football-reference.com/boxscores/' + dateString + homeTeamAbbreviation + '.htm'
             entry[7] = link
 
         header = ['Week #', 'Day', 'Date', 'Time', 'Winning Team', '@', 'Losing Team', 'Link', 'W Score', 'L Score', 'W Yds', 'W TO', 'L Yds', 'L TO']
         projectFilepath = os.getenv("ABS_PROJECT_PATH")
-        fileName = projectFilepath + "data/raw/schedule/" + str(year) + "NFLScheduleAndResults.csv"
+        fileName = projectFilepath + "data/schedule/raw/" + str(year) + "NFLScheduleAndResults.csv"
         pd.DataFrame(schedule).to_csv(fileName, index=False, header=header)

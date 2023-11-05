@@ -16,16 +16,12 @@ class DataPipeline:
             logging.info("Initializing Local Data Through Pipeline")
             if "Schedule" in self.dataTypes:
                 self.scheduleDataInitialization()
-                self.scheduleDataTransformer()
 
-        # Case 2: updating a local dataset
-        elif self.actionType == "U":
-            logging.info("Updating Local Data Through Pipeline")
+        # Case 2: transform raw data to final
+        elif self.actionType == "T":
+            logging.info("Initializing Local Data Through Pipeline")
             if "Schedule" in self.dataTypes:
-                ### TODO: QOL - prevent data overwriting and long tasks by incorporating update, not initialize
-                None
-                # handleScheduleDataUpdater()
-                # handleScheduleDataTransformer()
+                self.scheduleDataTransformer()
 
     def scheduleDataInitialization(self):
         logging.info("Beginning Schedule Data Scrapping")

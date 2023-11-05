@@ -6,7 +6,7 @@
 
 ### IN PROGRESS
 
-#### Proof of Concept Pt. 2 (10/17/23 to ) - Ignition
+#### Ignition (10/17/23 to )
     After completing "Combustion" to prevent future inefficiecy, I am excited to get back to making tangible progess
     and seeing the results of my labor.
 
@@ -28,6 +28,10 @@
     2) Locate data
     3) Acquire data
     4) Store data
+##
+
+#### DFS Research - Seed (10/17/23 to)
+    Create the capabilities to turn a contest csv into lineup permutations.
 ##
 
 
@@ -52,10 +56,8 @@
 ##
 
 #### Inferno
-    Using previous findings, implement DFS lineup selection and variation functionality
+    Using previous findings implement DFS lineup selection, composition and variations on entries functionalities
 ##
-
-
 
 
 #### Internet Hosting - Droplet
