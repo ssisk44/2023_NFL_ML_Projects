@@ -4,13 +4,13 @@ import dotenv
 import pandas as pd
 import os
 from bs4 import BeautifulSoup
-from src.dataLoaders.scheduleDataLoaders import getFinalScheduleTrainingData
 from src.constants import gamesDataColumns, playersDataColumns
 from io import StringIO
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from src import constants as Constants
 
 """
 For each game in a season get the following information
@@ -119,15 +119,25 @@ def convertTablesToCSVsToScrape(driver, link):
     ### zooming out causes issue finding translated location of elements
     # driver.execute_script("document.body.style.zoom='95%'")
 
-
-
-    def scrollAndConvertTablesToCSVs(dropdownXPATH: str, convertButtonXPATH: str, pixelsPerScroll: int = 500):
+    def scrollAndConvertTablesToCSVs(dropdownXPATH: str, convertButtonXPATH: str, currentScrollAmount=300):
         """Continually scrolls until it finds the target elements for table to csv conversions"""
         elementInView = False
+
         while not elementInView:
-            try: #if element can be found, extract info
+            try: # attempt to find element
                 e1 = driver.find_element(By.XPATH, dropdownXPATH)
                 e2 = driver.find_element(By.XPATH, convertButtonXPATH)
+                e1Loc = e1.location['y']
+
+                # calculate how far I need to scroll
+                scrollDistanceToElement = e1Loc - currentScrollAmount
+
+                # scroll that far
+                driver.execute_script("window.scrollBy(0," + str(scrollDistanceToElement) + ")")
+
+                # set the ending scroll location
+                currentScrollAmount = e1Loc
+
                 action = ActionChains(driver)
                 time.sleep(1)
                 action.move_to_element(e1).perform()
@@ -137,11 +147,10 @@ def convertTablesToCSVsToScrape(driver, link):
 
                 # end loop
                 elementInView = True
-                driver.execute_script("window.scrollBy(0, 250)")
+                return currentScrollAmount
 
             except Exception as e: #attempt to scroll element into view
-                logging.info("Not In View, Scrolling")
-                driver.execute_script("window.scrollBy(0, " + str(pixelsPerScroll) + ")")
+                logging.info("ERROR Pre-Scrolling while Scrapping Game")
 
     logging.info("--Preparing Game Tables for Scrapping--")
 
@@ -149,69 +158,69 @@ def convertTablesToCSVsToScrape(driver, link):
     logging.info("Beginning Team Stats")
     teamStatsDrowdownXPATH = '/html/body/div[2]/div[5]/div[10]/div[1]/div/ul/li/span'
     teamStatsDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[10]/div[1]/div/ul/li/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(teamStatsDrowdownXPATH, teamStatsDrowdownCSVButtonXPATH)
+    currentScrollAmount = scrollAndConvertTablesToCSVs(teamStatsDrowdownXPATH, teamStatsDrowdownCSVButtonXPATH)
 
     ### PLAYER OFF STATS
     logging.info("Beginning Offensive Stats")
     offDrowdownXPATH = '/html/body/div[2]/div[5]/div[12]/div[1]/div/ul/li[1]/span'
     offDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[12]/div[1]/div/ul/li[1]/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(offDrowdownXPATH, offDrowdownCSVButtonXPATH)
+    currentScrollAmount = scrollAndConvertTablesToCSVs(offDrowdownXPATH, offDrowdownCSVButtonXPATH, currentScrollAmount)
 
     ### PLAYER DEF STATS
     logging.info("Beginning Defensive Stats")
     defDrowdownXPATH = '/html/body/div[2]/div[5]/div[13]/div[1]/div/ul/li[1]/span'
     defDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[13]/div[1]/div/ul/li[1]/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(defDrowdownXPATH, defDrowdownCSVButtonXPATH)
+    currentScrollAmount = scrollAndConvertTablesToCSVs(defDrowdownXPATH, defDrowdownCSVButtonXPATH, currentScrollAmount)
 
     ### PLAYER Kick/Punt Returns
     logging.info("Beginning Kick Punt Return Stats")
     kprDrowdownXPATH = '/html/body/div[2]/div[5]/div[14]/div[1]/div/ul/li[1]/span'
     kprDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[14]/div[1]/div/ul/li[1]/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(kprDrowdownXPATH, kprDrowdownCSVButtonXPATH)
+    currentScrollAmount = scrollAndConvertTablesToCSVs(kprDrowdownXPATH, kprDrowdownCSVButtonXPATH, currentScrollAmount)
 
     ### PLAYER Kicking & Punting
     logging.info("Beginning Kick Punt Stats")
     kpDrowdownXPATH = '/html/body/div[2]/div[5]/div[16]/div[1]/div/ul/li[1]/span'
     kpDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[16]/div[1]/div/ul/li[1]/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(kpDrowdownXPATH, kpDrowdownCSVButtonXPATH)
+    currentScrollAmount = scrollAndConvertTablesToCSVs(kpDrowdownXPATH, kpDrowdownCSVButtonXPATH, currentScrollAmount)
 
     ### PLAYER Advanced Passing
     logging.info("Beginning Advanced Passing Stats")
     advPasDrowdownXPATH = '/html/body/div[2]/div[5]/div[17]/div[1]/div/ul/li[1]/span'
     advPasDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[17]/div[1]/div/ul/li[1]/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(advPasDrowdownXPATH, advPasDrowdownCSVButtonXPATH)
+    currentScrollAmount = scrollAndConvertTablesToCSVs(advPasDrowdownXPATH, advPasDrowdownCSVButtonXPATH, currentScrollAmount)
 
     ### PLAYER Advanced Rushing
     logging.info("Beginning Advanced Rushing Stats")
     advRusDrowdownXPATH = '/html/body/div[2]/div[5]/div[18]/div[1]/div/ul/li[1]/span'
     advRusDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[18]/div[1]/div/ul/li[1]/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(advRusDrowdownXPATH, advRusDrowdownCSVButtonXPATH)
+    currentScrollAmount = scrollAndConvertTablesToCSVs(advRusDrowdownXPATH, advRusDrowdownCSVButtonXPATH, currentScrollAmount)
 
     ### PLAYER Advanced Receiving
     logging.info("Beginning Advanced Receiving Stats")
     advRecDrowdownXPATH = '/html/body/div[2]/div[5]/div[19]/div[1]/div/ul/li[1]/span'
     advRecDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[19]/div[1]/div/ul/li[1]/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(advRecDrowdownXPATH, advRecDrowdownCSVButtonXPATH)
+    currentScrollAmount = scrollAndConvertTablesToCSVs(advRecDrowdownXPATH, advRecDrowdownCSVButtonXPATH, currentScrollAmount)
 
     ### PLAYER Advanced Defense
     logging.info("Beginning Advanced Defensive Stats")
     advRecDrowdownXPATH = '/html/body/div[2]/div[5]/div[20]/div[1]/div/ul/li[1]/span'
     advRecDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[20]/div[1]/div/ul/li[1]/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(advRecDrowdownXPATH, advRecDrowdownCSVButtonXPATH)
+    currentScrollAmount = scrollAndConvertTablesToCSVs(advRecDrowdownXPATH, advRecDrowdownCSVButtonXPATH, currentScrollAmount)
 
 
     ### PLAYER HOME Snap Counts
     logging.info("Beginning Home Snap Count Stats")
     hscDrowdownXPATH = '/html/body/div[2]/div[5]/div[22]/div[1]/div/div[1]/div/ul/li[1]/span'
     hscDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[22]/div[1]/div/div[1]/div/ul/li[1]/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(hscDrowdownXPATH, hscDrowdownCSVButtonXPATH)
+    currentScrollAmount = scrollAndConvertTablesToCSVs(hscDrowdownXPATH, hscDrowdownCSVButtonXPATH, currentScrollAmount)
 
 
     ### PLAYER AWAY Snap Counts
     logging.info("Beginning Away Snap Count Stats")
     ascDrowdownXPATH = '/html/body/div[2]/div[5]/div[22]/div[2]/div/div[1]/div/ul/li[1]/span'
     ascDrowdownCSVButtonXPATH = '/html/body/div[2]/div[5]/div[22]/div[2]/div/div[1]/div/ul/li[1]/div/ul/li[3]/button'
-    scrollAndConvertTablesToCSVs(ascDrowdownXPATH, ascDrowdownCSVButtonXPATH)
+    scrollAndConvertTablesToCSVs(ascDrowdownXPATH, ascDrowdownCSVButtonXPATH, currentScrollAmount)
 
     logging.info("--Game Table Transformation for Scrapping COMPLETE--")
 
@@ -231,7 +240,6 @@ def scrapeAllConvertedTables(driver):
     crude = str(soup.find('pre', id='csv_team_stats'))
     teamStatsDF = parseScrapedCSVFormatToDF(crude)
     print(teamStatsDF)
-
 
     # ### PLAYER OFF STATS
     # crude = str(soup.find('pre', id='csv_player_offense'))
@@ -292,42 +300,40 @@ def scrapeAllConvertedTables(driver):
             advRecStats, advDefStats, homeSnapCounts, awaySnapCounts]
 
 
-
-def gameDataScrappingManager():
-    dotenv.load_dotenv()
+def gameDataScrappingManager(beginningSeasonRangeInt, endingSeasonRangeInt):
     absProjectPath = os.getenv("ABS_PROJECT_PATH")
 
     # get completed game links from schedule data
-    scheduleDataDF = getFinalScheduleTrainingData("2018-06-01", "2023-10-24")[1]
+    scheduleDataDF = pd.read_csv(absProjectPath + 'data/schedule/NFL-Historical-Schedule-And-Results.csv')
 
-    # TODO: only scrape games not already recorded in /data/games/gamesData.csv
-    # savedGamesPath = absProjectPath + 'data/raw/games.csv'
-    # savedGamesIDArr = list(pd.read_csv(savedGamesPath).to_numpy())[0]
+    # initialize new Chrome Driver
+    thisDriver = createChromeDriver()
 
-    seasons = scheduleDataDF['season']
-    weeks = scheduleDataDF['weekNum']
-    homeTeamInt = scheduleDataDF['homeFranchiseInt']
-    awayTeamInt = scheduleDataDF['awayFranchiseInt']
+    gameIDs = scheduleDataDF['gameID']
+    seasons = scheduleDataDF['gameSeason']
+    weeks = scheduleDataDF['gameWeek']
     links = scheduleDataDF["gameLink"]
 
     for indexNum in range(0, len(links)):
-        thisLink = links[indexNum]
+        thisGameID = gameIDs[indexNum]
         thisSeason = seasons[indexNum]
         thisWeek = weeks[indexNum]
-        thisAwayTeamInt = awayTeamInt[indexNum]
-        thisHomeTeamInt = homeTeamInt[indexNum]
+        thisLink = links[indexNum]
 
-        # create custom game identifier
-        thisGameID = str(thisSeason) + "-" + str(thisWeek) + "-" + str(thisAwayTeamInt) + "-" + str(thisHomeTeamInt)
-
-        # # check if game data exists for custom game identifier
-        # if thisGameID in savedGamesIDs:
+        ### make sure the desired game to scrape is within the range parameters
+        if not (beginningSeasonRangeInt <= int(thisSeason) <= endingSeasonRangeInt):
+            logging.info("Skipping " + str(thisSeason) + " " + str(thisWeek) + ". Not in the desired range of " + str(beginningSeasonRangeInt) + " to " + str(endingSeasonRangeInt))
+            continue
+        #
+        #
+        # ### check if transformed game data in records so you can skip the game
+        # gamesRawDataPath = absProjectPath + 'data/gameData/gamesInfoData.csv'
+        # existingGameDataDF = pd.read_csv(gamesRawDataPath)
+        # existingGameIDs = existingGameDataDF['gameID']
+        # if thisGameID in existingGameIDs:
+        #     logging.info("Skipping " + str(thisGameID))
         #     continue
 
-        # scrape away
-        # else:
-        # initiate driver
-        thisDriver = createChromeDriver()
 
         # scroll through page and convert all tables to csv data to be scraped
         convertTablesToCSVsToScrape(thisDriver, thisLink)
@@ -335,32 +341,11 @@ def gameDataScrappingManager():
         # read html and parse table data for each converted table
         allNestedData = scrapeAllConvertedTables(thisDriver)
 
-        # format game data for initial storage
-        formattedGameData = formatAllNestedDataForGameRecordsStorage(allNestedData, thisGameID)
 
-        ### read all saved game data
-        gamesRawDataPath = absProjectPath + 'data/raw/gamesRaw.csv'
-        existingGameDataArr = pd.read_csv(gamesRawDataPath).to_numpy().tolist()
-        existingGameDataArr.append(formattedGameData)# add new data entry to game data
-        pd.DataFrame(existingGameDataArr, columns=gamesDataColumns).to_csv(gamesRawDataPath, index=False)
 
-        ### format player data for initial storage
-        formattedPlayersData = formatAllNestedDataForPlayersRecordsStorage(allNestedData)
-
-        # write player data to 'data/player/raw/' + str(thisGameID) + '.csv'
-        pd.DataFrame(formattedPlayersData, columns=playersDataColumns).to_csv(absProjectPath + 'data/player/raw/' + str(thisGameID) + '.csv', index=False)
+        # # write player data to 'data/player/raw/' + str(thisGameID) + '.csv'
+        # pd.DataFrame(formattedPlayersData, columns=playersDataColumns).to_csv(absProjectPath + 'data/player/raw/' + str(thisGameID) + '.csv', index=False)
 
 
     exit()
 
-
-
-
-
-
-
-
-
-
-
-gameDataScrappingManager()
