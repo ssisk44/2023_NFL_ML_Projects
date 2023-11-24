@@ -10,14 +10,8 @@ nflScheduleGamesColumns = ["gameID", "gameSeason", "gameWeek", "awayTeamFranchis
                                     "gameDayAbbrev", "gameDate", "gameTime", "isPlayoffGame", "isMainSlate",
                                     "awayTeamName", "awayScore", "homeTeamName", "homeScore", "homeIsWinner",
                                     "gameLink"]
-
-
-gamesDataColumns = []
-
-playersDataColumns = []
-
-
-
+gameInfoArrColumns = ["Won Toss", "Stadium Type", "Stadium Surface", "Game Duration", "Attendance", "Weather", "ML", "OU"]
+snapCountDataColumns = ['Player', 'Pos', 'OffSnapNum', 'OffPct', 'DefSnapNum', 'DefPct', 'SptSnapNum', 'SptPct', 'playerID']
 
 teamNameToFranchiseAbbrevMap = {
     "Arizona Cardinals": "crd",

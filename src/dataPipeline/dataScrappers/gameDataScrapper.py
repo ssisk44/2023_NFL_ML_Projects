@@ -4,7 +4,6 @@ import dotenv
 import pandas as pd
 import os
 from bs4 import BeautifulSoup
-from src.constants import gamesDataColumns, playersDataColumns
 from io import StringIO
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -225,13 +224,12 @@ def convertTablesToCSVsToScrape(driver, link):
     logging.info("--Game Table Transformation for Scrapping COMPLETE--")
 
 
-def scrapeAllConvertedTables(driver):
+def scrapeAllConvertedTables(driver, saveToTemp=False):
     absProjectFilepath = os.getenv("ABS_PROJECT_PATH")
     
     ### GAME INFO
     time.sleep(3)
     gameInfoArr = scrapeGameInfo(driver)
-    print(gameInfoArr)
 
     # get html after scrolling is complete
     soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -239,65 +237,71 @@ def scrapeAllConvertedTables(driver):
     ### TEAM STATS
     crude = str(soup.find('pre', id='csv_team_stats'))
     teamStatsDF = parseScrapedCSVFormatToDF(crude)
-    print(teamStatsDF)
 
-    # ### PLAYER OFF STATS
-    # crude = str(soup.find('pre', id='csv_player_offense'))
-    # simpleOffStats = parseScrapedCSVFormatToDF(crude)
-    # print(simpleOffStats)
+    ### PLAYER OFF STATS
+    crude = str(soup.find('pre', id='csv_player_offense'))
+    simpleOffStatsDF = parseScrapedCSVFormatToDF(crude)
 
     ### PLAYER DEF STATS
     crude = str(soup.find('pre', id='csv_player_defense'))
-    simpleDefStats = parseScrapedCSVFormatToDF(crude)
-    print(simpleDefStats)
+    simpleDefStatsDF = parseScrapedCSVFormatToDF(crude)
 
     ### PLAYER Kick/Punt Returns
     crude = str(soup.find('pre', id='csv_returns'))
-    KickPuntStats = parseScrapedCSVFormatToDF(crude)
-    print(KickPuntStats)
+    kPReturnStatsDF = parseScrapedCSVFormatToDF(crude)
 
     ### PLAYER Kicking & Punting
     crude = str(soup.find('pre', id='csv_kicking'))
-    KPReturnStats = parseScrapedCSVFormatToDF(crude)
-    print(KPReturnStats)
+    kickPuntStatsDF = parseScrapedCSVFormatToDF(crude)
 
     ### PLAYER Advanced Passing
     crude = str(soup.find('pre', id='csv_passing_advanced'))
-    advPassStats = parseScrapedCSVFormatToDF(crude)
-    print(advPassStats)
+    advPassStatsDF = parseScrapedCSVFormatToDF(crude)
 
     ### PLAYER Advanced Rushing
     crude = str(soup.find('pre', id='csv_rushing_advanced'))
-    advRushStats = parseScrapedCSVFormatToDF(crude)
-    print(advRushStats)
+    advRushStatsDF = parseScrapedCSVFormatToDF(crude)
 
     ### PLAYER Advanced Receiving
     crude = str(soup.find('pre', id='csv_receiving_advanced'))
-    advRecStats = parseScrapedCSVFormatToDF(crude)
-    print(advRecStats)
+    advRecStatsDF = parseScrapedCSVFormatToDF(crude)
 
     ### PLAYER Advanced Defense
     crude = str(soup.find('pre', id='csv_defense_advanced'))
-    advDefStats = parseScrapedCSVFormatToDF(crude)
-    print(advDefStats)
+    advDefStatsDF = parseScrapedCSVFormatToDF(crude)
 
     ### PLAYER HOME Snap Counts
     crude = str(soup.find('pre', id='csv_home_snap_counts'))
-    homeSnapCounts = parseScrapedCSVFormatToDF(crude)
-    print(homeSnapCounts)
+    homeSnapCountsDF = parseScrapedCSVFormatToDF(crude)
 
     ### PLAYER AWAY Snap Counts
     crude = str(soup.find('pre', id='csv_vis_snap_counts'))
-    awaySnapCounts = parseScrapedCSVFormatToDF(crude)
-    print(awaySnapCounts)
+    awaySnapCountsDF = parseScrapedCSVFormatToDF(crude)
+
 
     ### STARTERS - TODO not yet implemented, if needed
     ### DRIVES - TODO not yet implemented, if needed
     ### PLAY-BY-PLAY - TODO not yet implemented, if needed
 
+    if saveToTemp:
+        pd.DataFrame(gameInfoArr, index=None).to_csv(absProjectFilepath + "tmp/gameInfo.csv", header=True)
+        teamStatsDF.to_csv(absProjectFilepath + "tmp/teamStatsDF.csv")
+        simpleOffStatsDF.to_csv(absProjectFilepath + "tmp/simpleOffStatsDF.csv", header=False)
+        simpleDefStatsDF.to_csv(absProjectFilepath + "tmp/simpleDefStatsDF.csv", header=False)
+        kickPuntStatsDF.to_csv(absProjectFilepath + "tmp/kickPuntStatsDF.csv", header=False)
+        kPReturnStatsDF.to_csv(absProjectFilepath + "tmp/kPReturnStatsDF.csv", header=False)
+        advPassStatsDF.to_csv(absProjectFilepath + "tmp/advPassStatsDF.csv", header=True)
+        advRushStatsDF.to_csv(absProjectFilepath + "tmp/advRushStatsDF.csv", header=True)
+        advRecStatsDF.to_csv(absProjectFilepath + "tmp/advRecStatsDF.csv", header=True)
+        advDefStatsDF.to_csv(absProjectFilepath + "tmp/advDefStatsDF.csv", header=True)
+        homeSnapCountsDF.columns = Constants.snapCountDataColumns
+        homeSnapCountsDF.to_csv(absProjectFilepath + "tmp/homeSnapCountsDF.csv", header=False)
+        awaySnapCountsDF.columns = Constants.snapCountDataColumns
+        awaySnapCountsDF.to_csv(absProjectFilepath + "tmp/awaySnapCountsDF.csv", header=False)
 
-    return [gameInfoArr, teamStatsDF, simpleDefStats, KickPuntStats, KPReturnStats, advPassStats, advRushStats,
-            advRecStats, advDefStats, homeSnapCounts, awaySnapCounts]
+
+    # return [gameInfoArr, teamStatsDF, simpleDefStatsDF, kickPuntStatsDF, kPReturnStatsDF, advPassStatsDF, advRushStatsDF,
+    #         advRecStatsDF, advDefStatsDF, homeSnapCountsDF, awaySnapCountsDF]
 
 
 def gameDataScrappingManager(beginningSeasonRangeInt, endingSeasonRangeInt):
@@ -324,9 +328,9 @@ def gameDataScrappingManager(beginningSeasonRangeInt, endingSeasonRangeInt):
         if not (beginningSeasonRangeInt <= int(thisSeason) <= endingSeasonRangeInt):
             logging.info("Skipping " + str(thisSeason) + " " + str(thisWeek) + ". Not in the desired range of " + str(beginningSeasonRangeInt) + " to " + str(endingSeasonRangeInt))
             continue
-        #
-        #
-        # ### check if transformed game data in records so you can skip the game
+
+
+        # ### TODO: check if transformed game data in records so you can skip the game
         # gamesRawDataPath = absProjectPath + 'data/gameData/gamesInfoData.csv'
         # existingGameDataDF = pd.read_csv(gamesRawDataPath)
         # existingGameIDs = existingGameDataDF['gameID']
@@ -339,7 +343,16 @@ def gameDataScrappingManager(beginningSeasonRangeInt, endingSeasonRangeInt):
         convertTablesToCSVsToScrape(thisDriver, thisLink)
 
         # read html and parse table data for each converted table
-        allNestedData = scrapeAllConvertedTables(thisDriver)
+        allNestedData = scrapeAllConvertedTables(thisDriver, True)
+
+
+        exit()
+
+        ### collect game data
+        ### write game data record to gameInfoData.csv
+
+        ### collect player data
+        ### write playerData to gamePlayerData.csv
 
 
 

@@ -1,7 +1,7 @@
-from models.objects.HistoryModel import HistoryModel
-hM = HistoryModel("2016-08-01", "2023-10-24")
-x = hM.calculateSeasonsInDateRange()
-print(x)
+# from models.objects.HistoryModel import HistoryModel
+# hM = HistoryModel("2016-08-01", "2023-10-24")
+# x = hM.calculateSeasonsInDateRange()
+# print(x)
 
 
 
@@ -20,29 +20,14 @@ print(x)
 
 
 
-# counter = 0
-# arr = []
-# start = datetime.datetime.now()
-# for a in range(0, 1000):
-#     for b in range(0, 1000):
-#         for c in range(0, 10):
-#             # for d in range(0, 1000):
-#                 # for e in range(0, 1000):
-#             counter += 1
-#             arr.append(101010010101010)
-#             # arr.append([101010010101010, 101010010101010, 101010010101010, 101010010101010, 101010010101010, 101010010101010, 101010010101010, 101010010101010, 101010010101010, 101010010101010, 101010010101010, 101010010101010, 101010010101010, 101010010101010])
-# end = datetime.datetime.now()
-#
-# print(counter)
-# print(len(arr))
-# print(end - start)
+
+
+
+
 
 
 # generate combination integers
-
 # generate lineups from combinations integers
-
-
 # allLineups = {}
 # allLineupsXD = []
 # counter = 0

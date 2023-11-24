@@ -2,7 +2,7 @@ import gc
 import itertools
 import os
 import sys
-from src.teamNaming import teamNameFranchiseNumMap
+from src.constants import getTeamFranchiseIntByCurrentTeamName
 import dotenv
 import pandas as pd
 import datetime
@@ -11,10 +11,10 @@ from src.dfsFunctions.combinatorics import calculateNumberOfCombinations
 def main():
     # for now just a simple routine for historical optimal lineup research
     consolidatedDFSData = consolidateAndFilterHistoricalDFSData()
-    allPositionsNestedList = getDFSDataBySeasonWeek(consolidatedDFSData, 2023, 8)
+    allPositionsNestedList = getDFSDataBySeasonWeek(consolidatedDFSData, 2023, 11)
     filteredAllPositionsNestedList = filterNestedAllPositionsList(allPositionsNestedList)
     calculateTotalLineupsForNestedPositionArray(filteredAllPositionsNestedList)
-    bigShablamo(filteredAllPositionsNestedList)
+    bigShablamo(filteredAllPositionsNestedList, 220, 2023, 11)
 
 def consolidateAndFilterHistoricalDFSData():
     dotenv.load_dotenv()
@@ -61,8 +61,8 @@ def consolidateAndFilterHistoricalDFSData():
             week = thisWeek
             gameID = gameIDCounter
             player = entry[6]
-            team = teamNameFranchiseNumMap[entry[7]]
-            otherTeam = teamNameFranchiseNumMap[entry[8]]
+            team = getTeamFranchiseIntByCurrentTeamName(entry[7])
+            otherTeam = getTeamFranchiseIntByCurrentTeamName(entry[8])
             DKPosition = entry[10]
             DKSalary = entry[12]
             DKPoints = entry[14]
@@ -195,7 +195,7 @@ def calculateLineupPointsScored(lineup):
     return totalPoints
 
 
-def bigShablamo(filteredAllPositionsNestedList):
+def bigShablamo(filteredAllPositionsNestedList, pointsScoredFloor, year, week):
     qbArr = filteredAllPositionsNestedList[0]
     rbArr = filteredAllPositionsNestedList[1]
     wrArr = filteredAllPositionsNestedList[2]
@@ -268,7 +268,7 @@ def bigShablamo(filteredAllPositionsNestedList):
     highestScoringLineupTotal = 0
     for entry in allLineups:
         lineupPointsScored = calculateLineupPointsScored(entry)
-        if lineupPointsScored >= 237.66:
+        if lineupPointsScored >= 220:
             players = []
             for player in entry:
                 players.append(player[3])
@@ -276,12 +276,12 @@ def bigShablamo(filteredAllPositionsNestedList):
             if lineupPointsScored > highestScoringLineupTotal:
                 bestLineup = players
                 highestScoringLineupTotal = lineupPointsScored
-            print(round(lineupPointsScored, 2), players)
+            # print(round(lineupPointsScored, 2), players)
             counter += 1
-    print("\n", bestLineup, highestScoringLineupTotal)
 
+    print("\n", bestLineup, highestScoringLineupTotal)
+    print("Number of ghetto remade lineups over 220 points 2023 week 7:", counter)
     print("Percent of ghetto remade lineups over 220 points 2023 week 7:", str(round(counter/len(allLineups) * 100, 6)) + "%")
-    print(counter)
 
 
 

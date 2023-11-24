@@ -16,11 +16,11 @@ import gc
 """
 
 wantedQBNames = np.array([
-    "Sam Howell", "Jordan Love"
+    "Sam Howell", "Jordan Love", "Brock Purdy", "Kylar Murray"
 ])
 
 wantedRBNames = np.array([
-    "James Cook", "Austin Ekeler", "Isiah Pacheco", "Josh Jacobs", "Jerome Ford",
+    "Austin Ekeler", "Raheem Mostert", "Jerome Ford",
     "Zack Moss", "Brian Robinson Jr.", "Saquon Barkley", "Bijan Robinson", "Jahmyr Gibbs",
     "Kenneth Walker III", "AJ Dillon"
 ])
@@ -47,7 +47,7 @@ def main():
 
     ###CONTESTS###
     absProjectFilepath = os.getenv("ABS_PROJECT_PATH")
-    contestDataFilepath = absProjectFilepath + "data/dfs/contests/2023-10-22Fanduel.csv"
+    contestDataFilepath = absProjectFilepath + "data/dfs/contests/2023-11-19DK.csv"
     combinationsArrContainer = createLineupCombinations(contestDataFilepath)
     parseIntegerOutputCombosToLineups(combinationsArrContainer)
 
@@ -196,7 +196,7 @@ def parseIntegerOutputCombosToLineups(combinationsArrContainer):
 def getPlayersByPosition(contestDataArr, positionName:str):
     filteredPlayerArray = []
     for player in contestDataArr:
-        playerPosition = player[1]
+        playerPosition = player[2]
         if playerPosition == positionName:
             filteredPlayerArray.append(player)
         elif positionName == "FLX" and playerPosition in ["RB", "WR"]:
@@ -205,17 +205,17 @@ def getPlayersByPosition(contestDataArr, positionName:str):
 
 def getPlayerSalary(playerName, playersArr):
     for i in range(0, len(playersArr)):
-        if playersArr[i][3] == playerName:
+        if playersArr[i][5] == playerName:
             return int(playersArr[i][7])
 
 def getPlayerFPPG(playerName, playersArr):
     for i in range(0, len(playersArr)):
-        if playersArr[i][3] == playerName:
+        if playersArr[i][-1] == playerName:
             return float(playersArr[i][5])
 
-def getPlayerTeam(playerName, playersArr):
+def getPlayerTeamAbbrev(playerName, playersArr):
     for i in range(0, len(playersArr)):
-        if playersArr[i][3] == playerName:
+        if playersArr[i][-2] == playerName:
             return playersArr[i][9]
 
 def getPlayerID(playerName, playersArr):
@@ -230,7 +230,7 @@ def checkTeamsForPlayers(playersTeams, playersArr):
 
 def getPlayerPosition(playerName, playersArr):
     for i in range(0, len(playersArr)):
-        if playersArr[i][3] == playerName:
+        if playersArr[0][3] == playerName:
             return playersArr[i][1]
 
 def calculateNumberOfCombinations(n, r):
@@ -256,7 +256,7 @@ def calculateTotalNumberOfCombinations(contestDataArray):
     flxCombos = calculateNumberOfCombinations(len(FLXArr), 1)
     dCombos = calculateNumberOfCombinations(len(DArr), 1)
 
-    numberOfCombinations = qbCombos * rbCombos * wrCombos * teCombos *flxCombos * dCombos
+    numberOfCombinations = qbCombos * rbCombos * wrCombos * teCombos * flxCombos * dCombos
     return numberOfCombinations
 
 def filterInjuredPlayers(contestDataArray):
