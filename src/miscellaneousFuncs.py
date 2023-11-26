@@ -1,4 +1,7 @@
 import logging
+import os
+import dotenv
+import pandas as pd
 
 
 def dateStringToYearDayMonth(dateString: str):
@@ -11,3 +14,4 @@ def dateStringToYearDayMonth(dateString: str):
     dateDay = int(dateString[8:10])
 
     return dateYear, dateMonth, dateDay
+

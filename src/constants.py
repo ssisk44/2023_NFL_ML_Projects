@@ -4,53 +4,61 @@ import dotenv
 dotenv.load_dotenv()
 currentSeasonYear = int(os.getenv("CURRENT_SEASON_YEAR"))
 
-rawScheduleDataHeader = ['Week #', 'Day', 'Date', 'Time', 'Winning Team', '@', 'Losing Team', 'Link', 'W Score', 'L Score', 'W Yds', 'W TO', 'L Yds', 'L TO']
+# mySportsData API Data Constants
 
-nflScheduleGamesColumns = ["gameID", "gameSeason", "gameWeek", "awayTeamFranchiseInt", "homeTeamFranchiseInt",
-                                    "gameDayAbbrev", "gameDate", "gameTime", "isPlayoffGame", "isMainSlate",
-                                    "awayTeamName", "awayScore", "homeTeamName", "homeScore", "homeIsWinner",
-                                    "gameLink"]
-gameInfoArrColumns = ["Won Toss", "Stadium Type", "Stadium Surface", "Game Duration", "Attendance", "Weather", "ML", "OU"]
-snapCountDataColumns = ['Player', 'Pos', 'OffSnapNum', 'OffPct', 'DefSnapNum', 'DefPct', 'SptSnapNum', 'SptPct', 'playerID']
 
-teamNameToFranchiseAbbrevMap = {
-    "Arizona Cardinals": "crd",
-    "Atlanta Falcons": "atl",
-    "Baltimore Ravens": "rav",
-    "Buffalo Bills": "buf",
-    "Carolina Panthers": "car",
-    "Chicago Bears": "chi",
-    "Cincinnati Bengals": "cin",
-    "Cleveland Browns": "cle",
-    "Dallas Cowboys": "dal",
-    "Denver Broncos": "den",
-    "Detroit Lions": "det",
-    "Green Bay Packers": "gnb",
-    "Houston Texans": "htx",
-    "Indianapolis Colts": "clt",
-    "Jacksonville Jaguars": "jax",
-    "Kansas City Chiefs": "kan",
-    "Las Vegas Raiders": "rai",
-    "Los Angeles Chargers": "sdg",
-    "Los Angeles Rams": "ram",
-    "Miami Dolphins": "mia",
-    "Minnesota Vikings": "min",
-    "New England Patriots": "nwe",
-    "New Orleans Saints": "nor",
-    "New York Giants": "nyg",
-    "New York Jets": "nyj",
-    "Oakland Raiders": "rai",
-    "Philadelphia Eagles": "phi",
-    "Pittsburgh Steelers": "pit",
-    "San Diego Chargers": "sdg",
-    "San Francisco 49ers": "sfo",
-    "Seattle Seahawks": "sea",
-    "St. Louis Rams": "ram",
-    "Tampa Bay Buccaneers": "tam",
-    "Tennessee Titans": "oti",
-    "Washington Commanders": "was",
-    "Washington Football Team": "was",
-    "Washington Redskins": "was"
+# BigBallData Historical DFS Contest Data Constants
+bdbColumns = ['Season', 'GameID', 'Date', 'Week', 'Game Time', 'PlayerID', 'Player Name', 'Player Team', 'Player Opponent Team', 'Venue Ownership', 'DK Position', 'FD Position', 'DK Salary', 'FD Salary', 'DK Points', 'FD Points']
+
+
+teamAbbrevToDepthChartLinkMap = {
+    # AFC EAST
+    'BUF': 'https://www.espn.com/nfl/team/depth/_/name/buf/buffalo-bills',
+    'MIA': 'https://www.espn.com/nfl/team/depth/_/name/mia/miami-dolphins',
+    'NE': 'https://www.espn.com/nfl/team/depth/_/name/ne/new-england-patriots',
+    'NYJ': 'https://www.espn.com/nfl/team/depth/_/name/nyj/new-york-jets',
+
+    # AFC NORTH
+    'BAL': 'https://www.espn.com/nfl/team/depth/_/name/bal/baltimore-ravens',
+    'CIN': 'https://www.espn.com/nfl/team/depth/_/name/cin/cincinnati-bengals',
+    'CLE': 'https://www.espn.com/nfl/team/_/name/cle/cleveland-browns',
+    'PIT': 'https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers',
+
+    # AFC SOUTH
+    'HOU': 'https://www.espn.com/nfl/team/_/name/hou/houston-texans',
+    'IND': 'https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts',
+    'JAx': 'https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars',
+    'TEN': 'https://www.espn.com/nfl/team/_/name/ten/tennessee-titans',
+
+    # AFC WEST
+    'DEN': 'https://www.espn.com/nfl/team/_/name/den/denver-broncos',
+    'KC': 'https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs',
+    'LV': 'https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders',
+    'LAC': 'https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers',
+
+    # NFC EAST
+    'DAL': 'https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys',
+    'NYG': 'https://www.espn.com/nfl/team/_/name/nyg/new-york-giants',
+    'PHI': 'https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles',
+    'WAS': 'https://www.espn.com/nfl/team/_/name/wsh/washington-commanders',
+
+    # NFC NORTH
+    'CHI': 'https://www.espn.com/nfl/team/_/name/chi/chicago-bears',
+    'DET': 'https://www.espn.com/nfl/team/_/name/det/detroit-lions',
+    'GB': 'https://www.espn.com/nfl/team/_/name/gb/green-bay-packers',
+    'MIN': 'https://www.espn.com/nfl/team/_/name/min/minnesota-vikings',
+
+    # NFC SOUTH
+    'ATL': 'https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons',
+    'CAR': 'https://www.espn.com/nfl/team/_/name/car/carolina-panthers',
+    'NO': 'https://www.espn.com/nfl/team/_/name/no/new-orleans-saints',
+    'TB': 'https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers',
+
+    # NFC WEST
+    'ARI': 'https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals',
+    'LA': 'https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams',
+    'SF': 'https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers',
+    'SEA': 'https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks'
 }
 
 franchiseIntYearToTeamNameMap = {

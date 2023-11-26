@@ -7,7 +7,6 @@ import dotenv
 import random
 import math
 import itertools
-from src.teamNaming import teamNameFranchiseNumMap
 
 def generateAllHistoricalDFSData():
     absProjectFilepath = os.getenv("ABS_PROJECT_PATH")

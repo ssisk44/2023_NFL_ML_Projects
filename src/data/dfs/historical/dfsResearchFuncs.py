@@ -6,7 +6,7 @@ from src.constants import getTeamFranchiseIntByCurrentTeamName
 import dotenv
 import pandas as pd
 import datetime
-from src.dfsFunctions.combinatorics import calculateNumberOfCombinations
+from src.combinatorics import calculateNumberOfCombinations
 
 def main():
     # for now just a simple routine for historical optimal lineup research

@@ -1,8 +1,19 @@
-# Import webbrowser module in the program
 import webbrowser
+from src import constants
 
-# Add a URL of JavaTpoint to open it in a browser
-url= 'https://www.espn.com/nfl/team/depth/_/name/ari'
+"""
+This script is used to prevent me from having to manually open all the the depth chart to perform research
+- Get team abbreviations for all main slate games on season & week
+- Open team depth chart for each abbreviation
+"""
 
-# Open the URL using open() function of module
-webbrowser.open_new_tab('https://www.espn.com/nfl/team/depth/_/name/ari')
+
+def openTeamDepthChartForTeamAbbrev(teamAbbrev):
+    return webbrowser.open_new_tab(constants.teamAbbrevToDepthChartLinkMap[teamAbbrev])
+
+
+
+
+
+
+
