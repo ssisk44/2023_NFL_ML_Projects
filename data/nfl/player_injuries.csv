@@ -1,549 +1,474 @@
 #Player ID,#LastName,#FirstName,#Jersey Num,#Position,#Team ID,#Team Abbr.,#Team City,#Team Name,#Injury
-79874,Abdullah,Yasir,56,LB,66,JAX,Jacksonville,Jaguars,illness
-79822,Achane,Devon,28,RB,49,MIA,Miami,Dolphins,knee
-16162,Adams,Tony,22,G,51,NYJ,New York,Jets,finger
-12658,Adams,Montravius,57,DT,59,PIT,Pittsburgh,Steelers,ankle
-13224,Adams,Jamal,33,SS,79,SEA,Seattle,Seahawks,knee
-12937,Agnew,Jamal,39,WR,66,JAX,Jacksonville,Jaguars,shoulder
-19004,Ahmed,Salvon,26,RB,49,MIA,Miami,Dolphins,foot
-18640,Akers,Cam,31,RB,63,MIN,Minnesota,Vikings,achilles
-14509,Alexander,Jaire,23,CB,62,GB,Green Bay,Packers,shoulder
-8605,Alexander,Kwon,54,MLB,59,PIT,Pittsburgh,Steelers,achilles
-47171,Alford,Dee,20,CB,68,ATL,Atlanta,Falcons,ankle
-56785,Ali,Josh,80,WR,68,ATL,Atlanta,Falcons,ankle
-8199,Allen,Keenan,13,WR,75,LAC,Los Angeles,Chargers,shoulder
-16135,Al-Shaair,Azeez,2,OLB,67,TEN,Tennessee,Titans,ankle
-39132,Andersen,Troy,44,LB,68,ATL,Atlanta,Falcons,shoulder
-32082,Anderson,Zayne,70,FS,62,GB,Green Bay,Packers,hamstring
-7133,Anderson,Henry,94,DE,69,CAR,Carolina,Panthers,foot
-16664,Anderson,Calvin,76,OT,50,NE,New England,Patriots,illness
-39271,Anderson,Tycen,26,FS,57,CIN,Cincinnati,Bengals,knee
-14486,Andrews,Mark,89,TE,56,BAL,Baltimore,Ravens,ankle
-12793,Armah,Alex,40,RB,55,WAS,Washington,Commanders,hamstring
-7682,Armstead,Terron,72,OT,49,MIA,Miami,Dolphins,knee
-18980,Arnold,Grayland,25,FS,64,HOU,Houston,Texans,calf
-39301,Asamoah,Brian,33,LB,63,MIN,Minnesota,Vikings,ankle
-14985,Avery,Genard,92,OLB,65,IND,Indianapolis,Colts,knee
-29645,Bada,David,64,DE,55,WAS,Washington,Commanders,tricep
-6951,Bakhtiari,David,69,OT,62,GB,Green Bay,Packers,knee
-30702,Ball,Josh,75,OT,52,DAL,Dallas,Cowboys,hip
-16520,Ballentine,Corey,35,DB,62,GB,Green Bay,Packers,shoulder
-30190,Banks,Aaron,65,G,78,SF,San Francisco,49ers,toe
-30820,Barmore,Christian,90,DE,50,NE,New England,Patriots,knee
-13269,Barnett,Derek,96,DE,54,PHI,Philadelphia,Eagles,personal
-16114,Barton,Cody,57,LB,55,WAS,Washington,Commanders,ankle
-108859,Beal Jr.,Robert,55,DE,78,SF,San Francisco,49ers,hamstring
-7746,Beckham Jr.,Odell,3,WR,56,BAL,Baltimore,Ravens,shoulder
-18664,Becton,Mekhi,77,OT,51,NYJ,New York,Jets,ankle
-18691,Benjamin,Eno,26,RB,70,NO,New Orleans,Saints,achilles
-79866,Bennett,Stetson,13,QB,77,LA,Los Angeles,Rams,illness
-15000,Bentley,Ja'Whaun,8,MLB,50,NE,New England,Patriots,hamstring
-14713,Berrios,Braxton,0,WR,49,MIA,Miami,Dolphins,hamstring
-18773,Biadasz,Tyler,63,C,52,DAL,Dallas,Cowboys,ankle
-6589,Bitonio,Joel,75,G,58,CLE,Cleveland,Browns,knee
-47868,Blount,Joey,32,SS,76,ARI,Arizona,Cardinals,knee
-112356,Bobo,Jake,19,WR,79,SEA,Seattle,Seahawks,shoulder
-111952,Bolden,Isaiah,,CB,50,NE,New England,Patriots,neck
-12910,Bolles,Garett,72,OT,72,DEN,Denver,Broncos,hip
-31891,Bolton,Nick,32,OLB,73,KC,Kansas City,Chiefs,wrist
-9996,Bosa,Joey,97,DE,75,LAC,Los Angeles,Chargers,foot
-13467,Bourne,Kendrick,84,WR,50,NE,New England,Patriots,knee
-108873,Boutte,Kayshon,80,WR,50,NE,New England,Patriots,hamstring
-12745,Bowser,Tyus,54,OLB,56,BAL,Baltimore,Ravens,knee
-9770,Bradberry,James,24,CB,54,PHI,Philadelphia,Eagles,ankle
-79846,Bradford,Anthony,75,G,79,SEA,Seattle,Seahawks,knee
-18982,Bradley,Shaun,54,LB,54,PHI,Philadelphia,Eagles,achilles
-108888,Braswell,Christian,36,CB,66,JAX,Jacksonville,Jaguars,hamstring
-79782,Brents,Julius,29,CB,65,IND,Indianapolis,Colts,quadricep
-7457,Bridgewater,Teddy,10,QB,61,DET,Detroit,Lions,knee
-30187,Brightwell,Gary,23,RB,53,NYG,New York,Giants,hamstring
-56754,Brooks,Curtis,64,DT,55,WAS,Washington,Commanders,undisclosed
-25014,Brooks,Chris,35,WR,49,MIA,Miami,Dolphins,ankle
-18679,Brooks,Jordyn,56,OLB,79,SEA,Seattle,Seahawks,hamstring
-12885,Brown,Noah,85,WR,64,HOU,Houston,Texans,knee
-44932,Brown,Brittain,38,RB,74,LV,Las Vegas,Raiders,undisclosed
-7040,Brown,Duane,76,OT,51,NYJ,New York,Jets,shoulder
-108849,Brown,Chase,30,RB,57,CIN,Cincinnati,Bengals,hamstring
-15238,Brown,Tony,27,DB,,,,,concussion
-16597,Brown,Evan,63,C,79,SEA,Seattle,Seahawks,hip
-8409,Brown,Trent,77,OT,50,NE,New England,Patriots,ankle
-30694,Brown,Tre,22,CB,79,SEA,Seattle,Seahawks,foot
-16786,Brown,A.J.,11,WR,54,PHI,Philadelphia,Eagles,thigh
-112058,Brown,Shakel,91,DT,67,TEN,Tennessee,Titans,ankle
-47869,Bryant,Coby,8,CB,79,SEA,Seattle,Seahawks,toe
-20519,Bryant,Myles,27,CB,50,NE,New England,Patriots,chest
-16828,Buggs,Isaiah,96,NT,61,DET,Detroit,Lions,illness
-39442,Burford,Spencer,74,G,78,SF,San Francisco,49ers,knee
-39092,Burks,Treylon,16,WR,67,TEN,Tennessee,Titans,concussion
-9991,Burns,Artie,23,CB,79,SEA,Seattle,Seahawks,hamstring
-18577,Burrow,Joe,9,QB,57,CIN,Cincinnati,Bengals,wrist
-12796,Butker,Harrison,7,K,73,KC,Kansas City,Chiefs,illness
-39806,Butler,Percy,35,FS,55,WAS,Washington,Commanders,back
-15375,Cabinda,Jason,45,FB,61,DET,Detroit,Lions,knee
-39208,Calcaterra,Grant,81,TE,54,PHI,Philadelphia,Eagles,ankle
-45710,Campbell,Chance,45,LB,67,TEN,Tennessee,Titans,undisclosed
-9740,Campbell,De'Vondre,59,ILB,62,GB,Green Bay,Packers,neck
-16668,Campbell,Parris,0,WR,53,NYG,New York,Giants,hamstring
-30826,Campbell,Tyson,32,CB,66,JAX,Jacksonville,Jaguars,hamstring
-7916,Carr,Derek,4,QB,70,NO,New Orleans,Saints,concussion
-34862,Carter II,Michael,30,CB,51,NYJ,New York,Jets,hamstring
-16656,Cashman,Blake,53,LB,64,HOU,Houston,Texans,knee
-19032,Charles,Saahdiq,77,OT,55,WAS,Washington,Commanders,calf
-30433,Chase,Ja'Marr,1,WR,57,CIN,Cincinnati,Bengals,back
-111960,Cherelus,Claudin,41,LB,69,CAR,Carolina,Panthers,knee
-45714,Chestnut,Julius,36,RB,67,TEN,Tennessee,Titans,hamstring
-18570,Chinn,Jeremy,21,FS,69,CAR,Carolina,Panthers,quadricep
-30637,Christensen,Brady,70,OT,69,CAR,Carolina,Panthers,bicep
-14672,Chubb,Nick,24,RB,58,CLE,Cleveland,Browns,knee
-30614,Cisco,Andre,5,FS,66,JAX,Jacksonville,Jaguars,hamstring
-16303,Clapp,Will,76,C,75,LAC,Los Angeles,Chargers,knee
-9871,Clark,Kenny,97,NT,62,GB,Green Bay,Packers,shoulder
-12747,Clark,Chuck,23,SS,51,NYJ,New York,Jets,knee
-18672,Claypool,Chase,83,WR,49,MIA,Miami,Dolphins,knee
-18651,Cleveland,Ezra,72,OT,66,JAX,Jacksonville,Jaguars,toe
-6926,Cobb,Randall,18,WR,51,NYJ,New York,Jets,shoulder
-56744,Cochran,Devin,76,OT,57,CIN,Cincinnati,Bengals,knee
-16120,Collier,L.J.,91,DE,76,ARI,Arizona,Cardinals,bicep
-10041,Conklin,Jack,78,OT,58,CLE,Cleveland,Browns,knee
-13188,Conner,James,6,RB,76,ARI,Arizona,Cardinals,knee
-30308,Cosmi,Samuel,76,T,55,WAS,Washington,Commanders,chest
-16577,Cotton Sr.,Lester,66,G,49,MIA,Miami,Dolphins,hip
-8731,Cousins,Kirk,8,QB,63,MIN,Minnesota,Vikings,achilles
-17040,Crosby,Maxx,98,DE,74,LV,Las Vegas,Raiders,knee
-39083,Cross,Charles,67,OT,79,SEA,Seattle,Seahawks,ankle
-15081,Crossen,Keion,27,DB,49,MIA,Miami,Dolphins,undisclosed
-13006,Cunningham,Zach,52,OLB,54,PHI,Philadelphia,Eagles,ankle
-19016,Dallas,DeeJay,31,RB,79,SEA,Seattle,Seahawks,shoulder
-30099,Daly,Scott,47,LS,61,DET,Detroit,Lions,knee
-79856,Daniels,Braeden,79,OT,55,WAS,Washington,Commanders,shoulder
-6275,Darby,Ronald,28,CB,56,BAL,Baltimore,Ravens,illness
-30408,Darrisaw,Christian,71,OT,63,MIN,Minnesota,Vikings,groin
-14505,Davenport,Marcus,0,DE,63,MIN,Minnesota,Vikings,ankle
-8608,David,Lavonte,54,ILB,71,TB,Tampa Bay,Buccaneers,groin
-30409,Davidson,Zach,84,TE,48,BUF,Buffalo,Bills,knee
-7887,Davis,Demario,56,OLB,70,NO,New Orleans,Saints,knee
-14990,Davis,Carlton,24,CB,71,TB,Tampa Bay,Buccaneers,hip
-18836,Davis,Tyler,84,TE,62,GB,Green Bay,Packers,knee
-8539,Davis,Cody,22,DB,50,NE,New England,Patriots,knee
-23365,Davis,Jalen,35,CB,57,CIN,Cincinnati,Bengals,ankle
-12939,Davis,Jarrad,57,MLB,53,NYG,New York,Giants,knee
-16238,Dean,Jamel,35,CB,71,TB,Tampa Bay,Buccaneers,foot
-47380,Dean,Nakobe,17,LB,54,PHI,Philadelphia,Eagles,foot
-56746,Deaton,Dawson,52,G,58,CLE,Cleveland,Browns,knee
-18605,Deguara,Josiah,81,TE,62,GB,Green Bay,Packers,hip
-112293,Demercado,Emari,31,RB,76,ARI,Arizona,Cardinals,toe
-18586,Diggs,Trevon,7,CB,52,DAL,Dallas,Cowboys,knee
-16502,Dillard,Andre,71,OT,67,TEN,Tennessee,Titans,concussion
-18606,Dillon,A.J.,28,RB,62,GB,Green Bay,Packers,groin
-16362,Dillon,Brandon,46,TE,55,WAS,Washington,Commanders,undisclosed
-18561,Dobbins,J.K.,27,RB,56,BAL,Baltimore,Ravens,achilles
-23482,Dorsey,Khalil,30,CB,61,DET,Detroit,Lions,knee
-39090,Dotson,Jahan,1,WR,55,WAS,Washington,Commanders,personal
-24114,Dowdle,Rico,23,RB,52,DAL,Dallas,Cowboys,ankle
-16792,Dowell,Andrew,50,LB,70,NO,New Orleans,Saints,knee
-30233,Doyle,Tommy,72,T,48,BUF,Buffalo,Bills,knee
-43340,Dulcich,Greg,80,TE,72,DEN,Denver,Broncos,hamstring
-16669,Dulin,Ashton,16,WR,65,IND,Indianapolis,Colts,knee
-8153,Dupree,Bud,48,OLB,68,ATL,Atlanta,Falcons,groin
-39754,Durant,Decobie,14,CB,77,LA,Los Angeles,Rams,shoulder
-112145,Durden,David,85,WR,52,DAL,Dallas,Cowboys,knee
-14874,Edmonds,Chase,22,RB,71,TB,Tampa Bay,Buccaneers,knee
-14997,Edmunds,Terrell,38,SS,67,TEN,Tennessee,Titans,shoulder
-16083,Eguavoen,Sam,52,LB,51,NYJ,New York,Jets,hip
-16923,Ekuale,Daniel,95,DT,50,NE,New England,Patriots,bicep
-39097,Elam,Kaiir,24,CB,48,BUF,Buffalo,Bills,ankle
-13134,Elflein,Pat,50,C,76,ARI,Arizona,Cardinals,undisclosed
-16340,Epps,Marcus,1,FS,74,LV,Las Vegas,Raiders,neck
-8032,Ertz,Zach,86,TE,76,ARI,Arizona,Cardinals,quadricep
-13495,Evans,Justin,30,SS,54,PHI,Philadelphia,Eagles,knee
-39805,Evans,Akayleb,21,CB,63,MIN,Minnesota,Vikings,calf
-13409,Everett,Gerald,7,TE,75,LAC,Los Angeles,Chargers,chest
-39285,Ezeudu,Joshua,75,G,53,NYG,New York,Giants,toe
-39771,Ezukanma,Erik,18,WR,49,MIA,Miami,Dolphins,neck
-15032,Facyson,Brandon,31,CB,74,LV,Las Vegas,Raiders,shin
-9686,Fairbairn,Ka'imi,15,K,64,HOU,Houston,Texans,quadricep
-16705,Fant,Noah,87,TE,79,SEA,Seattle,Seahawks,wrist
-30448,Farley,Caleb,3,CB,67,TEN,Tennessee,Titans,back
-13380,Feeney,Dan,67,G,60,CHI,Chicago,Bears,knee
-79867,Fehoko,Viliami,93,DE,52,DAL,Dallas,Cowboys,knee
-7041,Feiler,Matt,71,OT,71,TB,Tampa Bay,Buccaneers,knee
-16565,Fenton,Rashad,24,CB,76,ARI,Arizona,Cardinals,undisclosed
-14502,Fitzpatrick,Minkah,39,FS,59,PIT,Pittsburgh,Steelers,hamstring
-47852,Flowers,Dallis,33,CB,65,IND,Indianapolis,Colts,achilles
-7595,Flowers,Trey,93,OLB,,,,,foot
-79754,Forbes,Emmanuel,13,CB,55,WAS,Washington,Commanders,elbow
-16913,Forbes,Drew,70,OT,58,CLE,Cleveland,Browns,back
-12692,Ford,Rudy,20,DB,62,GB,Green Bay,Packers,bicep
-112154,Ford-Wheaton,Bryce,6,WR,53,NYG,New York,Giants,knee
-13009,Foreman,D'Onta,21,RB,60,CHI,Chicago,Bears,ankle
-30310,Forrest,Darrick,22,DB,55,WAS,Washington,Commanders,shoulder
-18622,Fortson,Jody,88,TE,73,KC,Kansas City,Chiefs,shoulder
-79778,Foskey,Isaiah,55,DE,70,NO,New Orleans,Saints,quadricep
-18696,Fotu,Leki,95,DT,76,ARI,Arizona,Cardinals,hand
-15002,Franklin,Zaire,44,OLB,65,IND,Indianapolis,Colts,knee
-15024,Franklin-Myers,John,91,DE,51,NYJ,New York,Jets,knee
-30263,Franks,Feleipe,15,QB,68,ATL,Atlanta,Falcons,lower body
-14658,Gage,Russell,3,WR,71,TB,Tampa Bay,Buccaneers,knee
-79860,Gaines II,Jon,59,G,76,ARI,Arizona,Cardinals,knee
-6371,Gano,Graham,9,K,53,NYG,New York,Giants,knee
-6766,Garcia,Max,73,G,70,NO,New Orleans,Saints,illness
-16287,Gardner-Johnson,Chauncey,2,DB,61,DET,Detroit,Lions,pectoral
-18688,Gibson,Antonio,24,RB,55,WAS,Washington,Commanders,toe
-16613,Gifford,Luke,57,LB,67,TEN,Tennessee,Titans,shin
-18879,Gilman,Alohi,32,SS,75,LAC,Los Angeles,Chargers,elbow
-13493,Godwin,Chris,14,WR,71,TB,Tampa Bay,Buccaneers,knee
-14725,Goedert,Dallas,88,TE,54,PHI,Philadelphia,Eagles,forearm
-79755,Gonzalez,Christian,6,CB,50,NE,New England,Patriots,shoulder
-8112,Goodwin,C.J.,29,DB,52,DAL,Dallas,Cowboys,pectoral
-6216,Goodwin,Marquise,3,WR,58,CLE,Cleveland,Browns,concussion
-8305,Graham,Jimmy,80,TE,70,NO,New Orleans,Saints,illness
-30592,Graham Jr.,Thomas,31,CB,58,CLE,Cleveland,Browns,ankle
-30623,Grant,Richie,27,FS,68,ATL,Atlanta,Falcons,neck
-9929,Grant,Jakeem,9,WR,58,CLE,Cleveland,Browns,knee
-15076,Gray,J.T.,48,DB,70,NO,New Orleans,Saints,hamstring
-39439,Gray,Danny,6,WR,78,SF,San Francisco,49ers,shoulder
-108858,Gray,Eric,20,RB,53,NYG,New York,Giants,calf
-39089,Green,Kenyon,59,G,64,HOU,Houston,Texans,shoulder
-30818,Green,Kendrick,50,C,64,HOU,Houston,Texans,knee
-16298,Greenidge,Ethan,71,OT,68,ATL,Atlanta,Falcons,leg
-16134,Greenlaw,Dre,57,OLB,78,SF,San Francisco,49ers,shoulder
-19007,Griffith,Jonas,50,LB,72,DEN,Denver,Broncos,knee
-18571,Gross-Matos,Yetur,97,DE,69,CAR,Carolina,Panthers,hamstring
-10055,Grugier-Hill,Kamu,54,OLB,69,CAR,Carolina,Panthers,illness
-16593,Guyton,Jalen,15,WR,75,LAC,Los Angeles,Chargers,groin
-47918,Hairston,Troy,34,DE,,,,,back
-108850,Hall,Jaren,16,QB,63,MIN,Minnesota,Vikings,concussion
-111968,Hall,Maalik,46,LB,,,,,undisclosed
-18617,Hamilton,DaVon,52,DT,66,JAX,Jacksonville,Jaguars,back
-9974,Hamilton,Antonio,33,CB,76,ARI,Arizona,Cardinals,groin
-111982,Hamm,Malik,59,OLB,56,BAL,Baltimore,Ravens,lower body
-47913,Hansen,Jake,35,LB,64,HOU,Houston,Texans,hamstring
-13012,Hardee,Justin,34,DB,51,NYJ,New York,Jets,hamstring
-9993,Hargrave,Javon,98,DT,78,SF,San Francisco,49ers,thumb
-12725,Harlow,Sean,65,G,52,DAL,Dallas,Cowboys,personal
-47920,Harper,Devin,56,LB,57,CIN,Cincinnati,Bengals,hamstring
-18770,Harris,Nick,53,C,58,CLE,Cleveland,Browns,toe
-20521,Harris,De'Jon,45,LB,55,WAS,Washington,Commanders,quadricep
-7888,Harris,Damien,22,RB,48,BUF,Buffalo,Bills,neck
-43351,Haskins,Hassan,25,RB,67,TEN,Tennessee,Titans,upper body
-16835,Hassenauer,J.C.,60,C,53,NYG,New York,Giants,tricep
-15405,Haynes,Marquis,98,DE,69,CAR,Carolina,Panthers,back
-18816,Heck,Charlie,67,OT,64,HOU,Houston,Texans,foot
-7459,Heinicke,Taylor,4,QB,68,ATL,Atlanta,Falcons,hamstring
-47929,Hendershot,Peyton,89,TE,52,DAL,Dallas,Cowboys,ankle
-18618,Henderson,C.J.,23,CB,69,CAR,Carolina,Panthers,concussion
-18559,Hennessy,Matt,61,C,68,ATL,Atlanta,Falcons,knee
-9999,Henry,Hunter,85,TE,50,NE,New England,Patriots,ankle
-10043,Henry,Derrick,22,RB,67,TEN,Tennessee,Titans,ankle
-18631,Herbert,Justin,10,QB,75,LAC,Los Angeles,Chargers,finger
-16505,Herbig,Nate,51,G,59,PIT,Pittsburgh,Steelers,illness
-79870,Herbig,Nick,51,LB,59,PIT,Pittsburgh,Steelers,hamstring
-15393,Hernandez,Will,76,G,76,ARI,Arizona,Cardinals,knee
-8070,Hicks,Jordan,58,OLB,63,MIN,Minnesota,Vikings,leg
-18578,Higgins,Tee,5,WR,57,CIN,Cincinnati,Bengals,hamstring
-9910,Hill,Tyreek,10,WR,49,MIA,Miami,Dolphins,hand
-14696,Hines,Nyheim,00,RB,48,BUF,Buffalo,Bills,knee
-112044,Hodges,Cooper,75,OT,66,JAX,Jacksonville,Jaguars,knee
-16468,Holcomb,Cole,55,OLB,59,PIT,Pittsburgh,Steelers,knee
-13280,Hollins,Mack,18,WR,68,ATL,Atlanta,Falcons,ankle
-79806,Hooker,Hendon,12,QB,61,DET,Detroit,Lions,knee
-9741,Hooper,Austin,81,TE,74,LV,Las Vegas,Raiders,calf
-30436,Horn,Jaycee,8,CB,69,CAR,Carolina,Panthers,hamstring
-47225,Houston,James,41,LB,61,DET,Detroit,Lions,ankle
-7336,Houston,Justin,50,OLB,69,CAR,Carolina,Panthers,hamstring
-7002,Hoyer,Brian,7,QB,74,LV,Las Vegas,Raiders,knee
-15029,Hubbard,Sam,94,DE,57,CIN,Cincinnati,Bengals,ankle
-8131,Hubbard,Chris,66,OT,67,TEN,Tennessee,Titans,bicep
-19035,Hudson,Khaleke,47,LB,55,WAS,Washington,Commanders,back
-30191,Hufanga,Talanoa,29,SS,78,SF,San Francisco,49ers,knee
-108862,Hull,Evan,26,RB,65,IND,Indianapolis,Colts,knee
-12751,Humphrey,Marlon,44,CB,56,BAL,Baltimore,Ravens,calf
-18646,Hunt,Robert,68,OT,49,MIA,Miami,Dolphins,hamstring
-13330,Hunt,Kareem,27,RB,58,CLE,Cleveland,Browns,thigh
-14516,Hurst,Hayden,81,TE,69,CAR,Carolina,Panthers,concussion
-6152,Hurst,James,74,OT,70,NO,New Orleans,Saints,illness
-79836,Ika,Siaki,62,DT,58,CLE,Cleveland,Browns,foot
-16627,Ingold,Alec,30,FB,49,MIA,Miami,Dolphins,foot
-108892,Iosivas,Andrei,80,WR,57,CIN,Cincinnati,Bengals,knee
-112066,Jackson,Kearis,39,WR,67,TEN,Tennessee,Titans,ankle
-18644,Jackson,Austin,73,OT,49,MIA,Miami,Dolphins,oblique
-18599,Jackson,Jonah,73,G,61,DET,Detroit,Lions,ankle
-15082,Jackson,J.C.,29,CB,50,NE,New England,Patriots,personal
-18737,Jackson,Dane,30,CB,48,BUF,Buffalo,Bills,head
-13515,Jackson,Adoree',22,CB,53,NYG,New York,Giants,concussion
-7077,Jackson,Kareem,22,SS,72,DEN,Denver,Broncos,suspension
-14729,James Jr.,Richie,17,WR,73,KC,Kansas City,Chiefs,knee
-6079,Jarrett,Grady,97,DE,68,ATL,Atlanta,Falcons,knee
-112288,Jarrett,Rakim,18,WR,71,TB,Tampa Bay,Buccaneers,undisclosed
-30352,Jean-Charles,Shemar,38,CB,78,SF,San Francisco,49ers,shoulder
-18648,Jefferson,Justin,18,WR,63,MIN,Minnesota,Vikings,hamstring
-16392,Jenkins,Elgton,74,C,62,GB,Green Bay,Packers,knee
-18654,Jennings,Anfernee,33,LB,50,NE,New England,Patriots,hand
-6141,Jensen,Ryan,66,C,71,TB,Tampa Bay,Buccaneers,knee
+79874,Abdullah,Yasir,56.0,LB,66.0,JAX,Jacksonville,Jaguars,illness
+79822,Achane,Devon,28.0,RB,49.0,MIA,Miami,Dolphins,knee
+12658,Adams,Montravius,57.0,DT,59.0,PIT,Pittsburgh,Steelers,ankle
+16162,Adams,Tony,22.0,G,51.0,NYJ,New York,Jets,finger
+12937,Agnew,Jamal,39.0,WR,66.0,JAX,Jacksonville,Jaguars,shoulder
+19004,Ahmed,Salvon,26.0,RB,49.0,MIA,Miami,Dolphins,foot
+18640,Akers,Cam,31.0,RB,63.0,MIN,Minnesota,Vikings,achilles
+14509,Alexander,Jaire,23.0,CB,62.0,GB,Green Bay,Packers,shoulder
+8605,Alexander,Kwon,54.0,MLB,59.0,PIT,Pittsburgh,Steelers,achilles
+56785,Ali,Josh,80.0,WR,68.0,ATL,Atlanta,Falcons,ankle
+16135,Al-Shaair,Azeez,2.0,OLB,67.0,TEN,Tennessee,Titans,ankle
+39132,Andersen,Troy,44.0,LB,68.0,ATL,Atlanta,Falcons,shoulder
+7133,Anderson,Henry,94.0,DE,69.0,CAR,Carolina,Panthers,foot
+32082,Anderson,Zayne,70.0,FS,62.0,GB,Green Bay,Packers,hamstring
+39271,Anderson,Tycen,26.0,FS,57.0,CIN,Cincinnati,Bengals,knee
+16664,Anderson,Calvin,76.0,OT,50.0,NE,New England,Patriots,illness
+14486,Andrews,Mark,89.0,TE,56.0,BAL,Baltimore,Ravens,ankle
+12793,Armah,Alex,40.0,RB,55.0,WAS,Washington,Commanders,hamstring
+7682,Armstead,Terron,72.0,OT,49.0,MIA,Miami,Dolphins,quadricep
+18980,Arnold,Grayland,25.0,FS,64.0,HOU,Houston,Texans,calf
+39749,Austin III,Calvin,19.0,WR,59.0,PIT,Pittsburgh,Steelers,ankle
+14985,Avery,Genard,92.0,OLB,65.0,IND,Indianapolis,Colts,knee
+29645,Bada,David,64.0,DE,55.0,WAS,Washington,Commanders,tricep
+6951,Bakhtiari,David,69.0,OT,62.0,GB,Green Bay,Packers,knee
+30702,Ball,Josh,75.0,OT,52.0,DAL,Dallas,Cowboys,hip
+108859,Beal Jr.,Robert,55.0,DE,78.0,SF,San Francisco,49ers,hamstring
+18664,Becton,Mekhi,77.0,OT,51.0,NYJ,New York,Jets,ankle
+18691,Benjamin,Eno,26.0,RB,70.0,NO,New Orleans,Saints,achilles
+79866,Bennett,Stetson,13.0,QB,77.0,LA,Los Angeles,Rams,illness
+14713,Berrios,Braxton,0.0,WR,49.0,MIA,Miami,Dolphins,hamstring
+18773,Biadasz,Tyler,63.0,C,52.0,DAL,Dallas,Cowboys,ankle
+6589,Bitonio,Joel,75.0,G,58.0,CLE,Cleveland,Browns,knee
+16367,Blasingame,Khari,35.0,RB,60.0,CHI,Chicago,Bears,shoulder
+47868,Blount,Joey,32.0,SS,76.0,ARI,Arizona,Cardinals,knee
+111952,Bolden,Isaiah,,CB,50.0,NE,New England,Patriots,neck
+12910,Bolles,Garett,72.0,OT,72.0,DEN,Denver,Broncos,hip
+31891,Bolton,Nick,32.0,OLB,73.0,KC,Kansas City,Chiefs,wrist
+32069,Bootle,Dicaprio,32.0,CB,69.0,CAR,Carolina,Panthers,knee
+30591,Borom,Larry,75.0,T,60.0,CHI,Chicago,Bears,illness
+9996,Bosa,Joey,97.0,DE,75.0,LAC,Los Angeles,Chargers,foot
+13467,Bourne,Kendrick,84.0,WR,50.0,NE,New England,Patriots,knee
+108873,Boutte,Kayshon,80.0,WR,50.0,NE,New England,Patriots,hamstring
+12745,Bowser,Tyus,54.0,OLB,56.0,BAL,Baltimore,Ravens,knee
+9770,Bradberry,James,24.0,CB,54.0,PHI,Philadelphia,Eagles,ankle
+79846,Bradford,Anthony,75.0,G,79.0,SEA,Seattle,Seahawks,knee
+18982,Bradley,Shaun,54.0,LB,54.0,PHI,Philadelphia,Eagles,achilles
+108888,Braswell,Christian,36.0,CB,66.0,JAX,Jacksonville,Jaguars,hamstring
+79782,Brents,Julius,29.0,CB,65.0,IND,Indianapolis,Colts,quadricep
+7457,Bridgewater,Teddy,10.0,QB,61.0,DET,Detroit,Lions,knee
+30187,Brightwell,Gary,23.0,RB,53.0,NYG,New York,Giants,hamstring
+56754,Brooks,Curtis,64.0,DT,55.0,WAS,Washington,Commanders,undisclosed
+25014,Brooks,Chris,35.0,WR,49.0,MIA,Miami,Dolphins,ankle
+18679,Brooks,Jordyn,56.0,OLB,79.0,SEA,Seattle,Seahawks,hamstring
+16597,Brown,Evan,63.0,C,79.0,SEA,Seattle,Seahawks,hip
+7040,Brown,Duane,76.0,OT,51.0,NYJ,New York,Jets,shoulder
+12885,Brown,Noah,85.0,WR,64.0,HOU,Houston,Texans,knee
+112058,Brown,Shakel,91.0,DT,67.0,TEN,Tennessee,Titans,ankle
+15238,Brown,Tony,27.0,DB,,,,,concussion
+44932,Brown,Brittain,38.0,RB,74.0,LV,Las Vegas,Raiders,undisclosed
+16828,Buggs,Isaiah,96.0,NT,61.0,DET,Detroit,Lions,illness
+39442,Burford,Spencer,74.0,G,78.0,SF,San Francisco,49ers,knee
+39092,Burks,Treylon,16.0,WR,67.0,TEN,Tennessee,Titans,concussion
+9991,Burns,Artie,23.0,CB,79.0,SEA,Seattle,Seahawks,hamstring
+18577,Burrow,Joe,9.0,QB,57.0,CIN,Cincinnati,Bengals,wrist
+12796,Butker,Harrison,7.0,K,73.0,KC,Kansas City,Chiefs,illness
+15375,Cabinda,Jason,45.0,FB,61.0,DET,Detroit,Lions,knee
+39208,Calcaterra,Grant,81.0,TE,54.0,PHI,Philadelphia,Eagles,ankle
+30826,Campbell,Tyson,32.0,CB,66.0,JAX,Jacksonville,Jaguars,hamstring
+16668,Campbell,Parris,0.0,WR,53.0,NYG,New York,Giants,hamstring
+9740,Campbell,De'Vondre,59.0,ILB,62.0,GB,Green Bay,Packers,neck
+45710,Campbell,Chance,45.0,LB,67.0,TEN,Tennessee,Titans,undisclosed
+34862,Carter II,Michael,30.0,CB,51.0,NYJ,New York,Jets,hamstring
+16656,Cashman,Blake,53.0,LB,64.0,HOU,Houston,Texans,knee
+19032,Charles,Saahdiq,77.0,OT,55.0,WAS,Washington,Commanders,calf
+30433,Chase,Ja'Marr,1.0,WR,57.0,CIN,Cincinnati,Bengals,back
+111960,Cherelus,Claudin,41.0,LB,69.0,CAR,Carolina,Panthers,knee
+45714,Chestnut,Julius,36.0,RB,67.0,TEN,Tennessee,Titans,hamstring
+18570,Chinn,Jeremy,21.0,FS,69.0,CAR,Carolina,Panthers,quadricep
+30637,Christensen,Brady,70.0,OT,69.0,CAR,Carolina,Panthers,bicep
+14672,Chubb,Nick,24.0,RB,58.0,CLE,Cleveland,Browns,knee
+30614,Cisco,Andre,5.0,FS,66.0,JAX,Jacksonville,Jaguars,hamstring
+12747,Clark,Chuck,23.0,SS,51.0,NYJ,New York,Jets,knee
+18672,Claypool,Chase,83.0,WR,49.0,MIA,Miami,Dolphins,knee
+18651,Cleveland,Ezra,72.0,OT,66.0,JAX,Jacksonville,Jaguars,toe
+6926,Cobb,Randall,18.0,WR,51.0,NYJ,New York,Jets,shoulder
+56744,Cochran,Devin,76.0,OT,57.0,CIN,Cincinnati,Bengals,knee
+16120,Collier,L.J.,91.0,DE,76.0,ARI,Arizona,Cardinals,bicep
+10041,Conklin,Jack,78.0,OT,58.0,CLE,Cleveland,Browns,knee
+13188,Conner,James,6.0,RB,76.0,ARI,Arizona,Cardinals,knee
+7929,Cooper,Amari,2.0,WR,58.0,CLE,Cleveland,Browns,ribs
+16914,Corbett,Austin,63.0,G,69.0,CAR,Carolina,Panthers,knee
+16577,Cotton Sr.,Lester,66.0,G,49.0,MIA,Miami,Dolphins,hip
+8731,Cousins,Kirk,8.0,QB,63.0,MIN,Minnesota,Vikings,achilles
+8052,Cox,Fletcher,91.0,DT,54.0,PHI,Philadelphia,Eagles,groin
+39083,Cross,Charles,67.0,OT,79.0,SEA,Seattle,Seahawks,ankle
+15081,Crossen,Keion,27.0,DB,49.0,MIA,Miami,Dolphins,undisclosed
+13006,Cunningham,Zach,52.0,OLB,54.0,PHI,Philadelphia,Eagles,hamstring
+30099,Daly,Scott,47.0,LS,61.0,DET,Detroit,Lions,knee
+79856,Daniels,Braeden,79.0,OT,55.0,WAS,Washington,Commanders,shoulder
+6275,Darby,Ronald,28.0,CB,56.0,BAL,Baltimore,Ravens,illness
+30408,Darrisaw,Christian,71.0,OT,63.0,MIN,Minnesota,Vikings,groin
+14505,Davenport,Marcus,0.0,DE,63.0,MIN,Minnesota,Vikings,ankle
+8608,David,Lavonte,54.0,ILB,71.0,TB,Tampa Bay,Buccaneers,groin
+30409,Davidson,Zach,84.0,TE,48.0,BUF,Buffalo,Bills,knee
+8539,Davis,Cody,22.0,DB,50.0,NE,New England,Patriots,knee
+12939,Davis,Jarrad,57.0,MLB,53.0,NYG,New York,Giants,knee
+39087,Davis,Jordan,90.0,DT,54.0,PHI,Philadelphia,Eagles,undisclosed
+23365,Davis,Jalen,35.0,CB,57.0,CIN,Cincinnati,Bengals,ankle
+7887,Davis,Demario,56.0,OLB,70.0,NO,New Orleans,Saints,knee
+18836,Davis,Tyler,84.0,TE,62.0,GB,Green Bay,Packers,knee
+47380,Dean,Nakobe,17.0,LB,54.0,PHI,Philadelphia,Eagles,foot
+16238,Dean,Jamel,35.0,CB,71.0,TB,Tampa Bay,Buccaneers,foot
+56746,Deaton,Dawson,52.0,G,58.0,CLE,Cleveland,Browns,knee
+18605,Deguara,Josiah,81.0,TE,62.0,GB,Green Bay,Packers,hip
+18586,Diggs,Trevon,7.0,CB,52.0,DAL,Dallas,Cowboys,knee
+16362,Dillon,Brandon,46.0,TE,55.0,WAS,Washington,Commanders,undisclosed
+14731,Dissly,Will,89.0,TE,79.0,SEA,Seattle,Seahawks,hip
+18561,Dobbins,J.K.,27.0,RB,56.0,BAL,Baltimore,Ravens,achilles
+23482,Dorsey,Khalil,30.0,CB,61.0,DET,Detroit,Lions,knee
+39090,Dotson,Jahan,1.0,WR,55.0,WAS,Washington,Commanders,personal
+108896,Douglas,Demario,81.0,WR,50.0,NE,New England,Patriots,head
+24114,Dowdle,Rico,23.0,RB,52.0,DAL,Dallas,Cowboys,ankle
+16792,Dowell,Andrew,50.0,LB,70.0,NO,New Orleans,Saints,knee
+30233,Doyle,Tommy,72.0,T,48.0,BUF,Buffalo,Bills,knee
+43340,Dulcich,Greg,80.0,TE,72.0,DEN,Denver,Broncos,hamstring
+16669,Dulin,Ashton,16.0,WR,65.0,IND,Indianapolis,Colts,knee
+8153,Dupree,Bud,48.0,OLB,68.0,ATL,Atlanta,Falcons,groin
+112145,Durden,David,85.0,WR,52.0,DAL,Dallas,Cowboys,knee
+14874,Edmonds,Chase,22.0,RB,71.0,TB,Tampa Bay,Buccaneers,knee
+14997,Edmunds,Terrell,38.0,SS,67.0,TEN,Tennessee,Titans,shoulder
+16083,Eguavoen,Sam,52.0,LB,51.0,NYJ,New York,Jets,hip
+16923,Ekuale,Daniel,95.0,DT,50.0,NE,New England,Patriots,bicep
+39097,Elam,Kaiir,24.0,CB,48.0,BUF,Buffalo,Bills,ankle
+13134,Elflein,Pat,50.0,C,76.0,ARI,Arizona,Cardinals,undisclosed
+18583,Elliott,Jordan,96.0,DT,58.0,CLE,Cleveland,Browns,ankle
+8032,Ertz,Zach,86.0,TE,76.0,ARI,Arizona,Cardinals,quadricep
+30337,Eskridge,D'Wayne,1.0,WR,79.0,SEA,Seattle,Seahawks,ribs
+13495,Evans,Justin,30.0,SS,54.0,PHI,Philadelphia,Eagles,knee
+39805,Evans,Akayleb,21.0,CB,63.0,MIN,Minnesota,Vikings,calf
+39285,Ezeudu,Joshua,75.0,G,53.0,NYG,New York,Giants,toe
+39771,Ezukanma,Erik,18.0,WR,49.0,MIA,Miami,Dolphins,neck
+15032,Facyson,Brandon,31.0,CB,74.0,LV,Las Vegas,Raiders,shin
+9686,Fairbairn,Ka'imi,15.0,K,64.0,HOU,Houston,Texans,quadricep
+16705,Fant,Noah,87.0,TE,79.0,SEA,Seattle,Seahawks,wrist
+30448,Farley,Caleb,3.0,CB,67.0,TEN,Tennessee,Titans,back
+13380,Feeney,Dan,67.0,G,60.0,CHI,Chicago,Bears,knee
+79867,Fehoko,Viliami,93.0,DE,52.0,DAL,Dallas,Cowboys,knee
+16565,Fenton,Rashad,24.0,CB,76.0,ARI,Arizona,Cardinals,undisclosed
+14502,Fitzpatrick,Minkah,39.0,FS,59.0,PIT,Pittsburgh,Steelers,hamstring
+7595,Flowers,Trey,93.0,OLB,,,,,foot
+47852,Flowers,Dallis,33.0,CB,65.0,IND,Indianapolis,Colts,achilles
+16913,Forbes,Drew,70.0,OT,58.0,CLE,Cleveland,Browns,back
+79754,Forbes,Emmanuel,13.0,CB,55.0,WAS,Washington,Commanders,elbow
+12692,Ford,Rudy,20.0,DB,62.0,GB,Green Bay,Packers,bicep
+112154,Ford-Wheaton,Bryce,6.0,WR,53.0,NYG,New York,Giants,knee
+13009,Foreman,D'Onta,21.0,RB,60.0,CHI,Chicago,Bears,ankle
+30310,Forrest,Darrick,22.0,DB,55.0,WAS,Washington,Commanders,shoulder
+18622,Fortson,Jody,88.0,TE,73.0,KC,Kansas City,Chiefs,shoulder
+79778,Foskey,Isaiah,55.0,DE,70.0,NO,New Orleans,Saints,quadricep
+18696,Fotu,Leki,95.0,DT,76.0,ARI,Arizona,Cardinals,hand
+7229,Fowler,Dante,56.0,OLB,52.0,DAL,Dallas,Cowboys,illness
+15002,Franklin,Zaire,44.0,OLB,65.0,IND,Indianapolis,Colts,knee
+15024,Franklin-Myers,John,91.0,DE,51.0,NYJ,New York,Jets,knee
+30263,Franks,Feleipe,15.0,QB,68.0,ATL,Atlanta,Falcons,lower body
+14658,Gage,Russell,3.0,WR,71.0,TB,Tampa Bay,Buccaneers,knee
+79860,Gaines II,Jon,59.0,G,76.0,ARI,Arizona,Cardinals,knee
+6371,Gano,Graham,9.0,K,53.0,NYG,New York,Giants,knee
+6766,Garcia,Max,73.0,G,70.0,NO,New Orleans,Saints,illness
+16287,Gardner-Johnson,Chauncey,2.0,DB,61.0,DET,Detroit,Lions,pectoral
+12864,Garrett,Myles,95.0,DE,58.0,CLE,Cleveland,Browns,shoulder
+14725,Goedert,Dallas,88.0,TE,54.0,PHI,Philadelphia,Eagles,forearm
+79755,Gonzalez,Christian,6.0,CB,50.0,NE,New England,Patriots,shoulder
+6216,Goodwin,Marquise,3.0,WR,58.0,CLE,Cleveland,Browns,concussion
+8112,Goodwin,C.J.,29.0,DB,52.0,DAL,Dallas,Cowboys,pectoral
+8305,Graham,Jimmy,80.0,TE,70.0,NO,New Orleans,Saints,illness
+9929,Grant,Jakeem,9.0,WR,58.0,CLE,Cleveland,Browns,knee
+30623,Grant,Richie,27.0,FS,68.0,ATL,Atlanta,Falcons,neck
+39439,Gray,Danny,6.0,WR,78.0,SF,San Francisco,49ers,shoulder
+15076,Gray,J.T.,48.0,DB,70.0,NO,New Orleans,Saints,hamstring
+30818,Green,Kendrick,50.0,C,64.0,HOU,Houston,Texans,knee
+39089,Green,Kenyon,59.0,G,64.0,HOU,Houston,Texans,shoulder
+47892,Greene,Mike,91.0,DE,71.0,TB,Tampa Bay,Buccaneers,calf
+16298,Greenidge,Ethan,71.0,OT,68.0,ATL,Atlanta,Falcons,leg
+16134,Greenlaw,Dre,57.0,OLB,78.0,SF,San Francisco,49ers,shoulder
+19007,Griffith,Jonas,50.0,LB,72.0,DEN,Denver,Broncos,knee
+18571,Gross-Matos,Yetur,97.0,DE,69.0,CAR,Carolina,Panthers,hamstring
+10055,Grugier-Hill,Kamu,54.0,OLB,69.0,CAR,Carolina,Panthers,illness
+47918,Hairston,Troy,34.0,DE,,,,,back
+111968,Hall,Maalik,46.0,LB,,,,,undisclosed
+108850,Hall,Jaren,16.0,QB,63.0,MIN,Minnesota,Vikings,concussion
+9974,Hamilton,Antonio,33.0,CB,76.0,ARI,Arizona,Cardinals,groin
+18617,Hamilton,DaVon,52.0,DT,66.0,JAX,Jacksonville,Jaguars,back
+111982,Hamm,Malik,59.0,OLB,56.0,BAL,Baltimore,Ravens,lower body
+47913,Hansen,Jake,35.0,LB,64.0,HOU,Houston,Texans,hamstring
+13012,Hardee,Justin,34.0,DB,51.0,NYJ,New York,Jets,hamstring
+16765,Hardman,Mecole,12.0,WR,73.0,KC,Kansas City,Chiefs,thumb
+12725,Harlow,Sean,65.0,G,52.0,DAL,Dallas,Cowboys,personal
+20521,Harris,De'Jon,45.0,LB,55.0,WAS,Washington,Commanders,quadricep
+18770,Harris,Nick,53.0,C,58.0,CLE,Cleveland,Browns,toe
+7888,Harris,Damien,22.0,RB,48.0,BUF,Buffalo,Bills,neck
+18563,Harrison,Malik,40.0,ILB,56.0,BAL,Baltimore,Ravens,groin
+43351,Haskins,Hassan,25.0,RB,67.0,TEN,Tennessee,Titans,upper body
+16835,Hassenauer,J.C.,60.0,C,53.0,NYG,New York,Giants,tricep
+16197,Haynes,Phil,60.0,G,79.0,SEA,Seattle,Seahawks,toe
+18816,Heck,Charlie,67.0,OT,64.0,HOU,Houston,Texans,foot
+47929,Hendershot,Peyton,89.0,TE,52.0,DAL,Dallas,Cowboys,ankle
+18618,Henderson,C.J.,23.0,CB,69.0,CAR,Carolina,Panthers,concussion
+18559,Hennessy,Matt,61.0,C,68.0,ATL,Atlanta,Falcons,knee
+9999,Henry,Hunter,85.0,TE,50.0,NE,New England,Patriots,ankle
+16505,Herbig,Nate,51.0,G,59.0,PIT,Pittsburgh,Steelers,illness
+15393,Hernandez,Will,76.0,G,76.0,ARI,Arizona,Cardinals,knee
+8070,Hicks,Jordan,58.0,OLB,63.0,MIN,Minnesota,Vikings,leg
+18578,Higgins,Tee,5.0,WR,57.0,CIN,Cincinnati,Bengals,hamstring
+9910,Hill,Tyreek,10.0,WR,49.0,MIA,Miami,Dolphins,hand
+14696,Hines,Nyheim,0.0,RB,48.0,BUF,Buffalo,Bills,knee
+16435,Hockenson,T.J.,87.0,TE,63.0,MIN,Minnesota,Vikings,ribs
+112044,Hodges,Cooper,75.0,OT,66.0,JAX,Jacksonville,Jaguars,knee
+16468,Holcomb,Cole,55.0,OLB,59.0,PIT,Pittsburgh,Steelers,knee
+30980,Holland,Jevon,8.0,FS,49.0,MIA,Miami,Dolphins,knee
+13280,Hollins,Mack,18.0,WR,68.0,ATL,Atlanta,Falcons,ankle
+79806,Hooker,Hendon,12.0,QB,61.0,DET,Detroit,Lions,knee
+9741,Hooper,Austin,81.0,TE,74.0,LV,Las Vegas,Raiders,calf
+30436,Horn,Jaycee,8.0,CB,69.0,CAR,Carolina,Panthers,hamstring
+79847,Horton,Dylan,92.0,DE,64.0,HOU,Houston,Texans,illness
+7336,Houston,Justin,50.0,OLB,69.0,CAR,Carolina,Panthers,hamstring
+47225,Houston,James,41.0,LB,61.0,DET,Detroit,Lions,ankle
+16815,Howard,Tytus,71.0,OT,64.0,HOU,Houston,Texans,knee
+7002,Hoyer,Brian,7.0,QB,74.0,LV,Las Vegas,Raiders,knee
+8131,Hubbard,Chris,66.0,OT,67.0,TEN,Tennessee,Titans,bicep
+30191,Hufanga,Talanoa,29.0,SS,78.0,SF,San Francisco,49ers,knee
+14521,Hughes,Mike,21.0,CB,68.0,ATL,Atlanta,Falcons,hand
+108862,Hull,Evan,26.0,RB,65.0,IND,Indianapolis,Colts,knee
+12751,Humphrey,Marlon,44.0,CB,56.0,BAL,Baltimore,Ravens,calf
+18646,Hunt,Robert,68.0,OT,49.0,MIA,Miami,Dolphins,hamstring
+13330,Hunt,Kareem,27.0,RB,58.0,CLE,Cleveland,Browns,thigh
+14516,Hurst,Hayden,81.0,TE,69.0,CAR,Carolina,Panthers,concussion
+79836,Ika,Siaki,62.0,DT,58.0,CLE,Cleveland,Browns,foot
+16627,Ingold,Alec,30.0,FB,49.0,MIA,Miami,Dolphins,foot
+18644,Jackson,Austin,73.0,OT,49.0,MIA,Miami,Dolphins,oblique
+112066,Jackson,Kearis,39.0,WR,67.0,TEN,Tennessee,Titans,ankle
+18737,Jackson,Dane,30.0,CB,48.0,BUF,Buffalo,Bills,head
+18599,Jackson,Jonah,73.0,G,61.0,DET,Detroit,Lions,ankle
+7077,Jackson,Kareem,22.0,SS,72.0,DEN,Denver,Broncos,suspension
+112288,Jarrett,Rakim,18.0,WR,71.0,TB,Tampa Bay,Buccaneers,quadricep
+6079,Jarrett,Grady,97.0,DE,68.0,ATL,Atlanta,Falcons,knee
+18648,Jefferson,Justin,18.0,WR,63.0,MIN,Minnesota,Vikings,hamstring
+18654,Jennings,Anfernee,33.0,LB,50.0,NE,New England,Patriots,hand
+6141,Jensen,Ryan,66.0,C,71.0,TB,Tampa Bay,Buccaneers,knee
+8047,Johnson,Lane,65.0,OT,54.0,PHI,Philadelphia,Eagles,groin
+119174,Johnson,Brandon,89.0,WR,72.0,DEN,Denver,Broncos,hamstring
 30363,Johnson,Drake,,RB,,,,,knee
-16063,Johnson,Darryl,40,DE,79,SEA,Seattle,Seahawks,concussion
-39239,Johnson,Nazeeh,13,FS,,,,,knee
-119174,Johnson,Brandon,89,WR,72,DEN,Denver,Broncos,hamstring
-8047,Johnson,Lane,65,OT,54,PHI,Philadelphia,Eagles,ankle
-12872,Johnson,Roderick,66,OT,54,PHI,Philadelphia,Eagles,undisclosed
-6038,Jones,Julio,80,WR,54,PHI,Philadelphia,Eagles,knee
-16603,Jones,Daniel,8,QB,53,NYG,New York,Giants,knee
-9940,Jones,Jonathan,31,DB,50,NE,New England,Patriots,knee
-8693,Jones,DaQuan,92,DT,48,BUF,Buffalo,Bills,pectoral
-12978,Jones,Aaron,33,RB,62,GB,Green Bay,Packers,knee
-30238,Jones,Robert,65,G,49,MIA,Miami,Dolphins,knee
-48151,Jones,Marcus,10,CB,50,NE,New England,Patriots,shoulder
-6479,Jones Jr.,Marvin,0,WR,,,,,personal
-17117,Joseph-Day,Sebastian,51,DT,75,LAC,Los Angeles,Chargers,wrist
-9753,Judon,Matt,9,OLB,50,NE,New England,Patriots,bicep
-13255,Kamara,Alvin,41,RB,70,NO,New Orleans,Saints,illness
-9934,Kearse,Jayron,1,SS,52,DAL,Dallas,Cowboys,back
-47386,Knight,Zonovan,28,RB,61,DET,Detroit,Lions,shoulder
-16054,Knox,Dawson,88,TE,48,BUF,Buffalo,Bills,wrist
-16261,Kunaszyk,Jordan,51,ILB,58,CLE,Cleveland,Browns,knee
-13412,Kupp,Cooper,10,WR,77,LA,Los Angeles,Rams,ankle
-18588,Lamb,CeeDee,88,WR,52,DAL,Dallas,Cowboys,ankle
-13256,Lattimore,Marshon,23,CB,70,NO,New Orleans,Saints,ankle
-79839,Latu,Cameron,81,TE,78,SF,San Francisco,49ers,knee
-16526,Lawrence II,Dexter,97,DT,53,NYG,New York,Giants,hamstring
-48025,Layne,Raheem,41,FS,75,LAC,Los Angeles,Chargers,knee
-14826,Lazard,Allen,10,WR,51,NYJ,New York,Jets,knee
-16078,Ledbetter,Jonathan,93,DE,76,ARI,Arizona,Cardinals,shoulder
-18970,Lemieux,Shane,66,G,53,NYG,New York,Giants,bicep
-6413,Leno Jr.,Charles,72,OT,55,WAS,Washington,Commanders,finger
-108897,Leo,Titus,91,LB,65,IND,Indianapolis,Colts,undisclosed
-79771,Levis,Will,8,QB,67,TEN,Tennessee,Titans,ankle
-14957,Lewis,Tyquan,94,DE,65,IND,Indianapolis,Colts,calf
-6942,Linsley,Corey,63,C,75,LAC,Los Angeles,Chargers,illness
-16808,Locke,P.J.,6,DB,72,DEN,Denver,Broncos,knee
-8296,Lockett,Tyler,16,WR,79,SEA,Seattle,Seahawks,hamstring
-39082,London,Drake,5,WR,68,ATL,Atlanta,Falcons,groin
-29637,London,LaCale,,DE,68,ATL,Atlanta,Falcons,knee
-9877,Lowry,Dean,94,DE,63,MIN,Minnesota,Vikings,pectoral
-39287,Lucas,Abraham,72,T,79,SEA,Seattle,Seahawks,knee
-18938,Lynch,James,92,DT,63,MIN,Minnesota,Vikings,knee
-13047,Mack,Marlon,32,RB,76,ARI,Arizona,Cardinals,achilles
-14974,Maddox,Avonte,29,FS,54,PHI,Philadelphia,Eagles,pectoral
-79785,Martin,Jartavius,20,SS,55,WAS,Washington,Commanders,shoulder
-6018,Mathieu,Tyrann,32,FS,70,NO,New Orleans,Saints,foot
-112028,Matthews,Jesse,41,WR,64,HOU,Houston,Texans,knee
-47942,Mauga,Kana'i,43,LB,74,LV,Las Vegas,Raiders,knee
-111999,Maxwell,Devonnsha,69,DT,57,CIN,Cincinnati,Bengals,knee
-7441,McCain,Bobby,21,CB,53,NYG,New York,Giants,illness
-14661,McCloud,Ray-Ray,3,WR,78,SF,San Francisco,49ers,ribs
-9854,McGovern,Connor,60,C,51,NYJ,New York,Jets,knee
-111632,McIntosh,Kenny,25,RB,79,SEA,Seattle,Seahawks,knee
-7465,McKinnon,Jerick,1,RB,73,KC,Kansas City,Chiefs,groin
-8543,McLeod,Rodney,26,SS,58,CLE,Cleveland,Browns,bicep
-14994,McMillan,Raekwon,50,MLB,50,NE,New England,Patriots,achilles
-16123,Metcalf,DK,14,WR,79,SEA,Seattle,Seahawks,toe
-12775,Milano,Matt,58,OLB,48,BUF,Buffalo,Bills,leg
-6797,Miller,Von,40,OLB,48,BUF,Buffalo,Bills,knee
-79809,Miller,Kendre,25,RB,70,NO,New Orleans,Saints,ankle
-14506,Miller,Kolton,74,OT,74,LV,Las Vegas,Raiders,shoulder
-79859,Miller,Ventrell,51,LB,66,JAX,Jacksonville,Jaguars,achilles
-30311,Milne,Dax,15,WR,55,WAS,Washington,Commanders,groin
-108828,Mitchell,Cameron,29,CB,58,CLE,Cleveland,Browns,shoulder
-16116,Mone,Bryan,91,DT,79,SEA,Seattle,Seahawks,knee
-6931,Montgomery,Ty,14,RB,50,NE,New England,Patriots,personal
-16039,Montgomery,David,5,RB,61,DET,Detroit,Lions,ribs
-108837,Morris,Mike,94,DE,54,PHI,Philadelphia,Eagles,shoulder
-15377,Moseley,Emmanuel,4,CB,61,DET,Detroit,Lions,knee
-18568,Moss,Zack,21,RB,65,IND,Indianapolis,Colts,elbow
-8015,Mostert,Raheem,31,RB,49,MIA,Miami,Dolphins,ankle
-16584,Mullen,Trayvon,28,CB,56,BAL,Baltimore,Ravens,toe
-12651,Mundt,Johnny,86,TE,63,MIN,Minnesota,Vikings,knee
-17009,Murphy-Bunting,Sean,0,CB,67,TEN,Tennessee,Titans,thumb
-16226,Murray,Kyler,1,QB,76,ARI,Arizona,Cardinals,knee
-9912,Murray,Eric,23,FS,64,HOU,Houston,Texans,knee
-18625,Muse,Tanner,44,LB,75,LAC,Los Angeles,Chargers,knee
-79780,Musgrave,Luke,88,TE,62,GB,Green Bay,Packers,kidney
-30354,Myers,Josh,71,C,62,GB,Green Bay,Packers,knee
-108863,Nacua,Puka,17,WR,77,LA,Los Angeles,Rams,shoulder
-9665,Neal,Keanu,31,FS,59,PIT,Pittsburgh,Steelers,ribs
-39081,Neal,Evan,73,OT,53,NYG,New York,Giants,arm
-16317,Neal,Ryan,23,DB,71,TB,Tampa Bay,Buccaneers,hand
-16414,Nelson,Matt,67,OT,61,DET,Detroit,Lions,ankle
-16585,Nixon,Keisean,25,DB,62,GB,Green Bay,Packers,ankle
-12875,Njoku,David,85,TE,58,CLE,Cleveland,Browns,knee
-15031,Nwosu,Uchenna,10,OLB,79,SEA,Seattle,Seahawks,pectoral
-6698,Obada,Efe,97,DE,55,WAS,Washington,Commanders,leg
-13145,Odenigbo,Ifeadi,92,DE,51,NYJ,New York,Jets,undisclosed
-18826,O'Donnell,Carter,61,OT,76,ARI,Arizona,Cardinals,ankle
-44930,Ogletree,Drew,85,TE,65,IND,Indianapolis,Colts,foot
-30620,Ogundeji,Adetokunbo,92,OLB,68,ATL,Atlanta,Falcons,ankle
-12876,Ogunjobi,Larry,99,DT,59,PIT,Pittsburgh,Steelers,shoulder
-39119,Ojabo,David,90,OLB,56,BAL,Baltimore,Ravens,ankle
-30188,Ojulari,Azeez,51,OLB,53,NYG,New York,Giants,ankle
-16774,Okereke,Bobby,58,MLB,53,NYG,New York,Giants,hip
-16051,Oliver,Ed,91,DT,48,BUF,Buffalo,Bills,toe
-32640,Onwuzurike,Levi,91,DT,61,DET,Detroit,Lions,hip
-9951,Onyemata,David,90,DT,68,ATL,Atlanta,Falcons,ankle
-79828,Overshown,DeMarvion,35,LB,52,DAL,Dallas,Cowboys,knee
-112075,Palczewski,Alex,63,OT,72,DEN,Denver,Broncos,hand
-30926,Palmer,Joshua,5,WR,75,LAC,Los Angeles,Chargers,knee
-16996,Parham Jr.,Donald,89,TE,75,LAC,Los Angeles,Chargers,hip
-7384,Parker,DeVante,1,WR,50,NE,New England,Patriots,concussion
-19020,Parkinson,Colby,84,TE,79,SEA,Seattle,Seahawks,bicep
-13173,Pascal,Zach,0,WR,76,ARI,Arizona,Cardinals,hamstring
-12988,Patrick,Lucas,62,G,60,CHI,Chicago,Bears,back
-15007,Patrick,Tim,81,WR,72,DEN,Denver,Broncos,achilles
-108887,Patterson,Jarrett,68,C,64,HOU,Houston,Texans,ankle
-7477,Patterson,Cordarrelle,84,RB,68,ATL,Atlanta,Falcons,ankle
-30146,Paye,Kwity,51,DE,65,IND,Indianapolis,Colts,hamstring
-18662,Peart,Matt,74,OT,53,NYG,New York,Giants,shoulder
-30824,Perkins,Ronnie,51,DE,72,DEN,Denver,Broncos,quadricep
-8255,Perryman,Denzel,6,MLB,64,HOU,Houston,Texans,suspension
-39273,Petit-Frere,Nicholas,78,T,67,TEN,Tennessee,Titans,shoulder
-18584,Phillips,Jacob,50,LB,58,CLE,Cleveland,Browns,pectoral
-18565,Phillips,Tyre,79,G,53,NYG,New York,Giants,knee
-39126,Pickens,George,14,WR,59,PIT,Pittsburgh,Steelers,shin
-9758,Pierce,Michael,58,DT,56,BAL,Baltimore,Ravens,illness
-43341,Pierce,Dameon,31,RB,64,HOU,Houston,Texans,ankle
-19002,Pierre,James,42,CB,59,PIT,Pittsburgh,Steelers,shoulder
-18828,Pinter,Danny,63,G,65,IND,Indianapolis,Colts,ankle
-16550,Pipkins III,Trey,79,OT,75,LAC,Los Angeles,Chargers,ankle
-18793,Price,Bobby,26,CB,76,ARI,Arizona,Cardinals,undisclosed
-7779,Pugh,Justin,67,G,53,NYG,New York,Giants,ankle
-16554,Quessenberry,Scott,54,C,64,HOU,Houston,Texans,knee
-44964,Quitoriano,Teagan,84,TE,64,HOU,Houston,Texans,groin
-13260,Ramczyk,Ryan,71,OT,70,NO,New Orleans,Saints,concussion
-9701,Rankins,Sheldon,98,DT,64,HOU,Houston,Texans,knee
-17113,Rapp,Taylor,20,FS,48,BUF,Buffalo,Bills,neck
-16463,Reaves,Jeremy,39,DB,55,WAS,Washington,Commanders,knee
-7214,Reed,Chris,62,G,63,MIN,Minnesota,Vikings,foot
-15043,Reed,D.J.,4,CB,51,NYJ,New York,Jets,concussion
-108884,Reed II,Jerrick,32,FS,79,SEA,Seattle,Seahawks,knee
-6860,Reiff,Riley,74,OT,50,NE,New England,Patriots,knee
-18750,Ricci,Giovanni,45,FB,69,CAR,Carolina,Panthers,shoulder
-79742,Richardson,Anthony,5,QB,65,IND,Indianapolis,Colts,shoulder
-9898,Ridgeway,Hassan,91,DT,64,HOU,Houston,Texans,achilles
-18990,Riley,Elijah,37,DB,59,PIT,Pittsburgh,Steelers,ankle
-50243,Rivers,Ronnie,20,RB,77,LA,Los Angeles,Rams,knee
-9942,Roberts,Elandon,50,MLB,59,PIT,Pittsburgh,Steelers,knee
-30687,Robinson,Aaron,33,CB,53,NYG,New York,Giants,knee
-6914,Rodgers,Aaron,8,QB,51,NYJ,New York,Jets,ankle
-18830,Rodgers,Isaiah,34,CB,54,PHI,Philadelphia,Eagles,suspension
-39180,Rogers,Armani,88,TE,55,WAS,Washington,Commanders,achilles
-39234,Ross,Justyn,8,WR,73,KC,Kansas City,Chiefs,personal
-39282,Ruckert,Jeremy,89,TE,51,NYJ,New York,Jets,shoulder
-32135,Rumph II,Chris,94,LB,75,LAC,Los Angeles,Chargers,foot
-12811,Samuel,Curtis,4,WR,55,WAS,Washington,Commanders,toe
-16143,Samuel,Deebo,19,WR,78,SF,San Francisco,49ers,shoulder
-16035,Sanders,Miles,6,RB,69,CAR,Carolina,Panthers,shoulder
-16370,Savage,Darnell,26,FS,62,GB,Green Bay,Packers,calf
-112030,Scaife Jr.,DJ,,OT,64,HOU,Houston,Texans,leg
-8773,Scherff,Brandon,68,G,66,JAX,Jacksonville,Jaguars,ankle
-79795,Schmitz,John Michael,61,C,53,NYG,New York,Giants,finger
-9748,Schweitzer,Wes,71,G,51,NYJ,New York,Jets,calf
-108844,Scott,Daniel,31,FS,,,,,knee
-79800,Scruggs,Juice,70,C,64,HOU,Houston,Texans,hamstring
-108834,Sewell,Noah,44,LB,60,CHI,Chicago,Bears,knee
-9960,Shepard,Sterling,3,WR,53,NYG,New York,Giants,hip
-108836,Shorter,Justin,18,WR,48,BUF,Buffalo,Bills,hamstring
-79824,Simpson,Trenton,30,LB,56,BAL,Baltimore,Ravens,concussion
-12899,Skipper,Dan,70,OT,61,DET,Detroit,Lions,ribs
-7571,Slater,Matthew,18,WR,50,NE,New England,Patriots,ankle
-30441,Slater,Rashawn,70,OT,75,LAC,Los Angeles,Chargers,knee
-6897,Slay,Darius,2,CB,54,PHI,Philadelphia,Eagles,knee
-16600,Slayton,Darius,86,WR,53,NYG,New York,Giants,neck
-9018,Smith,Keith,40,FB,68,ATL,Atlanta,Falcons,concussion
-15193,Smith,Braden,72,OT,65,IND,Indianapolis,Colts,foot
-19276,Smith,Geno,7,QB,79,SEA,Seattle,Seahawks,elbow
-8588,Smith (D),Donovan2,76,OT,,,,,neck
-19039,Smith-Williams,James,96,DE,55,WAS,Washington,Commanders,hamstring
-14707,Smythe,Durham,81,TE,49,MIA,Miami,Dolphins,ankle
-18867,Sneed,L'Jarius,38,CB,73,KC,Kansas City,Chiefs,knee
-16817,Spillane,Robert,41,ILB,74,LV,Las Vegas,Raiders,hand
-39769,Spiller,Isaiah,28,RB,75,LAC,Los Angeles,Chargers,illness
-9761,Stanley,Ronnie,79,OT,56,BAL,Baltimore,Ravens,knee
-22966,Steele,Terence,78,OT,52,DAL,Dallas,Cowboys,ankle
-112135,Stephens Jr.,John,49,TE,52,DAL,Dallas,Cowboys,knee
-31629,Sterns,Caden,30,FS,72,DEN,Denver,Broncos,knee
-13052,Stewart,Grover,90,DT,65,IND,Indianapolis,Colts,suspension
-14995,Stewart Jr.,M.J.,29,CB,64,HOU,Houston,Texans,shoulder
-39077,Stingley Jr.,Derek,24,CB,64,HOU,Houston,Texans,hamstring
-30453,Stokes,Eric,21,CB,62,GB,Green Bay,Packers,hamstring
-79835,Stromberg,Ricky,53,C,55,WAS,Washington,Commanders,knee
-10053,Sudfeld,Nate,10,QB,61,DET,Detroit,Lions,knee
-16375,Summers,Ty,42,LB,70,NO,New Orleans,Saints,concussion
-30974,Surratt,Chazz,55,LB,51,NYJ,New York,Jets,ankle
-6671,Swaim,Geoff,87,TE,76,ARI,Arizona,Cardinals,back
-16052,Sweeney,Tommy,89,TE,53,NYG,New York,Giants,illness
-18603,Swift,D'Andre,0,RB,54,PHI,Philadelphia,Eagles,ankle
-7368,Tannehill,Ryan,17,QB,67,TEN,Tennessee,Titans,ankle
-119172,Taylor,Leonard,49,TE,66,JAX,Jacksonville,Jaguars,undisclosed
-6205,Taylor,Tyrod,2,QB,53,NYG,New York,Giants,ribs
-39134,Taylor-Britt,Cam,29,CB,57,CIN,Cincinnati,Bengals,quadricep
-112313,Taylor II,Jason,25,FS,77,LA,Los Angeles,Rams,groin
-16548,Teamer,Roderic,33,FS,74,LV,Las Vegas,Raiders,hamstring
-29644,Tega Wanogho,Prince,76,OT,73,KC,Kansas City,Chiefs,quadricep
-47866,Tenuta,Luke,78,T,62,GB,Green Bay,Packers,ankle
-22925,Thomas,Daniel,20,FS,66,JAX,Jacksonville,Jaguars,hamstring
-9952,Thomas,Michael,13,WR,70,NO,New Orleans,Saints,knee
-112112,Thomas,Drake,42,LB,79,SEA,Seattle,Seahawks,knee
-18660,Thomas,Andrew,78,OT,53,NYG,New York,Giants,knee
-6356,Thompson,Shaq,7,OLB,69,CAR,Carolina,Panthers,leg
-108852,Thompson,B.J.,53,LB,73,KC,Kansas City,Chiefs,hamstring
-16559,Thornhill,Juan,1,SS,58,CLE,Cleveland,Browns,calf
-30447,Toney,Kadarius,19,WR,73,KC,Kansas City,Chiefs,knee
-108853,To'oTo'o,Henry,39,LB,64,HOU,Houston,Texans,concussion
-112020,Trice Jr.,Cory,27,CB,59,PIT,Pittsburgh,Steelers,leg
-7399,Turner,Billy,54,OT,51,NYJ,New York,Jets,hand
-6326,Turner,Trai,59,G,70,NO,New Orleans,Saints,quadricep
-30452,Turner,Payton,98,DE,70,NO,New Orleans,Saints,toe
-16356,Udoh,Oli,74,OT,63,MIN,Minnesota,Vikings,quadricep
-39808,Uwazurike,Eyioma,96,DE,72,DEN,Denver,Broncos,suspension
-9988,Vaitai,Halapoulivaati,72,OT,61,DET,Detroit,Lions,back
-112031,Vandenburgh,Zeke,57,OLB,49,MIA,Miami,Dolphins,undisclosed
-14510,Vander Esch,Leighton,55,OLB,52,DAL,Dallas,Cowboys,neck
-9720,Vannett,Nick,83,TE,75,LAC,Los Angeles,Chargers,concussion
-30442,Vera-Tucker,Alijah,75,G,51,NYJ,New York,Jets,achilles
-48414,Vilain,Luiji,43,LB,69,CAR,Carolina,Panthers,knee
-47940,Virgil,Jalen,15,WR,72,DEN,Denver,Broncos,knee
-111969,Vorhees,Andrew,72,G,56,BAL,Baltimore,Ravens,knee
-112104,Wagner,Dalton,78,OT,74,LV,Las Vegas,Raiders,undisclosed
-56769,Waletzko,Matt,79,OT,52,DAL,Dallas,Cowboys,shoulder
-39115,Walker III,Kenneth,9,RB,79,SEA,Seattle,Seahawks,oblique
-23168,Wallace,K'Von,35,SS,67,TEN,Tennessee,Titans,concussion
-6133,Waller,Darren,12,TE,53,NYG,New York,Giants,hamstring
-16148,Walter,Austin,32,RB,74,LV,Las Vegas,Raiders,undisclosed
-8457,Ward,Jimmie,1,FS,64,HOU,Houston,Texans,hamstring
-30220,Washington,Ar'Darius,29,DB,56,BAL,Baltimore,Ravens,chest
-13026,Watkins,Carlos,94,DT,76,ARI,Arizona,Cardinals,bicep
-22228,Watkins,Quez,16,WR,54,PHI,Philadelphia,Eagles,hamstring
-13027,Watson,Deshaun,4,QB,58,CLE,Cleveland,Browns,shoulder
-30627,Wheatley Jr.,Tyrone,79,T,50,NE,New England,Patriots,knee
-15010,White,Kyzir,7,OLB,76,ARI,Arizona,Cardinals,bicep
-12790,White,Tre'Davious,27,CB,48,BUF,Buffalo,Bills,achilles
-108845,Wicks,Dontayvion,13,WR,62,GB,Green Bay,Packers,concussion
-12931,Wilkinson,Elijah,65,OT,76,ARI,Arizona,Cardinals,neck
-16781,Williams,Quincy,56,OLB,51,NYJ,New York,Jets,knee
-30602,Williams,Milton,93,DE,54,PHI,Philadelphia,Eagles,concussion
-30621,Williams,Avery,26,CB,68,ATL,Atlanta,Falcons,knee
-39751,Williams,Kyren,23,RB,77,LA,Los Angeles,Rams,ankle
-39759,Williams,Damarion,22,CB,56,BAL,Baltimore,Ravens,ankle
-39766,Williams,Joshua,2,CB,73,KC,Kansas City,Chiefs,shoulder
-13398,Williams,Mike,81,WR,75,LAC,Los Angeles,Chargers,knee
-6637,Williams,K'Waun,8,DB,72,DEN,Denver,Broncos,ankle
-18585,Wills,Jedrick,71,OT,58,CLE,Cleveland,Browns,knee
-16919,Wilson,Mack,3,OLB,50,NE,New England,Patriots,head
-112203,Wilson,Emanuel,31,RB,62,GB,Green Bay,Packers,shoulder
-79832,Wilson,Michael,14,WR,76,ARI,Arizona,Cardinals,shoulder
-39084,Wilson,Garrett,17,WR,51,NYJ,New York,Jets,elbow
-13084,Wise Jr.,Deatrich,91,DE,50,NE,New England,Patriots,shoulder
-112043,Witt,Jake,76,OT,65,IND,Indianapolis,Colts,hip
-39437,Womack,Samuel,0,CB,78,SF,San Francisco,49ers,knee
-44957,Woods,Michael,12,WR,58,CLE,Cleveland,Browns,achilles
-39276,Woods,Jelani,80,TE,65,IND,Indianapolis,Colts,hamstring
-39773,Woods,JT,22,FS,75,LAC,Los Angeles,Chargers,illness
-8696,Woods,Al,96,DT,51,NYJ,New York,Jets,achilles
-39195,Woolen,Tariq,27,CB,79,SEA,Seattle,Seahawks,shoulder
-47314,Wooten,Chandler,57,LB,69,CAR,Carolina,Panthers,ankle
-16872,Wren,Renell,79,DT,59,PIT,Pittsburgh,Steelers,achilles
-14514,Wynn,Isaiah,77,OT,49,MIA,Miami,Dolphins,quadricep
-30123,Yeboah,Kenny,88,TE,51,NYJ,New York,Jets,hamstring
-39194,Young,Dareke,93,WR,79,SEA,Seattle,Seahawks,abdominal
-39436,Zakelj,Nick,63,T,78,SF,San Francisco,49ers,bicep
-112024,Zierer,Kilian,66,OT,64,HOU,Houston,Texans,ankle
-30110,Zylstra,Shane,84,TE,,,,,knee
+12872,Johnson,Roderick,66.0,OT,54.0,PHI,Philadelphia,Eagles,undisclosed
+39239,Johnson,Nazeeh,13.0,FS,,,,,knee
+30238,Jones,Robert,65.0,G,49.0,MIA,Miami,Dolphins,knee
+12978,Jones,Aaron,33.0,RB,62.0,GB,Green Bay,Packers,knee
+8693,Jones,DaQuan,92.0,DT,48.0,BUF,Buffalo,Bills,pectoral
+16603,Jones,Daniel,8.0,QB,53.0,NYG,New York,Giants,knee
+48151,Jones,Marcus,10.0,CB,50.0,NE,New England,Patriots,shoulder
+6479,Jones Jr.,Marvin,0.0,WR,,,,,personal
+9753,Judon,Matt,9.0,OLB,50.0,NE,New England,Patriots,bicep
+13255,Kamara,Alvin,41.0,RB,70.0,NO,New Orleans,Saints,illness
+9934,Kearse,Jayron,1.0,SS,52.0,DAL,Dallas,Cowboys,back
+8464,Keenum,Case,18.0,QB,64.0,HOU,Houston,Texans,calf
+9895,Kelly,Ryan,78.0,C,65.0,IND,Indianapolis,Colts,concussion
+47386,Knight,Zonovan,28.0,RB,61.0,DET,Detroit,Lions,shoulder
+16054,Knox,Dawson,88.0,TE,48.0,BUF,Buffalo,Bills,wrist
+39752,Lake,Quentin,37.0,SS,77.0,LA,Los Angeles,Rams,hamstring
+13256,Lattimore,Marshon,23.0,CB,70.0,NO,New Orleans,Saints,ankle
+79839,Latu,Cameron,81.0,TE,78.0,SF,San Francisco,49ers,knee
+16526,Lawrence II,Dexter,97.0,DT,53.0,NYG,New York,Giants,hamstring
+48025,Layne,Raheem,41.0,FS,75.0,LAC,Los Angeles,Chargers,knee
+14826,Lazard,Allen,10.0,WR,51.0,NYJ,New York,Jets,knee
+18970,Lemieux,Shane,66.0,G,53.0,NYG,New York,Giants,bicep
+6413,Leno Jr.,Charles,72.0,OT,55.0,WAS,Washington,Commanders,finger
+108897,Leo,Titus,91.0,LB,65.0,IND,Indianapolis,Colts,undisclosed
+6942,Linsley,Corey,63.0,C,75.0,LAC,Los Angeles,Chargers,illness
+29637,London,LaCale,,DE,68.0,ATL,Atlanta,Falcons,knee
+39082,London,Drake,5.0,WR,68.0,ATL,Atlanta,Falcons,groin
+9877,Lowry,Dean,94.0,DE,63.0,MIN,Minnesota,Vikings,pectoral
+39287,Lucas,Abraham,72.0,T,79.0,SEA,Seattle,Seahawks,knee
+18938,Lynch,James,92.0,DT,63.0,MIN,Minnesota,Vikings,knee
+13047,Mack,Marlon,32.0,RB,76.0,ARI,Arizona,Cardinals,achilles
+14974,Maddox,Avonte,29.0,FS,54.0,PHI,Philadelphia,Eagles,pectoral
+6018,Mathieu,Tyrann,32.0,FS,70.0,NO,New Orleans,Saints,foot
+112028,Matthews,Jesse,41.0,WR,64.0,HOU,Houston,Texans,knee
+47942,Mauga,Kana'i,43.0,LB,74.0,LV,Las Vegas,Raiders,knee
+111999,Maxwell,Devonnsha,69.0,DT,57.0,CIN,Cincinnati,Bengals,knee
+14492,Mayfield,Baker,6.0,QB,71.0,TB,Tampa Bay,Buccaneers,ankle
+9854,McGovern,Connor,60.0,C,51.0,NYJ,New York,Jets,knee
+7465,McKinnon,Jerick,1.0,RB,73.0,KC,Kansas City,Chiefs,groin
+8543,McLeod,Rodney,26.0,SS,58.0,CLE,Cleveland,Browns,bicep
+14994,McMillan,Raekwon,50.0,MLB,50.0,NE,New England,Patriots,achilles
+12775,Milano,Matt,58.0,OLB,48.0,BUF,Buffalo,Bills,leg
+79859,Miller,Ventrell,51.0,LB,66.0,JAX,Jacksonville,Jaguars,achilles
+79809,Miller,Kendre,25.0,RB,70.0,NO,New Orleans,Saints,ankle
+6797,Miller,Von,40.0,OLB,48.0,BUF,Buffalo,Bills,knee
+30311,Milne,Dax,15.0,WR,55.0,WAS,Washington,Commanders,groin
+108828,Mitchell,Cameron,29.0,CB,58.0,CLE,Cleveland,Browns,shoulder
+16116,Mone,Bryan,91.0,DT,79.0,SEA,Seattle,Seahawks,knee
+16039,Montgomery,David,5.0,RB,61.0,DET,Detroit,Lions,ribs
+6931,Montgomery,Ty,14.0,RB,50.0,NE,New England,Patriots,personal
+108837,Morris,Mike,94.0,DE,54.0,PHI,Philadelphia,Eagles,shoulder
+15377,Moseley,Emmanuel,4.0,CB,61.0,DET,Detroit,Lions,knee
+18568,Moss,Zack,21.0,RB,65.0,IND,Indianapolis,Colts,elbow
+8015,Mostert,Raheem,31.0,RB,49.0,MIA,Miami,Dolphins,ankle
+16584,Mullen,Trayvon,28.0,CB,56.0,BAL,Baltimore,Ravens,toe
+13473,Mullens,Nick,12.0,QB,63.0,MIN,Minnesota,Vikings,back
+12651,Mundt,Johnny,86.0,TE,63.0,MIN,Minnesota,Vikings,knee
+9912,Murray,Eric,23.0,FS,64.0,HOU,Houston,Texans,knee
+16226,Murray,Kyler,1.0,QB,76.0,ARI,Arizona,Cardinals,knee
+18625,Muse,Tanner,44.0,LB,75.0,LAC,Los Angeles,Chargers,knee
+79780,Musgrave,Luke,88.0,TE,62.0,GB,Green Bay,Packers,kidney
+30354,Myers,Josh,71.0,C,62.0,GB,Green Bay,Packers,knee
+9665,Neal,Keanu,31.0,FS,59.0,PIT,Pittsburgh,Steelers,ribs
+39081,Neal,Evan,73.0,OT,53.0,NYG,New York,Giants,arm
+16414,Nelson,Matt,67.0,OT,61.0,DET,Detroit,Lions,ankle
+12875,Njoku,David,85.0,TE,58.0,CLE,Cleveland,Browns,knee
+15031,Nwosu,Uchenna,10.0,OLB,79.0,SEA,Seattle,Seahawks,pectoral
+6698,Obada,Efe,97.0,DE,55.0,WAS,Washington,Commanders,leg
+13145,Odenigbo,Ifeadi,92.0,DE,51.0,NYJ,New York,Jets,undisclosed
+18826,O'Donnell,Carter,61.0,OT,76.0,ARI,Arizona,Cardinals,ankle
+15074,Odum,George,30.0,SS,78.0,SF,San Francisco,49ers,bicep
+44930,Ogletree,Drew,85.0,TE,65.0,IND,Indianapolis,Colts,foot
+30620,Ogundeji,Adetokunbo,92.0,OLB,68.0,ATL,Atlanta,Falcons,ankle
+12876,Ogunjobi,Larry,99.0,DT,59.0,PIT,Pittsburgh,Steelers,shoulder
+39119,Ojabo,David,90.0,OLB,56.0,BAL,Baltimore,Ravens,ankle
+30188,Ojulari,Azeez,51.0,OLB,53.0,NYG,New York,Giants,ankle
+39085,Olave,Chris,12.0,WR,70.0,NO,New Orleans,Saints,concussion
+16051,Oliver,Ed,91.0,DT,48.0,BUF,Buffalo,Bills,toe
+79828,Overshown,DeMarvion,35.0,LB,52.0,DAL,Dallas,Cowboys,knee
+112075,Palczewski,Alex,63.0,OT,72.0,DEN,Denver,Broncos,hand
+30926,Palmer,Joshua,5.0,WR,75.0,LAC,Los Angeles,Chargers,knee
+15007,Patrick,Tim,81.0,WR,72.0,DEN,Denver,Broncos,achilles
+12988,Patrick,Lucas,62.0,G,60.0,CHI,Chicago,Bears,back
+108887,Patterson,Jarrett,68.0,C,64.0,HOU,Houston,Texans,ankle
+7477,Patterson,Cordarrelle,84.0,RB,68.0,ATL,Atlanta,Falcons,ankle
+18662,Peart,Matt,74.0,OT,53.0,NYG,New York,Giants,shoulder
+30824,Perkins,Ronnie,51.0,DE,72.0,DEN,Denver,Broncos,quadricep
+8255,Perryman,Denzel,6.0,MLB,64.0,HOU,Houston,Texans,suspension
+39273,Petit-Frere,Nicholas,78.0,T,67.0,TEN,Tennessee,Titans,shoulder
+18584,Phillips,Jacob,50.0,LB,58.0,CLE,Cleveland,Browns,pectoral
+30446,Phillips,Jaelan,15.0,OLB,49.0,MIA,Miami,Dolphins,achilles
+9758,Pierce,Michael,58.0,DT,56.0,BAL,Baltimore,Ravens,illness
+18828,Pinter,Danny,63.0,G,65.0,IND,Indianapolis,Colts,ankle
+16550,Pipkins III,Trey,79.0,OT,75.0,LAC,Los Angeles,Chargers,ankle
+18793,Price,Bobby,26.0,CB,76.0,ARI,Arizona,Cardinals,undisclosed
+7779,Pugh,Justin,67.0,G,53.0,NYG,New York,Giants,ankle
+16554,Quessenberry,Scott,54.0,C,64.0,HOU,Houston,Texans,knee
+44964,Quitoriano,Teagan,84.0,TE,64.0,HOU,Houston,Texans,groin
+9701,Rankins,Sheldon,98.0,DT,64.0,HOU,Houston,Texans,knee
+17113,Rapp,Taylor,20.0,FS,48.0,BUF,Buffalo,Bills,neck
+16463,Reaves,Jeremy,39.0,DB,55.0,WAS,Washington,Commanders,knee
+7214,Reed,Chris,62.0,G,63.0,MIN,Minnesota,Vikings,foot
+15043,Reed,D.J.,4.0,CB,51.0,NYJ,New York,Jets,concussion
+108884,Reed II,Jerrick,32.0,FS,79.0,SEA,Seattle,Seahawks,knee
+6860,Reiff,Riley,74.0,OT,50.0,NE,New England,Patriots,knee
+18750,Ricci,Giovanni,45.0,FB,69.0,CAR,Carolina,Panthers,shoulder
+79742,Richardson,Anthony,5.0,QB,65.0,IND,Indianapolis,Colts,shoulder
+9898,Ridgeway,Hassan,91.0,DT,64.0,HOU,Houston,Texans,achilles
+18990,Riley,Elijah,37.0,DB,59.0,PIT,Pittsburgh,Steelers,ankle
+50243,Rivers,Ronnie,20.0,RB,77.0,LA,Los Angeles,Rams,knee
+9942,Roberts,Elandon,50.0,MLB,59.0,PIT,Pittsburgh,Steelers,knee
+13365,Robinson,Cam,74.0,OT,66.0,JAX,Jacksonville,Jaguars,knee
+30687,Robinson,Aaron,33.0,CB,53.0,NYG,New York,Giants,knee
+6914,Rodgers,Aaron,8.0,QB,51.0,NYJ,New York,Jets,ankle
+18830,Rodgers,Isaiah,34.0,CB,54.0,PHI,Philadelphia,Eagles,suspension
+39180,Rogers,Armani,88.0,TE,55.0,WAS,Washington,Commanders,achilles
+39234,Ross,Justyn,8.0,WR,73.0,KC,Kansas City,Chiefs,personal
+39282,Ruckert,Jeremy,89.0,TE,51.0,NYJ,New York,Jets,shoulder
+32135,Rumph II,Chris,94.0,LB,75.0,LAC,Los Angeles,Chargers,foot
+16143,Samuel,Deebo,19.0,WR,78.0,SF,San Francisco,49ers,shoulder
+16035,Sanders,Miles,6.0,RB,69.0,CAR,Carolina,Panthers,shoulder
+16370,Savage,Darnell,26.0,FS,62.0,GB,Green Bay,Packers,calf
+112030,Scaife Jr.,DJ,,OT,64.0,HOU,Houston,Texans,leg
+8773,Scherff,Brandon,68.0,G,66.0,JAX,Jacksonville,Jaguars,ankle
+9748,Schweitzer,Wes,71.0,G,51.0,NYJ,New York,Jets,calf
+108844,Scott,Daniel,31.0,FS,,,,,knee
+108834,Sewell,Noah,44.0,LB,60.0,CHI,Chicago,Bears,knee
+55455,Shaheed,Rashid,22.0,WR,70.0,NO,New Orleans,Saints,thigh
+16426,Shelley,Duke,26.0,CB,77.0,LA,Los Angeles,Rams,hamstring
+18619,Shenault Jr.,Laviska,5.0,WR,69.0,CAR,Carolina,Panthers,ankle
+108836,Shorter,Justin,18.0,WR,48.0,BUF,Buffalo,Bills,hamstring
+79824,Simpson,Trenton,30.0,LB,56.0,BAL,Baltimore,Ravens,concussion
+12899,Skipper,Dan,70.0,OT,61.0,DET,Detroit,Lions,ribs
+6897,Slay,Darius,2.0,CB,54.0,PHI,Philadelphia,Eagles,knee
+15193,Smith,Braden,72.0,OT,65.0,IND,Indianapolis,Colts,foot
+32030,Smith,D'Ante,70.0,OT,57.0,CIN,Cincinnati,Bengals,knee
+9018,Smith,Keith,40.0,FB,68.0,ATL,Atlanta,Falcons,concussion
+19039,Smith-Williams,James,96.0,DE,55.0,WAS,Washington,Commanders,hamstring
+14707,Smythe,Durham,81.0,TE,49.0,MIA,Miami,Dolphins,ankle
+39769,Spiller,Isaiah,28.0,RB,75.0,LAC,Los Angeles,Chargers,illness
+112135,Stephens Jr.,John,49.0,TE,52.0,DAL,Dallas,Cowboys,knee
+31629,Sterns,Caden,30.0,FS,72.0,DEN,Denver,Broncos,knee
+13052,Stewart,Grover,90.0,DT,65.0,IND,Indianapolis,Colts,suspension
+14995,Stewart Jr.,M.J.,29.0,CB,64.0,HOU,Houston,Texans,shoulder
+39077,Stingley Jr.,Derek,24.0,CB,64.0,HOU,Houston,Texans,hamstring
+30453,Stokes,Eric,21.0,CB,62.0,GB,Green Bay,Packers,hamstring
+79835,Stromberg,Ricky,53.0,C,55.0,WAS,Washington,Commanders,knee
+16410,Strong,Kevin,92.0,DT,76.0,ARI,Arizona,Cardinals,knee
+10053,Sudfeld,Nate,10.0,QB,61.0,DET,Detroit,Lions,knee
+16375,Summers,Ty,42.0,LB,70.0,NO,New Orleans,Saints,concussion
+30974,Surratt,Chazz,55.0,LB,51.0,NYJ,New York,Jets,ankle
+6671,Swaim,Geoff,87.0,TE,76.0,ARI,Arizona,Cardinals,back
+6205,Taylor,Tyrod,2.0,QB,53.0,NYG,New York,Giants,ribs
+119172,Taylor,Leonard,49.0,TE,66.0,JAX,Jacksonville,Jaguars,undisclosed
+39134,Taylor-Britt,Cam,29.0,CB,57.0,CIN,Cincinnati,Bengals,quadricep
+29644,Tega Wanogho,Prince,76.0,OT,73.0,KC,Kansas City,Chiefs,quadricep
+47866,Tenuta,Luke,78.0,T,62.0,GB,Green Bay,Packers,ankle
+112112,Thomas,Drake,42.0,LB,79.0,SEA,Seattle,Seahawks,knee
+9952,Thomas,Michael,13.0,WR,70.0,NO,New Orleans,Saints,knee
+22925,Thomas,Daniel,20.0,FS,66.0,JAX,Jacksonville,Jaguars,hamstring
+112191,Thomas V,Starling,24.0,CB,76.0,ARI,Arizona,Cardinals,ankle
+108852,Thompson,B.J.,53.0,LB,73.0,KC,Kansas City,Chiefs,hamstring
+6356,Thompson,Shaq,7.0,OLB,69.0,CAR,Carolina,Panthers,leg
+108826,Thompson-Robinson,Dorian,17.0,QB,58.0,CLE,Cleveland,Browns,concussion
+30447,Toney,Kadarius,19.0,WR,73.0,KC,Kansas City,Chiefs,knee
+112020,Trice Jr.,Cory,27.0,CB,59.0,PIT,Pittsburgh,Steelers,leg
+6326,Turner,Trai,59.0,G,70.0,NO,New Orleans,Saints,quadricep
+30452,Turner,Payton,98.0,DE,70.0,NO,New Orleans,Saints,toe
+7399,Turner,Billy,54.0,OT,51.0,NYJ,New York,Jets,hand
+16356,Udoh,Oli,74.0,OT,63.0,MIN,Minnesota,Vikings,quadricep
+39808,Uwazurike,Eyioma,96.0,DE,72.0,DEN,Denver,Broncos,suspension
+9988,Vaitai,Halapoulivaati,72.0,OT,61.0,DET,Detroit,Lions,back
+112031,Vandenburgh,Zeke,57.0,OLB,49.0,MIA,Miami,Dolphins,undisclosed
+14510,Vander Esch,Leighton,55.0,OLB,52.0,DAL,Dallas,Cowboys,neck
+9720,Vannett,Nick,83.0,TE,75.0,LAC,Los Angeles,Chargers,concussion
+30442,Vera-Tucker,Alijah,75.0,G,51.0,NYJ,New York,Jets,achilles
+48414,Vilain,Luiji,43.0,LB,69.0,CAR,Carolina,Panthers,knee
+47940,Virgil,Jalen,15.0,WR,72.0,DEN,Denver,Broncos,knee
+111969,Vorhees,Andrew,72.0,G,56.0,BAL,Baltimore,Ravens,knee
+112104,Wagner,Dalton,78.0,OT,74.0,LV,Las Vegas,Raiders,undisclosed
+56769,Waletzko,Matt,79.0,OT,52.0,DAL,Dallas,Cowboys,shoulder
+13055,Walker,Anthony,5.0,MLB,58.0,CLE,Cleveland,Browns,hamstring
+39115,Walker III,Kenneth,9.0,RB,79.0,SEA,Seattle,Seahawks,oblique
+6133,Waller,Darren,12.0,TE,53.0,NYG,New York,Giants,hamstring
+16148,Walter,Austin,32.0,RB,74.0,LV,Las Vegas,Raiders,undisclosed
+14495,Ward,Denzel,21.0,CB,58.0,CLE,Cleveland,Browns,shoulder
+8457,Ward,Jimmie,1.0,FS,64.0,HOU,Houston,Texans,hamstring
+30220,Washington,Ar'Darius,29.0,DB,56.0,BAL,Baltimore,Ravens,chest
+9864,Washington,Dwayne,39.0,RB,72.0,DEN,Denver,Broncos,illness
+13026,Watkins,Carlos,94.0,DT,76.0,ARI,Arizona,Cardinals,bicep
+13027,Watson,Deshaun,4.0,QB,58.0,CLE,Cleveland,Browns,shoulder
+112484,Wheat,Tyrus,91.0,DE,52.0,DAL,Dallas,Cowboys,concussion
+30627,Wheatley Jr.,Tyrone,79.0,T,50.0,NE,New England,Patriots,knee
+12790,White,Tre'Davious,27.0,CB,48.0,BUF,Buffalo,Bills,achilles
+15010,White,Kyzir,7.0,OLB,76.0,ARI,Arizona,Cardinals,bicep
+108845,Wicks,Dontayvion,13.0,WR,62.0,GB,Green Bay,Packers,concussion
+12931,Wilkinson,Elijah,65.0,OT,76.0,ARI,Arizona,Cardinals,neck
+39759,Williams,Damarion,22.0,CB,56.0,BAL,Baltimore,Ravens,ankle
+6637,Williams,K'Waun,8.0,DB,72.0,DEN,Denver,Broncos,ankle
+16781,Williams,Quincy,56.0,OLB,51.0,NYJ,New York,Jets,knee
+7876,Williams,Leonard,99.0,DE,79.0,SEA,Seattle,Seahawks,ankle
+30621,Williams,Avery,26.0,CB,68.0,ATL,Atlanta,Falcons,knee
+30602,Williams,Milton,93.0,DE,54.0,PHI,Philadelphia,Eagles,concussion
+13398,Williams,Mike,81.0,WR,75.0,LAC,Los Angeles,Chargers,knee
+18585,Wills,Jedrick,71.0,OT,58.0,CLE,Cleveland,Browns,knee
+39084,Wilson,Garrett,17.0,WR,51.0,NYJ,New York,Jets,elbow
+79832,Wilson,Michael,14.0,WR,76.0,ARI,Arizona,Cardinals,shoulder
+18581,Wilson,Logan,55.0,LB,57.0,CIN,Cincinnati,Bengals,ankle
+112203,Wilson,Emanuel,31.0,RB,62.0,GB,Green Bay,Packers,shoulder
+112043,Witt,Jake,76.0,OT,65.0,IND,Indianapolis,Colts,hip
+39773,Woods,JT,22.0,FS,75.0,LAC,Los Angeles,Chargers,illness
+39276,Woods,Jelani,80.0,TE,65.0,IND,Indianapolis,Colts,hamstring
+8696,Woods,Al,96.0,DT,51.0,NYJ,New York,Jets,achilles
+44957,Woods,Michael,12.0,WR,58.0,CLE,Cleveland,Browns,achilles
+47314,Wooten,Chandler,57.0,LB,69.0,CAR,Carolina,Panthers,ankle
+16872,Wren,Renell,79.0,DT,59.0,PIT,Pittsburgh,Steelers,achilles
+14514,Wynn,Isaiah,77.0,OT,49.0,MIA,Miami,Dolphins,quadricep
+30123,Yeboah,Kenny,88.0,TE,51.0,NYJ,New York,Jets,hamstring
+39194,Young,Dareke,93.0,WR,79.0,SEA,Seattle,Seahawks,abdominal
+39436,Zakelj,Nick,63.0,T,78.0,SF,San Francisco,49ers,bicep
+112024,Zierer,Kilian,66.0,OT,64.0,HOU,Houston,Texans,ankle
+30110,Zylstra,Shane,84.0,TE,,,,,knee
