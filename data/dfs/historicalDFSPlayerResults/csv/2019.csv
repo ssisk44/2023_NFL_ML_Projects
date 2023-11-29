@@ -1,4 +1,4 @@
-Season, GameID, Date, Week, Game Time, PlayerID, Player Name, Player Team, Player Opponent Team, Venue Ownership, DK Position, FD Position, DK Salary, FD Salary, DK Points, FD Points
+Season,GameID,Date,Week,Game Time,PlayerID,Player Name,Player Team,Player Opponent Team,Venue Ownership,DK Position,FD Position,DK Salary,FD Salary,DK Points,FD Points
 NFL 2019 Regular Season,43713-GNB@CHI,2019-09-05 00:00:00,1,8:20PM,GB,Green Bay Packers,Green Bay Packers,Chicago Bears,Road,DST,DST,2700,3700,14,14
 NFL 2019 Regular Season,43713-GNB@CHI,2019-09-05 00:00:00,1,8:20PM,aaron-rodgers,Aaron Rodgers,Green Bay Packers,Chicago Bears,Road,QB,QB,6500,8200,12.92,12.92
 NFL 2019 Regular Season,43713-GNB@CHI,2019-09-05 00:00:00,1,8:20PM,aaron-jones,Aaron Jones,Green Bay Packers,Chicago Bears,Road,RB,RB,5400,6800,4.9,4.4

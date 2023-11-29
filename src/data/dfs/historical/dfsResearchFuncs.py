@@ -9,7 +9,7 @@ import datetime
 from src.combinatorics import calculateNumberOfCombinations
 
 def main():
-    # for now just a simple routine for historical optimal lineup research
+    # for now just a simple routine for historicalDFSPlayerResults optimal lineup research
     consolidatedDFSData = consolidateAndFilterHistoricalDFSData()
     allPositionsNestedList = getDFSDataBySeasonWeek(consolidatedDFSData, 2023, 11)
     filteredAllPositionsNestedList = filterNestedAllPositionsList(allPositionsNestedList)
@@ -20,7 +20,7 @@ def consolidateAndFilterHistoricalDFSData():
     dotenv.load_dotenv()
 
     absProjectFilepath = os.getenv("ABS_PROJECT_PATH")
-    historicalDFSPath = absProjectFilepath + "data/dfs/historical/"
+    historicalDFSPath = absProjectFilepath + "data/dfs/historicalDFSPlayerResults/"
 
     allHistoricalDFSEntries = []
     currentGameIdentifier = ""

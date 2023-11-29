@@ -10,7 +10,7 @@ import itertools
 
 def generateAllHistoricalDFSData():
     absProjectFilepath = os.getenv("ABS_PROJECT_PATH")
-    dataPath = "data/dfs/historical/"
+    dataPath = "data/dfs/historicalDFSPlayerResults/"
     fullHistoricalDataPath = absProjectFilepath + dataPath
 
     allHistoricalDataArr = []

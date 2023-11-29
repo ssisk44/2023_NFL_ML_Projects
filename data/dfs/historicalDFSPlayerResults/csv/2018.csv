@@ -1,4 +1,4 @@
-Season, GameID, Date, Week, Game Time, PlayerID, Player Name, Player Team, Player Opponent Team, Venue Ownership, DK Position, FD Position, DK Salary, FD Salary, DK Points, FD Points
+Season,GameID,Date,Week,Game Time,PlayerID,Player Name,Player Team,Player Opponent Team,Venue Ownership,DK Position,FD Position,DK Salary,FD Salary,DK Points,FD Points
 NFL 2018 Regular Season,43349-ATL@PHI,2018-09-06 00:00:00,1,8:20PM,ATL,Atlanta Falcons,Atlanta Falcons,Philadelphia Eagles,Road,DST,DST,2500,3300,7,7
 NFL 2018 Regular Season,43349-ATL@PHI,2018-09-06 00:00:00,1,8:20PM,matt-ryan,Matt Ryan,Atlanta Falcons,Philadelphia Eagles,Road,QB,QB,6300,7000,9.84,9.84
 NFL 2018 Regular Season,43349-ATL@PHI,2018-09-06 00:00:00,1,8:20PM,tevin-coleman,Tevin Coleman,Atlanta Falcons,Philadelphia Eagles,Road,RB,RB,4400,5900,11.5,11

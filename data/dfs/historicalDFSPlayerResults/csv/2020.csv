@@ -1,4 +1,4 @@
-Season, GameID, Date, Week, Game Time, PlayerID, Player Name, Player Team, Player Opponent Team, Venue Ownership, DK Position, FD Position, DK Salary, FD Salary, DK Points, FD Points
+Season,GameID,Date,Week,Game Time,PlayerID,Player Name,Player Team,Player Opponent Team,Venue Ownership,DK Position,FD Position,DK Salary,FD Salary,DK Points,FD Points
 NFL 2020 Regular Season,44084-HOU@KAN,2020-09-10 00:00:00,1,8:20PM,HOU,Houston Texans,Houston Texans,Kansas City Chiefs,Road,DST,DST,2000,3000,0,0
 NFL 2020 Regular Season,44084-HOU@KAN,2020-09-10 00:00:00,1,8:20PM,deshaun-watson,Deshaun Watson,Houston Texans,Kansas City Chiefs,Road,QB,QB,6900,8200,21.82,21.82
 NFL 2020 Regular Season,44084-HOU@KAN,2020-09-10 00:00:00,1,8:20PM,buddy-howell,Buddy Howell,Houston Texans,Kansas City Chiefs,Road,RB,RB,4000,4500,0,0

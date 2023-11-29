@@ -1,4 +1,4 @@
-Season, GameID, Date, Week, Game Time, PlayerID, Player Name, Player Team, Player Opponent Team, Venue Ownership, DK Position, FD Position, DK Salary, FD Salary, DK Points, FD Points
+Season,GameID,Date,Week,Game Time,PlayerID,Player Name,Player Team,Player Opponent Team,Venue Ownership,DK Position,FD Position,DK Salary,FD Salary,DK Points,FD Points
 NFL 2017 Regular Season,42985-KAN@NWE,2017-09-07 00:00:00,1,8:30PM,,Cairo Santos,Kansas City Chiefs,New England Patriots,Road,,K,,4600,0,6
 NFL 2017 Regular Season,42985-KAN@NWE,2017-09-07 00:00:00,1,8:30PM,,Stephen Gostkowski,New England Patriots,Kansas City Chiefs,Home,,K,,5000,0,9
 NFL 2017 Regular Season,42985-KAN@NWE,2017-09-07 00:00:00,1,8:30PM,KAN,Kansas City Chiefs,Kansas City Chiefs,New England Patriots,Road,DST,DST,2300,4300,3,3

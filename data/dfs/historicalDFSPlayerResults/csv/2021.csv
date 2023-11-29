@@ -1,4 +1,4 @@
-Season, GameID, Date, Week, Game Time, PlayerID, Player Name, Player Team, Player Opponent Team, Venue Ownership, DK Position, FD Position, DK Salary, FD Salary, DK Points, FD Points
+Season,GameID,Date,Week,Game Time,PlayerID,Player Name,Player Team,Player Opponent Team,Venue Ownership,DK Position,FD Position,DK Salary,FD Salary,DK Points,FD Points
 NFL 2021 Regular Season,44448-DAL@TAM,2021-09-09 00:00:00,1,8:20PM,DAL,Dallas Cowboys,Dallas Cowboys,Tampa Bay Buccaneers,Road,DST,D,2500,3400,7,7
 NFL 2021 Regular Season,44448-DAL@TAM,2021-09-09 00:00:00,1,8:20PM,dak-prescott,Dak Prescott,Dallas Cowboys,Tampa Bay Buccaneers,Road,QB,QB,6200,7600,31.42,28.42
 NFL 2021 Regular Season,44448-DAL@TAM,2021-09-09 00:00:00,1,8:20PM,corey-clement,Corey Clement,Dallas Cowboys,Tampa Bay Buccaneers,Road,RB,RB,4000,4600,0,0

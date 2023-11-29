@@ -47,7 +47,7 @@ def main():
 
     ###CONTESTS###
     absProjectFilepath = os.getenv("ABS_PROJECT_PATH")
-    contestDataFilepath = absProjectFilepath + "data/dfs/contests/2023-11-19DK.csv"
+    contestDataFilepath = absProjectFilepath + "data/dfs/historicalContestCSVFiles/2023-11-19DK.csv"
     combinationsArrContainer = createLineupCombinations(contestDataFilepath)
     parseIntegerOutputCombosToLineups(combinationsArrContainer)
 
@@ -199,7 +199,7 @@ def getPlayersByPosition(contestDataArr, positionName:str):
         playerPosition = player[2]
         if playerPosition == positionName:
             filteredPlayerArray.append(player)
-        elif positionName == "FLX" and playerPosition in ["RB", "WR"]:
+        elif positionName == "FLX" and playerPosition in ["RB", "WR", "TE"]:
             filteredPlayerArray.append(player)
     return filteredPlayerArray
 
