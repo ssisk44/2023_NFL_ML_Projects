@@ -1,7 +1,7 @@
 .env
 */chromedriver.exe
 tmp/
-analysis/singleGame/models/
-analysis/singleGame/scalars/
+tmp/exampleModel.py/models/
+tmp/exampleModel.py/scalars/
 logs/
 files/
