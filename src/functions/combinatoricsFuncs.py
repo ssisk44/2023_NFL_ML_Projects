@@ -16,30 +16,29 @@ import gc
 """
 
 wantedQBNames = np.array([
-    "Sam Howell", "Jordan Love", "Brock Purdy", "Kylar Murray"
+    "Derrick Carr", "Tua Tagovailoa", "Sam Howell", "Russell Wilson", "Brock Purdy"
 ])
 
 wantedRBNames = np.array([
-    "Austin Ekeler", "Raheem Mostert", "Jerome Ford",
-    "Zack Moss", "Brian Robinson Jr.", "Saquon Barkley", "Bijan Robinson", "Jahmyr Gibbs",
-    "Kenneth Walker III", "AJ Dillon"
+    "Zack Moss", "Derrick Henry", "Bijan Robinson", "Najee Harris", 'Jaylen Warren', 'David Montgomery', "Jahmyr Gibbs",
+    "Bijan Robinson", "Najee Harris", "Jaylen Warren", "Raheem Mostert", "Devin Singletary", "Rachaad White",
+    "Kyren Williams"
 ])
 
 wantedWRNames = np.array([
-    "Stefon Diggs", "Gabe Davis", "Kendrick Bourne", "Keenan Allen", "Rashee Rice", "Davante Adams",
-    "Jakobi Meyers", "Amari Cooper", "Michael Pittman Jr.", "Terry McLaurin", "Curtis Samuel", "Drake London",
-    "Amon-Ra St. Brown", "Josh Reynolds", "Kalif Raymond",
-    "Zay Flowers", "George Pickens", "Cooper Kupp", "Puka Nacua",
-    "Tutu Atwell", "Marquise Brown", "Michael Wilson", "Tyler Lockett",
-    "Christian Watson", "Romeo Doubs", "Jayden Reed"
+    "Michael Pittman Jr.", "Josh Downs", "Amon-Ra St. Brown", "Chris Olave", "Drake London", "Garrett Wilson",
+    "Greg Dortch" "Diontae Johnson", "George Pickens", "Tyreek Hill", "Jaylen Waddle", "Terry McLaurin", "Jahan Dotson",
+    "Curtis Samuel", "Courtland Sutton", "Nico Collins", "Tank Dell", "Noah Brown", "Mike Evans", "Chris Godwin",
+    "Amari Cooper", "Elijah Moore", "Cooper Kupp", "Puka Nacua", "Deebo Samuel", "Brandon Aiyuk", "AJ Brown",
+    "DeVonta Smith"
 ])
 
 wantedTENames = np.array([
-    "Travis Kelce", "Logan Thomas", "Kyle Pitts", "Jonnu Smith", "Luke Musgrave"
+    "Sam Laporta", "Kyle Pitts", "Trey McBride", "Pat Freiermuth", "Logan Thomas", "David Njoku", "Tyler Higbee"
 ])
 
 wantedDNames = np.array([
-    "Cleveland Browns", "Buffalo Bills"
+    "Lions", "Falcons", "Jets", "Steelers", "Buccaneers", "Rams"
 ])
 
 def main():
@@ -47,9 +46,9 @@ def main():
 
     ###CONTESTS###
     absProjectFilepath = os.getenv("ABS_PROJECT_PATH")
-    contestDataFilepath = absProjectFilepath + "data/dfs/historicalContestCSVFiles/2023-11-19DK.csv"
+    contestDataFilepath = absProjectFilepath + "data/dfs/historicalContestCSVFiles/2023-12-03DK.csv"
     combinationsArrContainer = createLineupCombinations(contestDataFilepath)
-    parseIntegerOutputCombosToLineups(combinationsArrContainer)
+    # parseIntegerOutputCombosToLineups(combinationsArrContainer)
 
     ###HISTORICAL###
     # convertHistoricalDFSData()
@@ -78,26 +77,24 @@ def createLineupCombinations(contestDataFilepath):
             - positional requirements
         -
     """
-    contestDataArray = pd.read_csv(contestDataFilepath).to_numpy()
+    contestDataArray = pd.read_csv(contestDataFilepath, index_col=False).to_numpy()
     # sortedContestDataArray = sorted(contestDataArray, key=lambda x: x[5], reverse=True)
 
-    # remove players with injury status as "IR"
-    filteredContestData1 = filterInjuredPlayers(contestDataArray)
-    filteredContestData2 = filterUnwantedPlayers(filteredContestData1)
-    print("Total number of players considered:", len(filteredContestData2))
+    filteredContestData = filterUnwantedPlayers(contestDataArray)
+    print("Total number of players considered:", len(filteredContestData))
 
 
     # calculate total number of lineup combinations from filtered players
-    totalCombinationsNumber = calculateTotalNumberOfCombinations(filteredContestData2)
+    totalCombinationsNumber = calculateTotalNumberOfCombinations(filteredContestData)
     print("Total lineup combinations: ", totalCombinationsNumber)
 
     ### attempt to create al combinations
-    qbArr = getPlayersByPosition(filteredContestData2, "QB")
-    rbArr = getPlayersByPosition(filteredContestData2, "RB")
-    wrArr = getPlayersByPosition(filteredContestData2, "WR")
-    teArr = getPlayersByPosition(filteredContestData2, "TE")
-    flxArr = getPlayersByPosition(filteredContestData2, "FLX")
-    dArr = getPlayersByPosition(filteredContestData2, "D")
+    qbArr = getPlayersByPosition(filteredContestData, "QB")
+    rbArr = getPlayersByPosition(filteredContestData, "RB")
+    wrArr = getPlayersByPosition(filteredContestData, "WR")
+    teArr = getPlayersByPosition(filteredContestData, "TE")
+    flxArr = getPlayersByPosition(filteredContestData, "FLX")
+    dArr = getPlayersByPosition(filteredContestData, "DST")
 
     rbCombos = list(itertools.combinations(rbArr, 2))
     wrCombos = list(itertools.combinations(wrArr, 3))
@@ -120,40 +117,40 @@ def createLineupCombinations(contestDataFilepath):
     #create an array with string integers that describe their players
     for qbIndex in range(0, len(qbArr)):
         playerDataEntryQB = qbArr[qbIndex]
-        qbSalary = int(playerDataEntryQB[7])
+        qbSalary = int(playerDataEntryQB[5])
 
         for rbIndex in range(0, len(rbCombos)):
             playerDataEntryRB1 = rbCombos[rbIndex][0]
             playerDataEntryRB2 = rbCombos[rbIndex][1]
-            rbSalary1 = int(playerDataEntryRB1[7])
-            rbSalary2 = int(playerDataEntryRB2[7])
+            rbSalary1 = int(playerDataEntryRB1[5])
+            rbSalary2 = int(playerDataEntryRB2[5])
 
             for wrIndex in range(0, len(wrCombos)):
                 playerDataEntryWR1 = wrCombos[wrIndex][0]
                 playerDataEntryWR2 = wrCombos[wrIndex][1]
                 playerDataEntryWR3 = wrCombos[wrIndex][2]
-                wrSalary1 = int(playerDataEntryWR1[7])
-                wrSalary2 = int(playerDataEntryWR2[7])
-                wrSalary3 = int(playerDataEntryWR3[7])
+                wrSalary1 = int(playerDataEntryWR1[5])
+                wrSalary2 = int(playerDataEntryWR2[5])
+                wrSalary3 = int(playerDataEntryWR3[5])
 
                 for teIndex in range(0, len(teArr)):
                     playerDataEntryTE = teArr[teIndex]
-                    teSalary = int(playerDataEntryTE[7])
+                    teSalary = int(playerDataEntryTE[5])
 
                     for flxIndex in range(0, len(flxArr)):
                         playerDataEntryFLX = flxArr[flxIndex]
-                        flxSalary = int(playerDataEntryFLX[7])
+                        flxSalary = int(playerDataEntryFLX[5])
 
                         for dIndex in range(0, len(dArr)):
                             playerDataEntryD = flxArr[flxIndex]
-                            dSalary = int(playerDataEntryD[7])
-                            if 57500 <= qbSalary + rbSalary1 + rbSalary2 + wrSalary1 + wrSalary2 + wrSalary3 + teSalary + flxSalary + dSalary > 60000:
+                            dSalary = int(playerDataEntryD[5])
+                            if 47500 <= qbSalary + rbSalary1 + rbSalary2 + wrSalary1 + wrSalary2 + wrSalary3 + teSalary + flxSalary + dSalary > 50000:
                                 salaryRemovalCounter += 1
                                 continue
-                            if random.random() < .00001: #1/100
-                                entry = str(qbIndex) + "-" + str(rbIndex) + "-" + str(wrIndex) + "-" + str(
-                                    teIndex) + "-" + str(flxIndex) + "-" + str(dIndex)
-                                allLineupIntegers.append(entry)
+                            # if random.random() < .00001: #1/100
+                            entry = str(qbIndex) + "-" + str(rbIndex) + "-" + str(wrIndex) + "-" + str(
+                                teIndex) + "-" + str(flxIndex) + "-" + str(dIndex)
+                            allLineupIntegers.append(entry)
 
 
 
@@ -196,7 +193,7 @@ def parseIntegerOutputCombosToLineups(combinationsArrContainer):
 def getPlayersByPosition(contestDataArr, positionName:str):
     filteredPlayerArray = []
     for player in contestDataArr:
-        playerPosition = player[2]
+        playerPosition = player[0]
         if playerPosition == positionName:
             filteredPlayerArray.append(player)
         elif positionName == "FLX" and playerPosition in ["RB", "WR", "TE"]:
@@ -247,7 +244,7 @@ def calculateTotalNumberOfCombinations(contestDataArray):
     WRArr = getPlayersByPosition(contestDataArray, "WR")
     TEArr = getPlayersByPosition(contestDataArray, "TE")
     FLXArr = getPlayersByPosition(contestDataArray, "FLX")
-    DArr = getPlayersByPosition(contestDataArray, "D")
+    DArr = getPlayersByPosition(contestDataArray, "DST")
 
     qbCombos = calculateNumberOfCombinations(len(QBArr), 1)
     rbCombos = calculateNumberOfCombinations(len(RBArr), 2)
@@ -255,6 +252,7 @@ def calculateTotalNumberOfCombinations(contestDataArray):
     teCombos = calculateNumberOfCombinations(len(TEArr), 1)
     flxCombos = calculateNumberOfCombinations(len(FLXArr), 1)
     dCombos = calculateNumberOfCombinations(len(DArr), 1)
+
 
     numberOfCombinations = qbCombos * rbCombos * wrCombos * teCombos * flxCombos * dCombos
     return numberOfCombinations
@@ -272,7 +270,7 @@ def filterUnwantedPlayers(contestDataArray, namesByPositionArray=None):
     filteredContestDataArray = []
     names = []
     for player in contestDataArray:
-        playerFullName = player[3]
+        playerFullName = player[2].strip()
         if playerFullName in allWantedNamesArray:
             names.append(playerFullName)
             filteredContestDataArray.append(player)
@@ -283,7 +281,7 @@ def filterUnwantedPlayers(contestDataArray, namesByPositionArray=None):
         def determineUnfoundPlayers():
             # ensure all wanted players were added
             for filteredPlayer in filteredContestDataArray:
-                playerName = filteredPlayer[3]
+                playerName = filteredPlayer[2]
                 found = False
                 for playerNameWanted in allWantedNamesArray:
                     if playerNameWanted == playerName:
@@ -295,3 +293,4 @@ def filterUnwantedPlayers(contestDataArray, namesByPositionArray=None):
     return filteredContestDataArray
 
 
+main()
