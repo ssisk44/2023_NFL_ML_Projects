@@ -15,3 +15,13 @@ def dateStringToYearDayMonth(dateString: str):
 
     return dateYear, dateMonth, dateDay
 
+def calculateSeasonYearFromDate(date: str):
+    year = int(date[:4])
+    month = int(date[5:7])
+
+    # games before May are all considered in the previous season year
+    if month <= 4:
+        year -= 1
+
+    return year
+

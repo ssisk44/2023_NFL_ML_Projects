@@ -1,40 +1,40 @@
-Venue ID,Venue Name,Venue City, Venue State, Venue Country
-66,Heinz Field,Pittsburgh, PA,USA
-51,AT&T Stadium,Arlington, TX,USA
-47,Bank of America Stadium,Charlotte, NC,USA
-142,Mercedes-Benz Superdome,New Orleans, LA,USA
-140,StubHub Center,Carson, CA,USA
-52,Sports Authority Field at Mile High,Denver, CO,USA
-144,Estadio Azteca,Mexico City,,Mexico
-73,FedEx Field,Landover, MD,USA
-50,FirstEnergy Stadium,Cleveland, OH,USA
-53,Ford Field,Detroit, MI,USA
-58,Arrowhead Stadium,Kansas City, MO,USA
-61,Gillette Stadium,Foxborough, MA,USA
-59,Hard Rock Stadium,Miami Gardens, FL,USA
-46,New Era Field,Orchard Park, NY,USA
-54,Lambeau Field,Green Bay, WI,USA
-68,Levi's Stadium,Santa Clara, CA,USA
-65,Lincoln Financial Field,Philadelphia, PA,USA
-74,Los Angeles Memorial Coliseum,Los Angeles, CA,USA
-56,Lucas Oil Stadium,Indianapolis, IN,USA
-69,CenturyLink Field,Seattle, WA,USA
-45,M&T Bank Stadium,Baltimore, MD,USA
-62,Mercedes-Benz Stadium,Atlanta, GA,USA
-63,MetLife Stadium,East Rutherford, NJ,USA
-72,Nissan Stadium,Nashville, TN,USA
-55,NRG Stadium,Houston, TX,USA
-64,Oakland-Alameda County Coliseum,Oakland, CA,USA
-49,Paul Brown Stadium,Cincinnati, OH,USA
-71,Raymond James Stadium,Tampa, FL,USA
-48,Soldier Field,Chicago, IL,USA
-43,University of Phoenix Stadium,Glendale, AZ,USA
-57,EverBank Field,Jacksonville, FL,USA
-104,Twickenham Stadium,Twickenham,,England
-141,US Bank Stadium,Minneapolis, MN,USA
-143,Wembley Stadium,London,,England
-161,Allegiant Stadium,Paradise, NV,USA
-162,SoFi Stadium,Inglewood, CA,USA
-196,Tottenham Hotspur Stadium,Tottenham, London,UK
-1000,Allianz Arena,Munich,,Germany
-1273,Deutsche Bank Park,Frankfurt,,Germany
+Venue ID,Venue Name,Venue City,Venue State,Venue Country,Latitude,Longitude,Azimuth Angle,Field Type,Stadium Type
+66,Heinz Field,Pittsburgh,PA,USA,-80.015833,40.446667,333.9,Natural,Outdoor
+51,AT&T Stadium,Arlington,TX,USA,-97.092778,32.747778,68,Artificial,Retractable
+47,Bank of America Stadium,Charlotte,NC,USA,-80.852778,35.225833,322.4,Artificial,Outdoor
+142,Mercedes-Benz Superdome,New Orleans,LA,USA,-90.811111,29.950833,30,Artificial,Indoor
+140,StubHub Center,Carson,CA,USA,,Natural,Open
+52,Sports Authority Field at Mile High,Denver,CO,USA,,Natural,Open
+144,Estadio Azteca,Mexico City,,Mexico,,Natural,Open
+73,FedEx Field,Landover,MD,USA,,Natural,Open
+50,FirstEnergy Stadium,Cleveland,OH,USA,,Natural,Open
+53,Ford Field,Detroit,MI,USA,42.3400N,83.0456W,Artifical,Dome
+58,Arrowhead Stadium,Kansas City,MO,USA,,Natural,Open
+61,Gillette Stadium,Foxborough,MA,USA,,Articial,Open
+59,Hard Rock Stadium,Miami Gardens,FL,USA,,Natural,Open
+46,New Era Field,Orchard Park,NY,USA,42.764153,-78.752060,Artificial,Open,,,,
+54,Lambeau Field,Green Bay,WI,USA,,Hybrid,Open
+68,Levi's Stadium,Santa Clara,CA,USA,,Natural,Open
+65,Lincoln Financial Field,Philadelphia,PA,USA,,Hybrid,Open
+74,Los Angeles Memorial Coliseum,Los Angeles,CA,USA,,,,
+56,Lucas Oil Stadium,Indianapolis,IN,USA,,,,
+69,CenturyLink Field,Seattle,WA,USA,,,,
+45,M&T Bank Stadium,Baltimore,MD,USA,,,,
+62,Mercedes-Benz Stadium,Atlanta,GA,USA,,,,
+63,MetLife Stadium,East Rutherford,NJ,USA,,,,
+72,Nissan Stadium,Nashville,TN,USA,,,,
+55,NRG Stadium,Houston,TX,USA,,,,
+64,Oakland-Alameda County Coliseum,Oakland,CA,USA,,,,
+49,Paul Brown Stadium,Cincinnati,OH,USA,,,,
+71,Raymond James Stadium,Tampa,FL,USA,,,,
+48,Soldier Field,Chicago,IL,USA,,,,
+43,University of Phoenix Stadium,Glendale,AZ,USA,,,,
+57,EverBank Field,Jacksonville,FL,USA,,,,
+104,Twickenham Stadium,Twickenham,,England,,,,
+141,US Bank Stadium,Minneapolis,MN,USA,,,,
+143,Wembley Stadium,London,,England,,,,
+161,Allegiant Stadium,Paradise,NV,USA,,,,
+162,SoFi Stadium,Inglewood,CA,USA,,,,
+196,Tottenham Hotspur Stadium,Tottenham,London,UK,,,,
+1000,Allianz Arena,Munich,,Germany,,,,
+1273,Deutsche Bank Park,Frankfurt,,Germany,,,,
