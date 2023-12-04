@@ -1,40 +1,40 @@
-Venue ID,Venue Name,Venue City,Venue State,Venue Country,Latitude,Longitude,Azimuth Angle,Field Type,Stadium Type
-66,Heinz Field,Pittsburgh,PA,USA,-80.015833,40.446667,333.9,Natural,Outdoor
-51,AT&T Stadium,Arlington,TX,USA,-97.092778,32.747778,68,Artificial,Retractable
-47,Bank of America Stadium,Charlotte,NC,USA,-80.852778,35.225833,322.4,Artificial,Outdoor
-142,Mercedes-Benz Superdome,New Orleans,LA,USA,-90.811111,29.950833,30,Artificial,Indoor
-140,StubHub Center,Carson,CA,USA,,Natural,Open
-52,Sports Authority Field at Mile High,Denver,CO,USA,,Natural,Open
-144,Estadio Azteca,Mexico City,,Mexico,,Natural,Open
-73,FedEx Field,Landover,MD,USA,,Natural,Open
-50,FirstEnergy Stadium,Cleveland,OH,USA,,Natural,Open
-53,Ford Field,Detroit,MI,USA,42.3400N,83.0456W,Artifical,Dome
-58,Arrowhead Stadium,Kansas City,MO,USA,,Natural,Open
-61,Gillette Stadium,Foxborough,MA,USA,,Articial,Open
-59,Hard Rock Stadium,Miami Gardens,FL,USA,,Natural,Open
-46,New Era Field,Orchard Park,NY,USA,42.764153,-78.752060,Artificial,Open,,,,
-54,Lambeau Field,Green Bay,WI,USA,,Hybrid,Open
-68,Levi's Stadium,Santa Clara,CA,USA,,Natural,Open
-65,Lincoln Financial Field,Philadelphia,PA,USA,,Hybrid,Open
-74,Los Angeles Memorial Coliseum,Los Angeles,CA,USA,,,,
-56,Lucas Oil Stadium,Indianapolis,IN,USA,,,,
-69,CenturyLink Field,Seattle,WA,USA,,,,
-45,M&T Bank Stadium,Baltimore,MD,USA,,,,
-62,Mercedes-Benz Stadium,Atlanta,GA,USA,,,,
-63,MetLife Stadium,East Rutherford,NJ,USA,,,,
-72,Nissan Stadium,Nashville,TN,USA,,,,
-55,NRG Stadium,Houston,TX,USA,,,,
-64,Oakland-Alameda County Coliseum,Oakland,CA,USA,,,,
-49,Paul Brown Stadium,Cincinnati,OH,USA,,,,
-71,Raymond James Stadium,Tampa,FL,USA,,,,
-48,Soldier Field,Chicago,IL,USA,,,,
-43,University of Phoenix Stadium,Glendale,AZ,USA,,,,
-57,EverBank Field,Jacksonville,FL,USA,,,,
-104,Twickenham Stadium,Twickenham,,England,,,,
-141,US Bank Stadium,Minneapolis,MN,USA,,,,
-143,Wembley Stadium,London,,England,,,,
-161,Allegiant Stadium,Paradise,NV,USA,,,,
-162,SoFi Stadium,Inglewood,CA,USA,,,,
-196,Tottenham Hotspur Stadium,Tottenham,London,UK,,,,
-1000,Allianz Arena,Munich,,Germany,,,,
-1273,Deutsche Bank Park,Frankfurt,,Germany,,,,
+Venue ID,Venue Name,Venue City,Venue State,Venue Country,Latitude,Longitude,Azimuth Angle,Elevation,Field Type,Stadium Type
+66,Heinz Field,Pittsburgh,PA,USA,-80.015833,40.446667,333.9,725,Grass,Outdoor
+51,AT&T Stadium,Arlington,TX,USA,-97.092778,32.747778,68,568,Artificial,Retractable
+47,Bank of America Stadium,Charlotte,NC,USA,-80.852778,35.225833,322.4,725,Artificial,Outdoor
+142,Mercedes-Benz Superdome,New Orleans,LA,USA,-90.811111,29.950833,30,3,Artificial,Indoor
+140,StubHub Center,Carson,CA,USA,-118.261,33.864,0,45,Grass,Outdoor
+52,Sports Authority Field at Mile High,Denver,CO,USA,-105.0216667,39.74611111,0,5280,Grass,Outdoor
+144,Estadio Azteca,Mexico City,,Mexico,-99.150442,19.302911,5.9,7200,Grass,Outdoor
+73,FedEx Field,Landover,MD,USA,-76.864444,38.907778,295,190,Grass,Outdoor
+50,FirstEnergy Stadium,Cleveland,OH,USA,-81.699444,41.506111,56.1,581,Grass,Outdoor
+53,Ford Field,Detroit,MI,USA,-83.045556,42.34,63.7,Artifical,45,Indoor
+58,Arrowhead Stadium,Kansas City,MO,USA,-94.483889,39.048889,316.3,889,Grass,Outdoor
+61,Gillette Stadium,Foxborough,MA,USA,-71.264,42.091,343,256,Articial,Outdoor
+59,Hard Rock Stadium,Miami Gardens,FL,USA,-80.238889,25.958056,10,16,Grass,Outdoor
+46,New Era Field,Orchard Park,NY,USA,42.764153,-78.752060,302.1,866,Artificial,Outdoor
+54,Lambeau Field,Green Bay,WI,USA,-88.062222,44.501389,0,640,Hybrid,Outdoor
+68,Levi's Stadium,Santa Clara,CA,USA,-121.97,37.403,330,16,Grass,Outdoor
+65,Lincoln Financial Field,Philadelphia,PA,USA,-75.1675,39.900833,40,10,Hybrid,Outdoor
+74,Los Angeles Memorial Coliseum,Los Angeles,CA,USA,-118.287778,34.014167,43,141,Grass,Outdoor
+56,Lucas Oil Stadium,Indianapolis,IN,USA,-86.162806,39.760056,26.6,709,Artificial,Retractable
+69,CenturyLink Field,Seattle,WA,USA,-122.3316,47.5952,0,16,Artifical,Outdoor
+45,M&T Bank Stadium,Baltimore,MD,USA,-76.622778,39.278056,289.5,10,Artificial,Outdoor
+62,Mercedes-Benz Stadium,Atlanta,GA,USA,-84.4,33.755556,70.9,1007,Artificial,Retractable
+63,MetLife Stadium,East Rutherford,NJ,USA,-74.074361,40.813528,345.5,7,Artificial,Outdoor
+72,Nissan Stadium,Nashville,TN,USA,-86.771389,36.166389,334.6,397,Artificial,Outdoor
+55,NRG Stadium,Houston,TX,USA,-95.410833,29.684722,358.2,49,Artificial,Retractable
+64,Oakland-Alameda County Coliseum,Oakland,CA,USA,-122.200556,37.751667,324.7,13,Grass,Outdoor
+49,Paul Brown Stadium,Cincinnati,OH,USA,-84.516,39.095,320.6,497,Artificial,Outdoor
+71,Raymond James Stadium,Tampa,FL,USA,-82.503333,27.975833,0,52,Grass,Outdoor
+48,Soldier Field,Chicago,IL,USA,-87.6167,41.8623,353.9,584,Grass,Outdoor
+43,University of Phoenix Stadium,Glendale,AZ,USA,-112.263,33.528,330,1070,Grass,Retractable
+57,EverBank Field,Jacksonville,FL,USA,-81.6375,30.323889,16.7,16,Grass,Outdoor
+104,Twickenham Stadium,Twickenham,,England,-0.341667,51.456111,324.8,33,Artificial,Outdoor
+141,US Bank Stadium,Minneapolis,MN,USA,-93.258056,44.973889,309.9,849,Artificial,Outdoor
+143,Wembley Stadium,London,,England,-0.279722,51.555833,90,148,Artificial,Outdoor
+161,Allegiant Stadium,Paradise,NV,USA,-115.183722,36.09075,0,2190,Grass,Indoor
+162,SoFi Stadium,Inglewood,CA,USA,-118.3392,33.95345,338.2,125,Artificial,Outdoor
+196,Tottenham Hotspur Stadium,Tottenham,London,UK,-0.066389,51.604444,0,43,Artificial,Outdoor
+1000,Allianz Arena,Munich,,Germany,48.218967,11.623746,0,1617,Hybrid,Outdoor
+1273,Deutsche Bank Park,Frankfurt,,Germany,50.110924,8.682127,0,-7,Hybrid,Outdoor
