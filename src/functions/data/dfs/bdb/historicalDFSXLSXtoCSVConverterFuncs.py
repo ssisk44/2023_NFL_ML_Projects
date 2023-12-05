@@ -8,13 +8,13 @@ def convertHistoricalDFSXLSXToCSV():
     dotenv.load_dotenv()
     absProjectPath = os.getenv("ABS_PROJECT_PATH")
     targetDirectory = "data/dfs/historicalDFSPlayerResults/"
-    currentSeasonYear = os.getenv('CURRENT_SEASON_YEAR')
-    fullTargetDirPath = absProjectPath + targetDirectory
+    currentSeasonYear = int(os.getenv('CURRENT_SEASON_YEAR'))
+    fullTargetDirPath = absProjectPath + targetDirectory + "xlsx/"
     for filename in os.listdir(fullTargetDirPath):
         filepath = fullTargetDirPath + filename
         if os.path.isfile(filepath):
-            fileYear = filename[4:8]
+            fileYear = int(filename[4:8])
             if currentSeasonYear == fileYear:
                 # logging.info("Converted Historical BigDataBall NFL DFS Data for Current Season from XLSX TO CSV... MANUAL EDITING REQUIRED)
                 df = pd.read_excel(filepath, index_col=False)
-                df.to_csv(fullTargetDirPath + '/csv/' + currentSeasonYear + '.csv', index=False)
+                df.to_csv(absProjectPath + targetDirectory + '/csv/' + str(currentSeasonYear) + '.csv', index=False)

@@ -62,3 +62,61 @@ def getPlayerRecordsForGameID(year:int, week:int, gameID:int):
     filteredDF = df.loc[df['#Position'].isin(['QB', 'RB', 'WR', 'TE'])]
     df = filteredDF.loc[(filteredDF['#Game ID'] == gameID)].reset_index()
     return df
+
+
+def getMSFPlayerDataByYearWeek(year:int, week:int):
+    absProjectPath = os.getenv("ABS_PROJECT_PATH")
+    targetDirectory = "data/msf/weekly_player_game_logs/"
+    filepath = absProjectPath + targetDirectory + str(year) + '/' + str(week) + '.csv'
+    df = pd.read_csv(filepath, index_col=False)
+    filteredDF = df.loc[df['#Position'].isin(['QB', 'RB', 'FB', 'WR', 'TE'])]
+    df = filteredDF.sort_values(by=['#FirstName']).reset_index()
+    return df
+
+def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerName, bdbHomeTeamName):
+    for i1, msfEntry in msfDF.iterrows():
+        msfHomeTeamName = msfEntry["#Home Team City"] + " " + msfEntry['#Home Team Name']
+        msfPlayerName = msfEntry['#FirstName'] + " " + msfEntry['#LastName']
+        ### NAME TRIMMING
+        # 1) make name all lowercase
+        msfPlayerName = msfPlayerName.lower()
+
+        # 2) remove special characters
+        msfPlayerName = msfPlayerName.replace(".", "")
+
+        # 3) remove post name identifiers without string matching real names
+        splitMSFPlayerName = msfPlayerName.split(" ")
+        if splitMSFPlayerName[-1] in ['jr', 'sr', "ii", "iii", "iv", "v"]:
+            msfPlayerName = ' '.join(splitMSFPlayerName[:-1])
+
+
+
+        ### FIRST CHECK: was their name corrected to match in future player data?
+        if msfPlayerName == bdbPlayerName and msfHomeTeamName == bdbHomeTeamName:
+            return msfEntry
+
+        # 4) manual bank of player names to ignore (LBs?)
+        ignoreNameArr = [
+            # 2017
+            'keith smith',
+            'brian hill',
+            'derek watt'
+        ]
+        if msfPlayerName in ignoreNameArr:
+            break
+
+        # 5) manual bank of same players with different names
+        alternateNamePlayerDict = { # msf filtered name to forced id spelling
+            'robbie anderson': "robby anderson",
+            'mitchell trubisky': 'mitch trubisky',
+            'benjamin watson': 'ben watson',
+            'danny vitale': 'dan vitale',
+        }
+        if msfPlayerName in alternateNamePlayerDict.keys():
+            msfPlayerName = alternateNamePlayerDict[msfPlayerName]
+
+        ### FINAL CHECK
+        if msfPlayerName == bdbPlayerName and msfHomeTeamName == bdbHomeTeamName:
+            return msfEntry
+    return None
+

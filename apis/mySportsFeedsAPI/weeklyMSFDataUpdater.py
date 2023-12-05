@@ -20,7 +20,7 @@ class weeklyMSFDataUpdater:
         ### players
         players_API_URL = self.apiObject.get_API_URL("players")
         api_response = self.apiObject.send_request(players_API_URL)
-        fullFilepath = str(self.absProjectPath) + "data/nfl/players.csv"
+        fullFilepath = str(self.absProjectPath) + "data/msf/players.csv"
         self.apiObject.parse_request_response(api_response, fullFilepath, "csv")
         self.cleanDataHeaders(fullFilepath)
 
@@ -28,7 +28,7 @@ class weeklyMSFDataUpdater:
         ### player injuries
         player_injuries_API_URL = self.apiObject.get_API_URL("player_injuries")
         api_response = self.apiObject.send_request(player_injuries_API_URL)
-        fullFilepath = str(self.absProjectPath) + "data/nfl/player_injuries.csv"
+        fullFilepath = str(self.absProjectPath) + "data/msf/player_injuries.csv"
         self.apiObject.parse_request_response(api_response, fullFilepath, "csv")
         self.cleanDataHeaders(fullFilepath)
 
@@ -36,7 +36,7 @@ class weeklyMSFDataUpdater:
         ### injury history
         injury_history_API_URL = self.apiObject.get_API_URL("injury_history")
         ih_api_response = self.apiObject.send_request(injury_history_API_URL)
-        fullFilepath = str(self.absProjectPath) + "data/nfl/injury_history.csv"
+        fullFilepath = str(self.absProjectPath) + "data/msf/injury_history.csv"
         self.apiObject.parse_request_response(ih_api_response, fullFilepath, "JSON")
         # is JSON... do not clean csv data headers
 
@@ -44,7 +44,7 @@ class weeklyMSFDataUpdater:
         ### seasonal_games
         seasonal_games_API_URL = self.apiObject.get_API_URL("seasonal_games", self.thisSeasonYear)
         api_response = self.apiObject.send_request(seasonal_games_API_URL)
-        fullFilepath = str(self.absProjectPath) + "data/nfl/seasonal_games_schedule/" + str(
+        fullFilepath = str(self.absProjectPath) + "data/msf/seasonal_games_schedule/" + str(
             self.thisSeasonYear) + ".csv"
         self.apiObject.parse_request_response(api_response, fullFilepath, "csv")
         self.cleanDataHeaders(fullFilepath)
@@ -53,7 +53,7 @@ class weeklyMSFDataUpdater:
         ### weekly_player_game_logs
         weekly_players_API_URL = self.apiObject.get_API_URL("weekly_player_game_logs", self.thisSeasonYear, week=self.lastSeasonWeekCompleted)
         api_response = self.apiObject.send_request(weekly_players_API_URL)
-        fullFilepath = str(self.absProjectPath) + "data/nfl/weekly_player_game_logs/" + str(
+        fullFilepath = str(self.absProjectPath) + "data/msf/weekly_player_game_logs/" + str(
             self.thisSeasonYear) + "/" + str(self.lastSeasonWeekCompleted) + ".csv"
         self.apiObject.parse_request_response(api_response, fullFilepath, "csv")
         time.sleep(3)
@@ -63,7 +63,7 @@ class weeklyMSFDataUpdater:
         ### weekly_team_game_logs
         weekly_teams_API_URL = self.apiObject.get_API_URL("weekly_team_game_logs", self.thisSeasonYear, week=self.lastSeasonWeekCompleted)
         api_response = self.apiObject.send_request(weekly_teams_API_URL)
-        fullFilepath = str(self.absProjectPath) + "data/nfl/weekly_team_game_logs/" + str(
+        fullFilepath = str(self.absProjectPath) + "data/msf/weekly_team_game_logs/" + str(
             self.thisSeasonYear) + "/" + str(self.lastSeasonWeekCompleted) + ".csv"
         self.apiObject.parse_request_response(api_response, fullFilepath, "csv")
         time.sleep(3)

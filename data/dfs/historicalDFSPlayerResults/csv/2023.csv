@@ -1,4 +1,3 @@
-Season,GameID,Date,Week,Game Time,PlayerID,Player Name,Player Team,Player Opponent Team,Venue Ownership,DK Position,FD Position,DK Salary,FD Salary,DK Points,FD Points
 NFL 2023 Regular Season,45176-DET@KAN,2023-09-07 00:00:00,1,8:20 PM,DET,Detroit Lions,Detroit Lions,Kansas City Chiefs,Road,DST,DST,2200,3000,9,9
 NFL 2023 Regular Season,45176-DET@KAN,2023-09-07 00:00:00,1,8:20 PM,jared-goff,Jared Goff,Detroit Lions,Kansas City Chiefs,Road,QB,QB,6000,7500,14.02,14.02
 NFL 2023 Regular Season,45176-DET@KAN,2023-09-07 00:00:00,1,8:20 PM,jahmyr-gibbs,Jahmyr Gibbs,Detroit Lions,Kansas City Chiefs,Road,RB,RB,6100,6000,8,7
@@ -4546,3 +4545,808 @@ NFL 2023 Regular Season,45250-PHI@KAN,2023-11-20 00:00:00,11,8:15 PM,rashee-rice
 NFL 2023 Regular Season,45250-PHI@KAN,2023-11-20 00:00:00,11,8:15 PM,kadarius-toney,Kadarius Toney,Kansas City Chiefs,Philadelphia Eagles,Home,WR,WR,3300,5300,4.6,3.6
 NFL 2023 Regular Season,45250-PHI@KAN,2023-11-20 00:00:00,11,8:15 PM,marquez-valdes-scantling,Marquez Valdes-Scantling,Kansas City Chiefs,Philadelphia Eagles,Home,WR,WR,3100,5200,0,0
 NFL 2023 Regular Season,45250-PHI@KAN,2023-11-20 00:00:00,11,8:15 PM,justin-watson,Justin Watson,Kansas City Chiefs,Philadelphia Eagles,Home,WR,WR,3000,5000,16.3,13.8
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,GB,Green Bay Packers,Green Bay Packers,Detroit Lions,Road,DST,DST,2800,3500,15,15
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,jordan-love,Jordan Love,Green Bay Packers,Detroit Lions,Road,QB,QB,5500,7200,26.62,26.62
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,a-j-dillon,AJ Dillon,Green Bay Packers,Detroit Lions,Road,RB,RB,5400,6600,11.1,9.6
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,tucker-kraft,Tucker Kraft,Green Bay Packers,Detroit Lions,Road,TE,TE,2500,4300,9.5,8.5
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,ben-sims,Ben Sims,Green Bay Packers,Detroit Lions,Road,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,romeo-doubs,Romeo Doubs,Green Bay Packers,Detroit Lions,Road,WR,WR,5000,6200,6.7,5.2
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,malik-heath,Malik Heath,Green Bay Packers,Detroit Lions,Road,WR,WR,3000,4300,8.6,6.6
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,bo-melton,Bo Melton,Green Bay Packers,Detroit Lions,Road,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,jayden-reed,Jayden Reed,Green Bay Packers,Detroit Lions,Road,WR,WR,4200,5900,15,13
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,samori-toure,Samori Toure,Green Bay Packers,Detroit Lions,Road,WR,WR,3000,4200,0,0
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,christian-watson,Christian Watson,Green Bay Packers,Detroit Lions,Road,WR,WR,4300,5600,20.4,17.9
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,patrick-taylor,Patrick Taylor,Green Bay Packers,Detroit Lions,Road,,RB,,4100,2.5,2
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,DET,Detroit Lions,Detroit Lions,Green Bay Packers,Home,DST,DST,3200,4000,0,0
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,jared-goff,Jared Goff,Detroit Lions,Green Bay Packers,Home,QB,QB,6300,7800,24.18,18.18
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,jahmyr-gibbs,Jahmyr Gibbs,Detroit Lions,Green Bay Packers,Home,RB,RB,6800,8200,11.3,9.3
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,david-montgomery,David Montgomery,Detroit Lions,Green Bay Packers,Home,RB,RB,6300,7800,15.1,15.1
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,craig-reynolds,Craig Reynolds,Detroit Lions,Green Bay Packers,Home,RB,RB,4000,4400,0,0
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,sam-laporta,Sam LaPorta,Detroit Lions,Green Bay Packers,Home,TE,TE,5200,6500,17.7,15.2
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,james-mitchell,James Mitchell,Detroit Lions,Green Bay Packers,Home,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,brock-wright,Brock Wright,Detroit Lions,Green Bay Packers,Home,TE,TE,2500,4400,1.9,1.4
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,donovan-peoples-jones,Donovan Peoples-Jones,Detroit Lions,Green Bay Packers,Home,WR,WR,3000,4300,0,0
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,kalif-raymond,Kalif Raymond,Detroit Lions,Green Bay Packers,Home,WR,WR,3000,4600,14.6,12.1
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,josh-reynolds,Josh Reynolds,Detroit Lions,Green Bay Packers,Home,WR,WR,3500,5500,9.5,8.5
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,amon-ra-st-brown,Amon-Ra St. Brown,Detroit Lions,Green Bay Packers,Home,WR,WR,8500,8500,18.5,14
+NFL 2023 Regular Season,45253-GNB@DET,2023-11-23 00:00:00,12,12:30 PM,jameson-williams,Jameson Williams,Detroit Lions,Green Bay Packers,Home,WR,WR,3400,5300,7.1,6.1
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,WAS,Washington Commanders,Washington Commanders,Dallas Cowboys,Road,DST,DST,2500,3000,-4,-4
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,sam-howell,Sam Howell,Washington Commanders,Dallas Cowboys,Road,QB,QB,6200,7300,21.3,18.3
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,antonio-gibson-2,Antonio Gibson,Washington Commanders,Dallas Cowboys,Road,RB,RB,4500,5400,6.7,5.2
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,brian-robinson,Brian Robinson,Washington Commanders,Dallas Cowboys,Road,RB,RB,5900,6700,8.4,7.4
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,chris-rodriguez-jr,Chris Rodriguez Jr.,Washington Commanders,Dallas Cowboys,Road,RB,RB,4600,4700,2.1,2.1
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,john-bates,John Bates,Washington Commanders,Dallas Cowboys,Road,TE,TE,2500,4500,0,0
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,logan-thomas,Logan Thomas,Washington Commanders,Dallas Cowboys,Road,TE,TE,3500,5200,3.5,2.5
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,cole-turner,Cole Turner,Washington Commanders,Dallas Cowboys,Road,TE,TE,2500,4100,3.9,3.4
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,dyami-brown,Dyami Brown,Washington Commanders,Dallas Cowboys,Road,WR,WR,3000,4700,0,0
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,jamison-crowder,Jamison Crowder,Washington Commanders,Dallas Cowboys,Road,WR,WR,3200,4600,0,0
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,jahan-dotson,Jahan Dotson,Washington Commanders,Dallas Cowboys,Road,WR,WR,4600,5700,10.2,7.7
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,terry-mclaurin,Terry McLaurin,Washington Commanders,Dallas Cowboys,Road,WR,WR,5400,6500,9,7
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,byron-pringle,Byron Pringle,Washington Commanders,Dallas Cowboys,Road,WR,WR,3000,4700,4.7,3.7
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,curtis-samuel,Curtis Samuel,Washington Commanders,Dallas Cowboys,Road,WR,WR,3600,5600,22,14.5
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,DAL,Dallas Cowboys,Dallas Cowboys,Washington Commanders,Home,DST,DST,3800,5000,16,16
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,dak-prescott,Dak Prescott,Dallas Cowboys,Washington Commanders,Home,QB,QB,6800,8500,35.24,32.24
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,rico-dowdle,Rico Dowdle,Dallas Cowboys,Washington Commanders,Home,RB,RB,4600,5100,9.6,9.1
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,hunter-luepke,Hunter Luepke,Dallas Cowboys,Washington Commanders,Home,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,tony-pollard,Tony Pollard,Dallas Cowboys,Washington Commanders,Home,RB,RB,6700,7200,22.3,19.3
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,jake-ferguson,Jake Ferguson,Dallas Cowboys,Washington Commanders,Home,TE,TE,3900,6100,4.5,4
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,sean-mckeon,Sean McKeon,Dallas Cowboys,Washington Commanders,Home,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,luke-schoonmaker,Luke Schoonmaker,Dallas Cowboys,Washington Commanders,Home,TE,TE,2600,4600,2.2,1.7
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,jalen-brooks,Jalen Brooks,Dallas Cowboys,Washington Commanders,Home,WR,WR,3000,4000,3.4,2.9
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,brandin-cooks,Brandin Cooks,Dallas Cowboys,Washington Commanders,Home,WR,WR,4500,5700,17.2,15.2
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,michael-gallup,Michael Gallup,Dallas Cowboys,Washington Commanders,Home,WR,WR,3700,5200,2.3,1.8
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,ceedee-lamb,CeeDee Lamb,Dallas Cowboys,Washington Commanders,Home,WR,WR,8700,9200,17.3,15.3
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,jalen-tolbert,Jalen Tolbert,Dallas Cowboys,Washington Commanders,Home,WR,WR,3100,4700,6.9,5.9
+NFL 2023 Regular Season,45253-WAS@DAL,2023-11-23 00:00:00,12,4:30 PM,kavontae-turpin,KaVontae Turpin,Dallas Cowboys,Washington Commanders,Home,WR,WR,3000,4500,10.4,9.9
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,SF,San Francisco 49ers,San Francisco 49ers,Seattle Seahawks,Road,DST,DST,3600,4500,17,17
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,brock-purdy,Brock Purdy,San Francisco 49ers,Seattle Seahawks,Road,QB,QB,6100,7700,11.46,11.46
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,kyle-juszczyk,Kyle Juszczyk,San Francisco 49ers,Seattle Seahawks,Road,RB,RB,4000,4200,0,0
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,jordan-mason,Jordan Mason,San Francisco 49ers,Seattle Seahawks,Road,RB,RB,4700,4300,0,0
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,christian-mccaffrey,Christian McCaffrey,San Francisco 49ers,Seattle Seahawks,Road,RB,RB,8700,9800,33.9,28.4
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,elijah-mitchell-2,Elijah Mitchell,San Francisco 49ers,Seattle Seahawks,Road,RB,RB,4200,4900,4.6,4.1
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,ross-dwelley,Ross Dwelley,San Francisco 49ers,Seattle Seahawks,Road,TE,TE,2500,4200,0,0
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,george-kittle,George Kittle,San Francisco 49ers,Seattle Seahawks,Road,TE,TE,6000,7200,4.9,3.4
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,charlie-woerner,Charlie Woerner,San Francisco 49ers,Seattle Seahawks,Road,TE,TE,2500,4100,1.9,1.4
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,brandon-aiyuk,Brandon Aiyuk,San Francisco 49ers,Seattle Seahawks,Road,WR,WR,7000,7800,13,12
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,ronnie-bell,Ronnie Bell,San Francisco 49ers,Seattle Seahawks,Road,WR,WR,3000,4500,0,0
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,jauan-jennings,Jauan Jennings,San Francisco 49ers,Seattle Seahawks,Road,WR,WR,3300,4800,1.7,1.2
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,ray-ray-mccloud,Ray-Ray McCloud,San Francisco 49ers,Seattle Seahawks,Road,WR,WR,3000,4400,3.3,2.8
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,deebo-samuel,Deebo Samuel,San Francisco 49ers,Seattle Seahawks,Road,WR,WR,5900,6700,22.4,18.9
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,SEA,Seattle Seahawks,Seattle Seahawks,San Francisco 49ers,Home,DST,DST,2600,3300,8,8
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,geno-smith,Geno Smith,Seattle Seahawks,San Francisco 49ers,Home,QB,QB,5600,6600,8.3,8.3
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,zach-charbonnet,Zach Charbonnet,Seattle Seahawks,San Francisco 49ers,Home,RB,RB,5300,5800,9.8,7.8
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,deejay-dallas,DeeJay Dallas,Seattle Seahawks,San Francisco 49ers,Home,RB,RB,4400,4800,1.5,0
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,kenny-mcintosh,Kenny McIntosh,Seattle Seahawks,San Francisco 49ers,Home,RB,RB,4000,4000,0,0
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,will-dissly,Will Dissly,Seattle Seahawks,San Francisco 49ers,Home,TE,TE,2500,4500,3.1,2.6
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,noah-fant-x4946,Noah Fant,Seattle Seahawks,San Francisco 49ers,Home,TE,TE,2700,4700,4.5,3.5
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,colby-parkinson,Colby Parkinson,Seattle Seahawks,San Francisco 49ers,Home,TE,TE,2500,4400,1.9,1.4
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,brady-russell,Brady Russell,Seattle Seahawks,San Francisco 49ers,Home,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,jake-bobo,Jake Bobo,Seattle Seahawks,San Francisco 49ers,Home,WR,WR,3000,4600,1.6,1.1
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,d-wayne-eskridge,D'Wayne Eskridge,Seattle Seahawks,San Francisco 49ers,Home,WR,WR,3000,4100,1,1
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,tyler-lockett,Tyler Lockett,Seattle Seahawks,San Francisco 49ers,Home,WR,WR,6000,6600,6,4.5
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,d-k-metcalf,DK Metcalf,Seattle Seahawks,San Francisco 49ers,Home,WR,WR,6500,7000,6.2,4.7
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,jaxon-smith-njigba,Jaxon Smith-Njigba,Seattle Seahawks,San Francisco 49ers,Home,WR,WR,4100,5400,6.1,5.1
+NFL 2023 Regular Season,45253-SFO@SEA,2023-11-23 00:00:00,12,8:20 PM,nick-lalonde-bellore,Nick Bellore,Seattle Seahawks,San Francisco 49ers,Home,,RB,,4100,0,0
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,MIA,Miami Dolphins,Miami Dolphins,New York Jets,Road,DST,DST,3700,4800,21,21
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,tua-tagovailoa,Tua Tagovailoa,Miami Dolphins,New York Jets,Road,QB,QB,7400,8000,10.82,9.82
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,mike-white,Mike White,Miami Dolphins,New York Jets,Road,QB,QB,4400,6100,-0.2,-0.2
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,alec-ingold-x8122,Alec Ingold,Miami Dolphins,New York Jets,Road,RB,RB,4000,4200,0,0
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,raheem-mostert,Raheem Mostert,Miami Dolphins,New York Jets,Road,RB,RB,6700,7500,21.4,21.4
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,jeff-wilson,Jeff Wilson,Miami Dolphins,New York Jets,Road,RB,RB,4300,5000,10.3,8.8
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,julian-hill,Julian Hill,Miami Dolphins,New York Jets,Road,TE,TE,2600,4200,0,0
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,tyler-kroft,Tyler Kroft,Miami Dolphins,New York Jets,Road,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,durham-smythe,Durham Smythe,Miami Dolphins,New York Jets,Road,TE,TE,2600,4700,2,1.5
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,braxton-berrios,Braxton Berrios,Miami Dolphins,New York Jets,Road,WR,WR,3000,4700,0,0
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,river-cracraft,River Cracraft,Miami Dolphins,New York Jets,Road,WR,WR,3000,4400,0,0
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,tyreek-hill,Tyreek Hill,Miami Dolphins,New York Jets,Road,WR,WR,8600,9700,28.4,20.9
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,jaylen-waddle,Jaylen Waddle,Miami Dolphins,New York Jets,Road,WR,WR,6700,7000,22.4,15.4
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,ced-wilson,Ced Wilson,Miami Dolphins,New York Jets,Road,WR,WR,3000,5100,0,0
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,darrynton-evans,Darrynton Evans,Miami Dolphins,New York Jets,Road,,RB,,4400,1.6,1.6
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,NYJ,New York Jets,New York Jets,Miami Dolphins,Home,DST,DST,2800,3700,14,14
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,tim-boyle,Tim Boyle,New York Jets,Miami Dolphins,Home,QB,QB,4500,6300,9.36,9.36
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,nick-bawden,Nick Bawden,New York Jets,Miami Dolphins,Home,RB,RB,4000,4100,1.6,1.1
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,dalvin-cook,Dalvin Cook,New York Jets,Miami Dolphins,Home,RB,RB,4000,4800,4.1,3.1
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,breece-hall,Breece Hall,New York Jets,Miami Dolphins,Home,RB,RB,6200,7100,11.9,8.4
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,tyler-conklin,Tyler Conklin,New York Jets,Miami Dolphins,Home,TE,TE,3000,4800,7.3,5.3
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,jeremy-ruckert,Jeremy Ruckert,New York Jets,Miami Dolphins,Home,TE,TE,2500,4300,3.8,2.8
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,c-j-uzomah,C.J. Uzomah,New York Jets,Miami Dolphins,Home,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,jason-brownlee,Jason Brownlee,New York Jets,Miami Dolphins,Home,WR,WR,3000,4200,4,3
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,irvin-charles,Irvin Charles,New York Jets,Miami Dolphins,Home,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,randall-cobb,Randall Cobb,New York Jets,Miami Dolphins,Home,WR,WR,3200,4800,0,0
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,xavier-gipson,Xavier Gipson,New York Jets,Miami Dolphins,Home,WR,WR,3000,4900,3.5,2.5
+NFL 2023 Regular Season,45254-MIA@NYJ,2023-11-24 00:00:00,12,3:00 PM,garrett-wilson,Garrett Wilson,New York Jets,Miami Dolphins,Home,WR,WR,5500,6700,17.4,13.9
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,NO,New Orleans Saints,New Orleans Saints,Atlanta Falcons,Road,DST,DST,3600,4200,5,5
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,derek-carr,Derek Carr,New Orleans Saints,Atlanta Falcons,Road,QB,QB,5800,6800,14.86,11.86
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,alvin-kamara,Alvin Kamara,New Orleans Saints,Atlanta Falcons,Road,RB,RB,8400,8700,15.9,13.9
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,adam-prentice,Adam Prentice,New Orleans Saints,Atlanta Falcons,Road,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,jamaal-williams,Jamaal Williams,New Orleans Saints,Atlanta Falcons,Road,RB,RB,4200,5000,3,2
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,taysom-hill,Taysom Hill,New Orleans Saints,Atlanta Falcons,Road,TE,TE,5000,6500,9.1,7.1
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,juwan-johnson,Juwan Johnson,New Orleans Saints,Atlanta Falcons,Road,TE,TE,3000,4700,8.5,6.5
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,foster-moreau,Foster Moreau,New Orleans Saints,Atlanta Falcons,Road,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,lynn-bowden,Lynn Bowden,New Orleans Saints,Atlanta Falcons,Road,WR,WR,3000,4200,4,4
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,keith-kirkwood,Keith Kirkwood,New Orleans Saints,Atlanta Falcons,Road,WR,WR,3000,4100,4,3
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,chris-olave,Chris Olave,New Orleans Saints,Atlanta Falcons,Road,WR,WR,6600,7300,21.4,14.9
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,a-t-perry,A.T. Perry,New Orleans Saints,Atlanta Falcons,Road,WR,WR,3200,4700,1.7,1.2
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,rashid-shaheed,Rashid Shaheed,New Orleans Saints,Atlanta Falcons,Road,WR,WR,4300,5800,2.9,1.9
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,ATL,Atlanta Falcons,Atlanta Falcons,New Orleans Saints,Home,DST,DST,2900,3800,12,12
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,desmond-ridder,Desmond Ridder,Atlanta Falcons,New Orleans Saints,Home,QB,QB,4800,6600,11.72,11.72
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,tyler-allgeier,Tyler Allgeier,Atlanta Falcons,New Orleans Saints,Home,RB,RB,4600,5600,6.4,6.4
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,cordarrelle-patterson,Cordarrelle Patterson,Atlanta Falcons,New Orleans Saints,Home,RB,RB,4200,4700,4.3,4.3
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,bijan-robinson,Bijan Robinson,Atlanta Falcons,New Orleans Saints,Home,RB,RB,6500,7400,27.3,25.8
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,keith-smith,Keith Smith,Atlanta Falcons,New Orleans Saints,Home,RB,RB,4000,4200,1.6,1.1
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,kyle-pitts,Kyle Pitts,Atlanta Falcons,New Orleans Saints,Home,TE,TE,4000,5300,4.2,3.2
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,mycole-pruitt,MyCole Pruitt,Atlanta Falcons,New Orleans Saints,Home,TE,TE,2500,4300,0,0
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,jonnu-smith,Jonnu Smith,Atlanta Falcons,New Orleans Saints,Home,TE,TE,3400,5100,0,0
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,khadarel-hodge,KhaDarel Hodge,Atlanta Falcons,New Orleans Saints,Home,WR,WR,3200,5100,0,0
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,van-jefferson,Van Jefferson,Atlanta Falcons,New Orleans Saints,Home,WR,WR,3100,5000,2.3,1.8
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,drake-london,Drake London,Atlanta Falcons,New Orleans Saints,Home,WR,WR,5000,6200,14.1,11.6
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,scott-miller,Scott Miller,Atlanta Falcons,New Orleans Saints,Home,WR,WR,3100,4900,1.4,0.9
+NFL 2023 Regular Season,45256-NOR@ATL,2023-11-26 00:00:00,12,1:00 PM,parker-hesse,Parker Hesse,Atlanta Falcons,New Orleans Saints,Home,,TE,,4100,0,0
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,CAR,Carolina Panthers,Carolina Panthers,Tennessee Titans,Road,DST,DST,3100,3700,2,2
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,bryce-young,Bryce Young,Carolina Panthers,Tennessee Titans,Road,QB,QB,4900,6600,9.06,8.06
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,chuba-hubbard,Chuba Hubbard,Carolina Panthers,Tennessee Titans,Road,RB,RB,4800,6100,20.2,17.7
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,miles-sanders,Miles Sanders,Carolina Panthers,Tennessee Titans,Road,RB,RB,4400,5600,2.8,2.8
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,stephen-sullivan,Stephen Sullivan,Carolina Panthers,Tennessee Titans,Road,TE,TE,2500,4400,2.3,1.8
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,ian-thomas,Ian Thomas,Carolina Panthers,Tennessee Titans,Road,TE,TE,2500,4100,1.9,1.4
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,tommy-tremble,Tommy Tremble,Carolina Panthers,Tennessee Titans,Road,TE,TE,2600,4800,1.7,1.2
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,d-j-chark,DJ Chark,Carolina Panthers,Tennessee Titans,Road,WR,WR,3200,5300,6.4,4.9
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,jonathan-mingo,Jonathan Mingo,Carolina Panthers,Tennessee Titans,Road,WR,WR,3300,5100,10,8
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,laviska-shenault-jr,Laviska Shenault Jr.,Carolina Panthers,Tennessee Titans,Road,WR,WR,3000,4500,1.8,1.3
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,ihmir-smith-marsette,Ihmir Smith-Marsette,Carolina Panthers,Tennessee Titans,Road,WR,WR,3000,4000,2.4,1.9
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,adam-thielen,Adam Thielen,Carolina Panthers,Tennessee Titans,Road,WR,WR,7300,7500,1.2,0.7
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,TEN,Tennessee Titans,Tennessee Titans,Carolina Panthers,Home,DST,DST,3400,4300,10,10
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,will-levis,Will Levis,Tennessee Titans,Carolina Panthers,Home,QB,QB,5300,6700,7.1,7.1
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,derrick-henry,Derrick Henry,Tennessee Titans,Carolina Panthers,Home,RB,RB,6400,7800,20.6,20.1
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,tyjae-spears,Tyjae Spears,Tennessee Titans,Carolina Panthers,Home,RB,RB,4400,5100,1.7,1.2
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,chigoziem-okonkwo,Chigoziem Okonkwo,Tennessee Titans,Carolina Panthers,Home,TE,TE,3100,4800,8.5,6.5
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,kevin-rader,Kevin Rader,Tennessee Titans,Carolina Panthers,Home,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,trevon-wesco,Trevon Wesco,Tennessee Titans,Carolina Panthers,Home,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,josh-whyle,Josh Whyle,Tennessee Titans,Carolina Panthers,Home,TE,TE,2500,4400,2.1,1.6
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,colton-dowell,Colton Dowell,Tennessee Titans,Carolina Panthers,Home,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,deandre-hopkins,DeAndre Hopkins,Tennessee Titans,Carolina Panthers,Home,WR,WR,6100,7200,7.9,6.4
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,chris-moore,Chris Moore,Tennessee Titans,Carolina Panthers,Home,WR,WR,3100,5100,7.2,5.7
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,kyle-philips,Kyle Philips,Tennessee Titans,Carolina Panthers,Home,WR,WR,3000,4900,0.7,0.2
+NFL 2023 Regular Season,45256-CAR@TEN,2023-11-26 00:00:00,12,1:00 PM,nick-westbrook-ikhine,Nick Westbrook-Ikhine,Tennessee Titans,Carolina Panthers,Home,WR,WR,3000,5300,8.1,6.1
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,PIT,Pittsburgh Steelers,Pittsburgh Steelers,Cincinnati Bengals,Road,DST,DST,3700,4700,10,10
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,kenny-pickett,Kenny Pickett,Pittsburgh Steelers,Cincinnati Bengals,Road,QB,QB,4800,6500,11.62,11.62
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,najee-harris-x2665,Najee Harris,Pittsburgh Steelers,Cincinnati Bengals,Road,RB,RB,4900,6700,15.9,15.9
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,godwin-igwebuike,Godwin Igwebuike,Pittsburgh Steelers,Cincinnati Bengals,Road,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,jaylen-warren,Jaylen Warren,Pittsburgh Steelers,Cincinnati Bengals,Road,RB,RB,5400,6900,8.2,5.7
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,pat-freiermuth,Pat Freiermuth,Pittsburgh Steelers,Cincinnati Bengals,Road,TE,TE,2900,4900,24,16.5
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,connor-heyward,Connor Heyward,Pittsburgh Steelers,Cincinnati Bengals,Road,TE,TE,2500,4300,3.1,2.1
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,darnell-washington,Darnell Washington,Pittsburgh Steelers,Cincinnati Bengals,Road,TE,TE,2500,4200,2,1.5
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,rodney-williams-2,Rod Williams,Pittsburgh Steelers,Cincinnati Bengals,Road,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,calvin-austin-iii,Calvin Austin III,Pittsburgh Steelers,Cincinnati Bengals,Road,WR,WR,3000,4500,1.5,1
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,miles-boykin,Miles Boykin,Pittsburgh Steelers,Cincinnati Bengals,Road,WR,WR,3000,4200,0,0
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,diontae-johnson,Diontae Johnson,Pittsburgh Steelers,Cincinnati Bengals,Road,WR,WR,4900,6400,9,7
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,george-pickens,George Pickens,Pittsburgh Steelers,Cincinnati Bengals,Road,WR,WR,4700,6500,8.8,7.3
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,allen-robinson,Allen Robinson,Pittsburgh Steelers,Cincinnati Bengals,Road,WR,WR,3000,4900,2.1,1.6
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,CIN,Cincinnati Bengals,Cincinnati Bengals,Pittsburgh Steelers,Home,DST,DST,3300,4000,5,5
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,jake-browning,Jake Browning,Cincinnati Bengals,Pittsburgh Steelers,Home,QB,QB,5200,6600,12.98,12.98
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,chase-brown,Chase Brown,Cincinnati Bengals,Pittsburgh Steelers,Home,RB,RB,4000,4200,0,0
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,joe-mixon,Joe Mixon,Cincinnati Bengals,Pittsburgh Steelers,Home,RB,RB,6300,7600,8,7
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,trayveon-williams,Trayveon Williams,Cincinnati Bengals,Pittsburgh Steelers,Home,RB,RB,4400,4500,0,0
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,tanner-hudson,Tanner Hudson,Cincinnati Bengals,Pittsburgh Steelers,Home,TE,TE,2700,4800,5.8,3.8
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,drew-sample,Drew Sample,Cincinnati Bengals,Pittsburgh Steelers,Home,TE,TE,2500,4500,8.1,7.6
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,irv-smith,Irv Smith,Cincinnati Bengals,Pittsburgh Steelers,Home,TE,TE,2600,4400,2.8,1.8
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,mitchell-wilcox,Mitchell Wilcox,Cincinnati Bengals,Pittsburgh Steelers,Home,TE,TE,2500,4100,1.1,0.6
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,tyler-boyd,Tyler Boyd,Cincinnati Bengals,Pittsburgh Steelers,Home,WR,WR,4600,5600,5.3,3.8
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,ja-marr-chase,Ja'Marr Chase,Cincinnati Bengals,Pittsburgh Steelers,Home,WR,WR,8300,8100,12.1,10.1
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,andrei-iosivas,Andrei Iosivas,Cincinnati Bengals,Pittsburgh Steelers,Home,WR,WR,3000,4600,2.6,2.1
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,trenton-irwin,Trenton Irwin,Cincinnati Bengals,Pittsburgh Steelers,Home,WR,WR,3200,5100,3.5,3
+NFL 2023 Regular Season,45256-PIT@CIN,2023-11-26 00:00:00,12,1:00 PM,charlie-jones-3,Charlie Jones,Cincinnati Bengals,Pittsburgh Steelers,Home,WR,WR,3000,4300,0,0
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,TB,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Indianapolis Colts,Road,DST,DST,3300,3800,4,4
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,baker-mayfield,Baker Mayfield,Tampa Bay Buccaneers,Indianapolis Colts,Road,QB,QB,5500,6800,15.36,14.36
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,kyle-trask,Kyle Trask,Tampa Bay Buccaneers,Indianapolis Colts,Road,QB,QB,4600,6100,0,0
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,chase-edmonds,Chase Edmonds,Tampa Bay Buccaneers,Indianapolis Colts,Road,RB,RB,4300,4800,1.1,1.1
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,sean-tucker,Sean Tucker,Tampa Bay Buccaneers,Indianapolis Colts,Road,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,rachaad-white,Rachaad White,Tampa Bay Buccaneers,Indianapolis Colts,Road,RB,RB,6100,7000,16,12
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,payne-durham,Payne Durham,Tampa Bay Buccaneers,Indianapolis Colts,Road,TE,TE,2500,4400,2.2,1.7
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,ko-kieft,Ko Kieft,Tampa Bay Buccaneers,Indianapolis Colts,Road,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,cade-otton,Cade Otton,Tampa Bay Buccaneers,Indianapolis Colts,Road,TE,TE,3200,5000,8.5,6.5
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,mike-evans,Mike Evans,Tampa Bay Buccaneers,Indianapolis Colts,Road,WR,WR,7400,8000,25,22
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,chris-godwin,Chris Godwin,Tampa Bay Buccaneers,Indianapolis Colts,Road,WR,WR,6300,6400,7.5,6
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,david-moore,David Moore,Tampa Bay Buccaneers,Indianapolis Colts,Road,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,trey-palmer,Trey Palmer,Tampa Bay Buccaneers,Indianapolis Colts,Road,WR,WR,3100,5100,5.7,3.7
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,deven-thompkins,Deven Thompkins,Tampa Bay Buccaneers,Indianapolis Colts,Road,WR,WR,3000,4500,0,0
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,IND,Indianapolis Colts,Indianapolis Colts,Tampa Bay Buccaneers,Home,DST,DST,3400,4400,11,11
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,gardner-minshew,Gardner Minshew,Indianapolis Colts,Tampa Bay Buccaneers,Home,QB,QB,5100,6700,15.64,15.64
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,zack-moss,Zack Moss,Indianapolis Colts,Tampa Bay Buccaneers,Home,RB,RB,4700,5700,9,8
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,trey-sermon,Trey Sermon,Indianapolis Colts,Tampa Bay Buccaneers,Home,RB,RB,4000,4200,0,0
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,jonathan-taylor,Jonathan Taylor,Indianapolis Colts,Tampa Bay Buccaneers,Home,RB,RB,6900,7500,21.1,21.1
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,mo-alie-cox,Mo Alie-Cox,Indianapolis Colts,Tampa Bay Buccaneers,Home,TE,TE,2500,4400,4,3.5
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,kylen-granson,Kylen Granson,Indianapolis Colts,Tampa Bay Buccaneers,Home,TE,TE,2600,4700,0,0
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,will-mallory,Will Mallory,Indianapolis Colts,Tampa Bay Buccaneers,Home,TE,TE,2500,4300,4.9,3.9
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,josh-downs,Josh Downs,Indianapolis Colts,Tampa Bay Buccaneers,Home,WR,WR,4800,5900,9.3,6.8
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,isaiah-mckenzie,Isaiah McKenzie,Indianapolis Colts,Tampa Bay Buccaneers,Home,WR,WR,3100,4700,0.3,0.3
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,alec-pierce,Alec Pierce,Indianapolis Colts,Tampa Bay Buccaneers,Home,WR,WR,3200,5000,6.7,4.7
+NFL 2023 Regular Season,45256-TAM@IND,2023-11-26 00:00:00,12,1:00 PM,michael-pittman-2,Michael Pittman,Indianapolis Colts,Tampa Bay Buccaneers,Home,WR,WR,6800,7600,23.7,15.7
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,JAX,Jacksonville Jaguars,Jacksonville Jaguars,Houston Texans,Road,DST,DST,3000,3900,4,4
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,trevor-lawrence,Trevor Lawrence,Jacksonville Jaguars,Houston Texans,Road,QB,QB,6400,7800,28.56,25.56
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,tank-bigsby,Tank Bigsby,Jacksonville Jaguars,Houston Texans,Road,RB,RB,4200,4700,0.6,0.6
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,travis-etienne,Travis Etienne,Jacksonville Jaguars,Houston Texans,Road,RB,RB,7100,8600,12.6,10.6
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,d-ernest-johnson,D'Ernest Johnson,Jacksonville Jaguars,Houston Texans,Road,RB,RB,4000,4600,7.1,6.6
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,evan-engram,Evan Engram,Jacksonville Jaguars,Houston Texans,Road,TE,TE,4200,5800,9.9,7.4
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,luke-farrell,Luke Farrell,Jacksonville Jaguars,Houston Texans,Road,TE,TE,2500,4400,8.5,7
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,brenton-strange,Brenton Strange,Jacksonville Jaguars,Houston Texans,Road,TE,TE,2500,4300,0,0
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,tim-jones-3,Tim Jones,Jacksonville Jaguars,Houston Texans,Road,WR,WR,3000,4500,0,0
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,zay-jones,Zay Jones,Jacksonville Jaguars,Houston Texans,Road,WR,WR,3900,5500,2,1.5
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,christian-kirk,Christian Kirk,Jacksonville Jaguars,Houston Texans,Road,WR,WR,5700,6800,12.9,10.9
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,calvin-ridley,Calvin Ridley,Jacksonville Jaguars,Houston Texans,Road,WR,WR,6000,7100,21.9,19.4
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,parker-washington,Parker Washington,Jacksonville Jaguars,Houston Texans,Road,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,HOU,Houston Texans,Houston Texans,Jacksonville Jaguars,Home,DST,DST,2600,3300,2,2
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,c-j-stroud,C.J. Stroud,Houston Texans,Jacksonville Jaguars,Home,QB,QB,7700,7700,33.86,30.86
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,andrew-beck,Andrew Beck,Houston Texans,Jacksonville Jaguars,Home,RB,TE,4000,4400,1.1,0.6
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,dare-ogunbowale,Dare Ogunbowale,Houston Texans,Jacksonville Jaguars,Home,RB,RB,4000,4200,0,0
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,dameon-pierce,Dameon Pierce,Houston Texans,Jacksonville Jaguars,Home,RB,RB,5500,5800,2.8,2.3
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,devin-singletary,Devin Singletary,Houston Texans,Jacksonville Jaguars,Home,RB,RB,6000,7300,13.2,10.2
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,brevin-jordan,Brevin Jordan,Houston Texans,Jacksonville Jaguars,Home,TE,TE,2500,4200,1.9,1.4
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,eric-saubert,Eric Saubert,Houston Texans,Jacksonville Jaguars,Home,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,dalton-schultz,Dalton Schultz,Houston Texans,Jacksonville Jaguars,Home,TE,TE,5400,6800,1.2,0.7
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,nico-collins,Nico Collins,Houston Texans,Jacksonville Jaguars,Home,WR,WR,6400,6900,26.4,19.9
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,tank-dell,Tank Dell,Houston Texans,Jacksonville Jaguars,Home,WR,WR,6900,7800,17.2,14.7
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,xavier-hutchinson,Xavier Hutchinson,Houston Texans,Jacksonville Jaguars,Home,WR,WR,3000,4300,4.4,3.9
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,john-metchie,John Metchie III,Houston Texans,Jacksonville Jaguars,Home,WR,WR,3000,4500,1.6,1.1
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,steven-sims,Steven Sims,Houston Texans,Jacksonville Jaguars,Home,WR,WR,3000,4400,0,0
+NFL 2023 Regular Season,45256-JAX@HOU,2023-11-26 00:00:00,12,1:00 PM,robert-woods,Robert Woods,Houston Texans,Jacksonville Jaguars,Home,WR,WR,4000,5300,6,5
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,NE,New England Patriots,New England Patriots,New York Giants,Road,DST,DST,3200,4500,12,12
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,mac-jones,Mac Jones,New England Patriots,New York Giants,Road,QB,QB,5100,6500,1.56,1.56
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,bailey-zappe,Bailey Zappe,New England Patriots,New York Giants,Road,QB,QB,4400,6500,1.16,1.16
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,ezekiel-elliott,Ezekiel Elliott,New England Patriots,New York Giants,Road,RB,RB,5000,5500,7.2,6.2
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,ty-montgomery,Ty Montgomery,New England Patriots,New York Giants,Road,RB,RB,4000,4200,0,0
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,rhamondre-stevenson,Rhamondre Stevenson,New England Patriots,New York Giants,Road,RB,RB,5800,6800,21.7,19.2
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,pharaoh-brown,Pharaoh Brown,New England Patriots,New York Giants,Road,TE,TE,2500,4300,0,0
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,mike-gesicki,Mike Gesicki,New England Patriots,New York Giants,Road,TE,TE,2500,4600,0,0
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,hunter-henry,Hunter Henry,New England Patriots,New York Giants,Road,TE,TE,3400,5200,0,0
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,kayshon-boutte,Kayshon Boutte,New England Patriots,New York Giants,Road,WR,WR,3000,4300,1.8,1.3
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,demario-douglas,Demario Douglas,New England Patriots,New York Giants,Road,WR,WR,4400,6100,10.9,7.9
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,devante-parker,DeVante Parker,New England Patriots,New York Giants,Road,WR,WR,3000,5000,7.2,5.7
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,matthew-slater,Matthew Slater,New England Patriots,New York Giants,Road,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,juju-smith-schuster,JuJu Smith-Schuster,New England Patriots,New York Giants,Road,WR,WR,3000,5300,3,2
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,tyquan-thornton,Tyquan Thornton,New England Patriots,New York Giants,Road,WR,WR,3000,4500,4.2,3.2
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,NYG,New York Giants,New York Giants,New England Patriots,Home,DST,DST,3500,4600,12,12
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,tommy-devito,Tommy DeVito,New York Giants,New England Patriots,Home,QB,QB,5200,6600,11.24,10.24
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,saquon-barkley,Saquon Barkley,New York Giants,New England Patriots,Home,RB,RB,7300,8000,6.2,5.7
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,matt-breida,Matt Breida,New York Giants,New England Patriots,Home,RB,RB,4000,4600,2.6,2.1
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,eric-gray,Eric Gray,New York Giants,New England Patriots,Home,RB,RB,4000,4300,0,0
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,daniel-bellinger,Daniel Bellinger,New York Giants,New England Patriots,Home,TE,TE,2900,4700,1.8,1.3
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,lawrence-cager,Lawrence Cager,New York Giants,New England Patriots,Home,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,parris-campbell,Parris Campbell,New York Giants,New England Patriots,Home,WR,WR,3000,4500,0.8,0.3
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,isaiah-hodgins,Isaiah Hodgins,New York Giants,New England Patriots,Home,WR,WR,3200,5000,8.2,7.7
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,jalin-hyatt,Jalin Hyatt,New York Giants,New England Patriots,Home,WR,WR,3000,4800,18.9,13.4
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,gunner-olszewski,Gunner Olszewski,New York Giants,New England Patriots,Home,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,wan-dale-robinson,Wan'Dale Robinson,New York Giants,New England Patriots,Home,WR,WR,3800,5200,6.6,4.6
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,sterling-shepard,Sterling Shepard,New York Giants,New England Patriots,Home,WR,WR,3000,4400,1.6,1.1
+NFL 2023 Regular Season,45256-NWE@NYG,2023-11-26 00:00:00,12,1:00 PM,darius-slayton,Darius Slayton,New York Giants,New England Patriots,Home,WR,WR,3500,5700,3.6,2.6
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,CLE,Cleveland Browns,Cleveland Browns,Denver Broncos,Road,DST,DST,3800,4800,3,3
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,dorian-thompson-robinson,Dorian Thompson-Robinson,Cleveland Browns,Denver Broncos,Road,QB,QB,4900,6400,11.46,11.46
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,phillip-walker,PJ Walker,Cleveland Browns,Denver Broncos,Road,QB,QB,4700,6100,1.14,0.14
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,jerome-ford,Jerome Ford,Cleveland Browns,Denver Broncos,Road,RB,RB,5600,6700,11.9,9.9
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,kareem-hunt,Kareem Hunt,Cleveland Browns,Denver Broncos,Road,RB,RB,4800,6000,2.2,2.2
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,pierre-strong,Pierre Strong,Cleveland Browns,Denver Broncos,Road,RB,RB,4000,4400,0,0
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,jordan-akins,Jordan Akins,Cleveland Browns,Denver Broncos,Road,TE,TE,2500,4200,0,0
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,harrison-bryant,Harrison Bryant,Cleveland Browns,Denver Broncos,Road,TE,TE,2500,4400,6.2,4.7
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,david-njoku,David Njoku,Cleveland Browns,Denver Broncos,Road,TE,TE,4100,5700,11.9,8.9
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,david-bell,David Bell,Cleveland Browns,Denver Broncos,Road,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,amari-cooper,Amari Cooper,Cleveland Browns,Denver Broncos,Road,WR,WR,5900,7000,3.6,2.6
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,elijah-moore,Elijah Moore,Cleveland Browns,Denver Broncos,Road,WR,WR,3700,5900,6.4,3.9
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,james-proche,James Proche,Cleveland Browns,Denver Broncos,Road,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,cedric-tillman-2,Cedric Tillman,Cleveland Browns,Denver Broncos,Road,WR,WR,3000,4300,9.5,7.5
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,DEN,Denver Broncos,Denver Broncos,Cleveland Browns,Home,DST,DST,3200,4100,16,16
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,russell-wilson,Russell Wilson,Denver Broncos,Cleveland Browns,Home,QB,QB,5400,7000,17.76,16.76
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,michael-burton,Michael Burton,Denver Broncos,Cleveland Browns,Home,RB,RB,4000,4000,0,0
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,jaleel-mclaughlin,Jaleel McLaughlin,Denver Broncos,Cleveland Browns,Home,RB,RB,4800,5400,0.4,0.4
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,samaje-perine,Samaje Perine,Denver Broncos,Cleveland Browns,Home,RB,RB,4600,5300,13.6,13.1
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,javonte-williams,Javonte Williams,Denver Broncos,Cleveland Browns,Home,RB,RB,5700,6400,10.1,8.6
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,nate-adkins,Nate Adkins,Denver Broncos,Cleveland Browns,Home,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,chris-manhertz,Chris Manhertz,Denver Broncos,Cleveland Browns,Home,TE,TE,2500,4200,0,0
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,adam-trautman,Adam Trautman,Denver Broncos,Cleveland Browns,Home,TE,TE,2600,4500,7.8,7.3
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,lil-jordan-humphrey,Lil'Jordan Humphrey,Denver Broncos,Cleveland Browns,Home,WR,WR,3000,4900,2.3,1.8
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,jerry-jeudy,Jerry Jeudy,Denver Broncos,Cleveland Browns,Home,WR,WR,4900,6000,3.1,2.1
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,marvin-mims-jr,Marvin Mims Jr.,Denver Broncos,Cleveland Browns,Home,WR,WR,3400,5300,5.5,4.5
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,david-sills,David Sills,Denver Broncos,Cleveland Browns,Home,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45256-CLE@DEN,2023-11-26 00:00:00,12,4:05 PM,courtland-sutton,Courtland Sutton,Denver Broncos,Cleveland Browns,Home,WR,WR,5400,6700,9.1,7.6
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,LA,Los Angeles Rams,Los Angeles Rams,Arizona Cardinals,Road,DST,DST,2800,3600,5,5
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,matthew-stafford,Matthew Stafford,Los Angeles Rams,Arizona Cardinals,Road,QB,QB,6300,6900,24.36,24.36
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,carson-wentz,Carson Wentz,Los Angeles Rams,Arizona Cardinals,Road,QB,QB,4700,6200,0,0
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,zach-evans,Zach Evans,Los Angeles Rams,Arizona Cardinals,Road,RB,RB,4000,4100,0.6,0.6
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,royce-freeman,Royce Freeman,Los Angeles Rams,Arizona Cardinals,Road,RB,RB,4500,5900,13.7,13.7
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,kyren-williams,Kyren Williams,Los Angeles Rams,Arizona Cardinals,Road,RB,RB,6600,8200,41.4,35.4
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,davis-allen,Davis Allen,Los Angeles Rams,Arizona Cardinals,Road,TE,TE,2500,4000,1.6,1.1
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,tyler-higbee,Tyler Higbee,Los Angeles Rams,Arizona Cardinals,Road,TE,TE,3500,5000,19.9,17.4
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,hunter-long,Hunter Long,Los Angeles Rams,Arizona Cardinals,Road,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,tutu-atwell,Tutu Atwell,Los Angeles Rams,Arizona Cardinals,Road,WR,WR,4100,5700,10.6,9.1
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,cooper-kupp,Cooper Kupp,Los Angeles Rams,Arizona Cardinals,Road,WR,WR,8000,8000,4.8,3.3
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,puka-nacua,Puka Nacua,Los Angeles Rams,Arizona Cardinals,Road,WR,WR,7600,8200,6.7,4.7
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,demarcus-robinson,Demarcus Robinson,Los Angeles Rams,Arizona Cardinals,Road,WR,WR,3000,4800,3.3,2.3
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,ben-skowronek,Ben Skowronek,Los Angeles Rams,Arizona Cardinals,Road,WR,WR,3000,4700,0.9,0.4
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,austin-trammell,Austin Trammell,Los Angeles Rams,Arizona Cardinals,Road,WR,WR,3000,5000,0,0
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,ARI,Arizona Cardinals,Arizona Cardinals,Los Angeles Rams,Home,DST,DST,3000,3500,-2,-2
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,kyler-murray,Kyler Murray,Arizona Cardinals,Los Angeles Rams,Home,QB,QB,6900,8000,20.44,20.44
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,clayton-tune,Clayton Tune,Arizona Cardinals,Los Angeles Rams,Home,QB,QB,4700,6100,2,2
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,michael-carter-3,Michael Carter,Arizona Cardinals,Los Angeles Rams,Home,RB,RB,4000,5000,7.4,5.4
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,james-conner,James Conner,Arizona Cardinals,Los Angeles Rams,Home,RB,RB,5900,6600,7.2,5.2
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,emari-demercado,Emari Demercado,Arizona Cardinals,Los Angeles Rams,Home,RB,RB,4400,4200,1.5,1.5
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,elijah-higgins,Elijah Higgins,Arizona Cardinals,Los Angeles Rams,Home,TE,WR,2500,4100,3.6,3.1
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,trey-mcbride,Trey McBride,Arizona Cardinals,Los Angeles Rams,Home,TE,TE,4700,6100,13,9.5
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,geoff-swaim,Geoff Swaim,Arizona Cardinals,Los Angeles Rams,Home,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,andre-baccellia,Andre Baccellia,Arizona Cardinals,Los Angeles Rams,Home,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,marquise-brown,Marquise Brown,Arizona Cardinals,Los Angeles Rams,Home,WR,WR,5200,6500,14.8,11.8
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,greg-dortch,Greg Dortch,Arizona Cardinals,Los Angeles Rams,Home,WR,WR,3300,4800,11.7,10.2
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,rondale-moore,Rondale Moore,Arizona Cardinals,Los Angeles Rams,Home,WR,WR,3600,5200,5.5,4.5
+NFL 2023 Regular Season,45256-LAR@ARI,2023-11-26 00:00:00,12,4:05 PM,zach-pascal,Zach Pascal,Arizona Cardinals,Los Angeles Rams,Home,WR,WR,3000,4200,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,KC,Kansas City Chiefs,Kansas City Chiefs,Las Vegas Raiders,Road,DST,DST,3100,5000,2,2
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,patrick-mahomes,Patrick Mahomes,Kansas City Chiefs,Las Vegas Raiders,Road,QB,QB,8200,8700,20.82,20.82
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,clyde-edwards-helaire,Clyde Edwards-Helaire,Kansas City Chiefs,Las Vegas Raiders,Road,RB,RB,4000,5300,0.5,0.5
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,isiah-pacheco,Isiah Pacheco,Kansas City Chiefs,Las Vegas Raiders,Road,RB,RB,6200,6600,25.9,23.4
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,la-mical-perine,La'Mical Perine,Kansas City Chiefs,Las Vegas Raiders,Road,RB,RB,4000,4000,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,blake-bell,Blake Bell,Kansas City Chiefs,Las Vegas Raiders,Road,TE,TE,2500,4200,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,noah-gray,Noah Gray,Kansas City Chiefs,Las Vegas Raiders,Road,TE,TE,2500,4600,6,4.5
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,travis-kelce,Travis Kelce,Kansas City Chiefs,Las Vegas Raiders,Road,TE,TE,8200,8300,15.1,12.1
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,james-winchester,James Winchester,Kansas City Chiefs,Las Vegas Raiders,Road,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,richie-james,Richie James,Kansas City Chiefs,Las Vegas Raiders,Road,WR,WR,3000,4400,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,skyy-moore,Skyy Moore,Kansas City Chiefs,Las Vegas Raiders,Road,WR,WR,3000,5200,6.4,4.9
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,rashee-rice,Rashee Rice,Kansas City Chiefs,Las Vegas Raiders,Road,WR,WR,5500,5700,27.7,20.7
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,marquez-valdes-scantling,Marquez Valdes-Scantling,Kansas City Chiefs,Las Vegas Raiders,Road,WR,WR,3200,5400,0.9,0.4
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,montrell-washington,Montrell Washington,Kansas City Chiefs,Las Vegas Raiders,Road,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,justin-watson,Justin Watson,Kansas City Chiefs,Las Vegas Raiders,Road,WR,WR,3000,5100,7.3,6.8
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,LV,Las Vegas Raiders,Las Vegas Raiders,Kansas City Chiefs,Home,DST,DST,2800,3000,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,aidan-o-connell,Aidan O'Connell,Las Vegas Raiders,Kansas City Chiefs,Home,QB,QB,5000,6400,13.92,13.92
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,ameer-abdullah,Ameer Abdullah,Las Vegas Raiders,Kansas City Chiefs,Home,RB,RB,4300,4500,2.3,1.8
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,brandon-bolden,Brandon Bolden,Las Vegas Raiders,Kansas City Chiefs,Home,RB,RB,4000,4200,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,josh-jacobs-x3315,Josh Jacobs,Las Vegas Raiders,Kansas City Chiefs,Home,RB,RB,6700,7100,25.5,20.5
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,zamir-white,Zamir White,Las Vegas Raiders,Kansas City Chiefs,Home,RB,RB,4100,4600,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,austin-hooper,Austin Hooper,Las Vegas Raiders,Kansas City Chiefs,Home,TE,TE,2500,4500,2.4,1.9
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,jesper-horsted,Jesper Horsted,Las Vegas Raiders,Kansas City Chiefs,Home,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,michael-mayer,Michael Mayer,Las Vegas Raiders,Kansas City Chiefs,Home,TE,TE,2800,4900,4.7,3.7
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,davante-adams,Davante Adams,Las Vegas Raiders,Kansas City Chiefs,Home,WR,WR,7800,7700,12.3,9.8
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,deandre-carter,DeAndre Carter,Las Vegas Raiders,Kansas City Chiefs,Home,WR,WR,3000,4400,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,jakobi-meyers,Jakobi Meyers,Las Vegas Raiders,Kansas City Chiefs,Home,WR,WR,5800,6600,20.1,17.1
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,hunter-renfrow,Hunter Renfrow,Las Vegas Raiders,Kansas City Chiefs,Home,WR,WR,3100,5200,7.8,5.8
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,tre-tucker,Tre Tucker,Las Vegas Raiders,Kansas City Chiefs,Home,WR,WR,3000,4700,0,0
+NFL 2023 Regular Season,45256-KAN@LVR,2023-11-26 00:00:00,12,4:25 PM,dj-turner,DJ Turner,Las Vegas Raiders,Kansas City Chiefs,Home,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,BUF,Buffalo Bills,Buffalo Bills,Philadelphia Eagles,Road,DST,DST,2700,3900,2,2
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,josh-allen-4,Josh Allen,Buffalo Bills,Philadelphia Eagles,Road,QB,QB,8100,9200,43.66,40.66
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,james-cook-2,James Cook,Buffalo Bills,Philadelphia Eagles,Road,RB,RB,6200,6500,16,13
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,reggie-gilliam,Reggie Gilliam,Buffalo Bills,Philadelphia Eagles,Road,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,ty-johnson-x3152,Ty Johnson,Buffalo Bills,Philadelphia Eagles,Road,RB,RB,4500,4900,1.9,1.9
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,latavius-murray,Latavius Murray,Buffalo Bills,Philadelphia Eagles,Road,RB,RB,4400,5100,7.8,6.3
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,dalton-kincaid,Dalton Kincaid,Buffalo Bills,Philadelphia Eagles,Road,TE,TE,5300,6000,8.8,6.3
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,quintin-morris,Quintin Morris,Buffalo Bills,Philadelphia Eagles,Road,TE,TE,2500,4200,0,0
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,gabe-davis,Gabe Davis,Buffalo Bills,Philadelphia Eagles,Road,WR,WR,5300,6000,25.5,19.5
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,stefon-diggs,Stefon Diggs,Buffalo Bills,Philadelphia Eagles,Road,WR,WR,8800,8700,19.4,16.4
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,andy-isabella,Andy Isabella,Buffalo Bills,Philadelphia Eagles,Road,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,khalil-shakir,Khalil Shakir,Buffalo Bills,Philadelphia Eagles,Road,WR,WR,3600,5700,7.7,6.2
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,trent-sherfield,Trent Sherfield,Buffalo Bills,Philadelphia Eagles,Road,WR,WR,3000,4600,0,0
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,PHI,Philadelphia Eagles,Philadelphia Eagles,Buffalo Bills,Home,DST,DST,2900,4000,4,4
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,jalen-hurts,Jalen Hurts,Philadelphia Eagles,Buffalo Bills,Home,QB,QB,8300,8800,36.5,35.5
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,kenneth-gainwell,Kenneth Gainwell,Philadelphia Eagles,Buffalo Bills,Home,RB,RB,4900,5700,5.6,4.6
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,boston-scott,Boston Scott,Philadelphia Eagles,Buffalo Bills,Home,RB,RB,4300,5200,1.4,1.4
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,d-andre-swift,D'Andre Swift,Philadelphia Eagles,Buffalo Bills,Home,RB,RB,6800,7200,9.4,8.9
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,albert-okwuegbunam,Albert Okwuegbunam,Philadelphia Eagles,Buffalo Bills,Home,TE,TE,2500,4300,0,0
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,jack-stoll,Jack Stoll,Philadelphia Eagles,Buffalo Bills,Home,TE,TE,3000,4600,2.4,1.9
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,noah-togiai,Noah Togiai,Philadelphia Eagles,Buffalo Bills,Home,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,a-j-brown,A.J. Brown,Philadelphia Eagles,Buffalo Bills,Home,WR,WR,9000,8800,14.7,12.2
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,britain-covey,Britain Covey,Philadelphia Eagles,Buffalo Bills,Home,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,julio-jones,Julio Jones,Philadelphia Eagles,Buffalo Bills,Home,WR,WR,3300,5000,1,0.5
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,devonta-smith,DeVonta Smith,Philadelphia Eagles,Buffalo Bills,Home,WR,WR,7100,7400,26.6,20.1
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,quez-watkins,Quez Watkins,Philadelphia Eagles,Buffalo Bills,Home,WR,WR,3000,4800,0,0
+NFL 2023 Regular Season,45256-BUF@PHI,2023-11-26 00:00:00,12,4:25 PM,olamide-zaccheaus-x1231,Olamide Zaccheaus,Philadelphia Eagles,Buffalo Bills,Home,WR,WR,3000,4900,9.9,9.4
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,nelson-agholor,Nelson Agholor,Baltimore Ravens,Los Angeles Chargers,Road,WR,WR,3100,5400,3.1,2.6
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,rashod-bateman,Rashod Bateman,Baltimore Ravens,Los Angeles Chargers,Road,WR,WR,3200,5200,4.1,3.1
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,odell-beckham,Odell Beckham Jr.,Baltimore Ravens,Los Angeles Chargers,Road,WR,WR,3800,5900,6.4,4.9
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,devin-duvernay,Devin Duvernay,Baltimore Ravens,Los Angeles Chargers,Road,WR,WR,3000,4600,0,0
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,gus-edwards,Gus Edwards,Baltimore Ravens,Los Angeles Chargers,Road,RB,RB,6000,7000,4.7,4.2
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,zay-flowers,Zay Flowers,Baltimore Ravens,Los Angeles Chargers,Road,WR,WR,5600,6300,23.2,20.7
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,justice-hill,Justice Hill,Baltimore Ravens,Los Angeles Chargers,Road,RB,RB,4000,4800,3.1,3.1
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,lamar-jackson,Lamar Jackson,Baltimore Ravens,Los Angeles Chargers,Road,QB,QB,8000,8500,14.98,14.98
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,charlie-kolar,Charlie Kolar,Baltimore Ravens,Los Angeles Chargers,Road,TE,TE,2500,4200,0,0
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,isaiah-likely,Isaiah Likely,Baltimore Ravens,Los Angeles Chargers,Road,TE,TE,3100,5000,8,6
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,keaton-mitchell,Keaton Mitchell,Baltimore Ravens,Los Angeles Chargers,Road,RB,RB,4900,5400,10.9,9.9
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,BAL,Baltimore Ravens,Baltimore Ravens,Los Angeles Chargers,Road,DST,DST,3000,4200,15,15
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,patrick-ricard,Patrick Ricard,Baltimore Ravens,Los Angeles Chargers,Road,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,tylan-wallace,Tylan Wallace,Baltimore Ravens,Los Angeles Chargers,Road,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,keenan-allen,Keenan Allen,Los Angeles Chargers,Baltimore Ravens,Home,WR,WR,8900,8800,26.6,15.6
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,LAC,Los Angeles Chargers,Los Angeles Chargers,Baltimore Ravens,Home,DST,DST,3100,3500,3,3
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,derius-davis,Derius Davis,Los Angeles Chargers,Baltimore Ravens,Home,WR,WR,3000,4800,1.1,0.6
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,austin-ekeler,Austin Ekeler,Los Angeles Chargers,Baltimore Ravens,Home,RB,RB,8300,8000,10.4,6.9
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,alex-erickson,Alex Erickson,Los Angeles Chargers,Baltimore Ravens,Home,WR,WR,3000,4100,2.7,2.2
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,gerald-everett,Gerald Everett,Los Angeles Chargers,Baltimore Ravens,Home,TE,TE,3500,4800,14.3,12.3
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,jalen-guyton,Jalen Guyton,Los Angeles Chargers,Baltimore Ravens,Home,WR,WR,3300,5200,1.4,0.9
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,justin-herbert,Justin Herbert,Los Angeles Chargers,Baltimore Ravens,Home,QB,QB,7800,8200,15.38,14.38
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,quentin-johnston,Quentin Johnston,Los Angeles Chargers,Baltimore Ravens,Home,WR,WR,4000,5900,1.7,1.2
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,joshua-kelley,Joshua Kelley,Los Angeles Chargers,Baltimore Ravens,Home,RB,RB,4500,4800,3.4,2.4
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,donald-parham,Donald Parham,Los Angeles Chargers,Baltimore Ravens,Home,TE,TE,3300,5000,0,0
+NFL 2023 Regular Season,45256-BAL@LAC,2023-11-26 00:00:00,12,8:20 PM,stone-smartt,Stone Smartt,Los Angeles Chargers,Baltimore Ravens,Home,TE,TE,2600,4500,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,CHI,Chicago Bears,Chicago Bears,Minnesota Vikings,Road,DST,DST,2900,3400,14,14
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,khari-blasingame,Khari Blasingame,Chicago Bears,Minnesota Vikings,Road,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,justin-fields,Justin Fields,Chicago Bears,Minnesota Vikings,Road,QB,QB,7000,8000,12.58,10.58
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,khalil-herbert,Khalil Herbert,Chicago Bears,Minnesota Vikings,Road,RB,RB,5100,6200,5.8,4.8
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,travis-homer,Travis Homer,Chicago Bears,Minnesota Vikings,Road,RB,RB,4000,4200,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,roschon-johnson,Roschon Johnson,Chicago Bears,Minnesota Vikings,Road,RB,RB,4700,5000,12.5,10
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,velus-jones,Velus Jones Jr.,Chicago Bears,Minnesota Vikings,Road,WR,WR,3000,4300,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,cole-kmet,Cole Kmet,Chicago Bears,Minnesota Vikings,Road,TE,TE,4400,5400,11.3,7.8
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,marcedes-lewis,Marcedes Lewis,Chicago Bears,Minnesota Vikings,Road,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,darnell-mooney,Darnell Mooney,Chicago Bears,Minnesota Vikings,Road,WR,WR,3300,5500,2.6,1.6
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,d-j-moore,DJ Moore,Chicago Bears,Minnesota Vikings,Road,WR,WR,6000,7200,25.4,16.9
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,tyler-scott-2,Tyler Scott,Chicago Bears,Minnesota Vikings,Road,WR,WR,3000,4800,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,equanimeous-st-brown,Equanimeous St. Brown,Chicago Bears,Minnesota Vikings,Road,WR,WR,3000,4900,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,trent-taylor,Trent Taylor,Chicago Bears,Minnesota Vikings,Road,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,robert-tonyan,Robert Tonyan,Chicago Bears,Minnesota Vikings,Road,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,jordan-addison,Jordan Addison,Minnesota Vikings,Chicago Bears,Home,WR,WR,5700,6600,9.9,6.9
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,ty-chandler,Ty Chandler,Minnesota Vikings,Chicago Bears,Home,RB,RB,5000,6100,2.1,1.6
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,joshua-dobbs,Joshua Dobbs,Minnesota Vikings,Chicago Bears,Home,QB,QB,5900,7500,8.5,8.5
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,c-j-ham,C.J. Ham,Minnesota Vikings,Chicago Bears,Home,RB,RB,4000,4100,2.3,1.3
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,n-keal-harry,N'Keal Harry,Minnesota Vikings,Chicago Bears,Home,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,t-j-hockenson,T.J. Hockenson,Minnesota Vikings,Chicago Bears,Home,TE,TE,5800,7000,16,13.5
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,alexander-mattison,Alexander Mattison,Minnesota Vikings,Chicago Bears,Home,RB,RB,5300,6300,8.3,7.3
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,johnny-mundt,Johnny Mundt,Minnesota Vikings,Chicago Bears,Home,TE,TE,2500,4300,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,jalen-nailor,Jalen Nailor,Minnesota Vikings,Chicago Bears,Home,WR,WR,3000,4300,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,kene-nwangwu,Kene Nwangwu,Minnesota Vikings,Chicago Bears,Home,RB,RB,4000,4500,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,josh-oliver,Josh Oliver,Minnesota Vikings,Chicago Bears,Home,TE,TE,2700,4900,0,0
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,k-j-osborn,K.J. Osborn,Minnesota Vikings,Chicago Bears,Home,WR,WR,4200,5300,6.4,4.9
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,brandon-powell,Brandon Powell,Minnesota Vikings,Chicago Bears,Home,WR,WR,3200,5000,7.7,6.2
+NFL 2023 Regular Season,45257-CHI@MIN,2023-11-27 00:00:00,12,8:15 PM,MIN,Minnesota Vikings,Minnesota Vikings,Chicago Bears,Home,DST,DST,3200,3800,11,11
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,SEA,Seattle Seahawks,Seattle Seahawks,Dallas Cowboys,Road,DST,DST,2600,3200,0,0
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,geno-smith,Geno Smith,Seattle Seahawks,Dallas Cowboys,Road,QB,QB,5400,6600,33.96,30.96
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,zach-charbonnet,Zach Charbonnet,Seattle Seahawks,Dallas Cowboys,Road,RB,RB,5300,5900,16.9,16.4
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,deejay-dallas,DeeJay Dallas,Seattle Seahawks,Dallas Cowboys,Road,RB,RB,4400,4600,0.6,0.6
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,kenny-mcintosh,Kenny McIntosh,Seattle Seahawks,Dallas Cowboys,Road,RB,RB,4000,4000,0,0
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,will-dissly,Will Dissly,Seattle Seahawks,Dallas Cowboys,Road,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,noah-fant-x4946,Noah Fant,Seattle Seahawks,Dallas Cowboys,Road,TE,TE,2700,4700,7.3,5.8
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,colby-parkinson,Colby Parkinson,Seattle Seahawks,Dallas Cowboys,Road,TE,TE,2500,4300,0,0
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,brady-russell,Brady Russell,Seattle Seahawks,Dallas Cowboys,Road,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,jake-bobo,Jake Bobo,Seattle Seahawks,Dallas Cowboys,Road,WR,WR,3000,4500,1.9,1.4
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,tyler-lockett,Tyler Lockett,Seattle Seahawks,Dallas Cowboys,Road,WR,WR,5900,6500,9.7,7.2
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,d-k-metcalf,DK Metcalf,Seattle Seahawks,Dallas Cowboys,Road,WR,WR,6500,6800,40.4,34.4
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,jaxon-smith-njigba,Jaxon Smith-Njigba,Seattle Seahawks,Dallas Cowboys,Road,WR,WR,4000,5300,13.2,9.7
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,cody-thompson,Cody Thompson,Seattle Seahawks,Dallas Cowboys,Road,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,nick-lalonde-bellore,Nick Bellore,Seattle Seahawks,Dallas Cowboys,Road,,RB,,4100,0,0
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,DAL,Dallas Cowboys,Dallas Cowboys,Seattle Seahawks,Home,DST,DST,3800,5000,-1,-1
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,dak-prescott,Dak Prescott,Dallas Cowboys,Seattle Seahawks,Home,QB,QB,7200,8500,28.26,28.26
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,rico-dowdle,Rico Dowdle,Dallas Cowboys,Seattle Seahawks,Home,RB,RB,4800,4900,3.2,2.7
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,hunter-luepke,Hunter Luepke,Dallas Cowboys,Seattle Seahawks,Home,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,tony-pollard,Tony Pollard,Dallas Cowboys,Seattle Seahawks,Home,RB,RB,6800,7600,17.3,15.8
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,jake-ferguson,Jake Ferguson,Dallas Cowboys,Seattle Seahawks,Home,TE,TE,4000,5600,19.7,16.7
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,sean-mckeon,Sean McKeon,Dallas Cowboys,Seattle Seahawks,Home,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,luke-schoonmaker,Luke Schoonmaker,Dallas Cowboys,Seattle Seahawks,Home,TE,TE,2500,4600,2.2,1.7
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,brandin-cooks,Brandin Cooks,Dallas Cowboys,Seattle Seahawks,Home,WR,WR,4900,6000,16.5,14.5
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,michael-gallup,Michael Gallup,Dallas Cowboys,Seattle Seahawks,Home,WR,WR,3600,5000,0,0
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,ceedee-lamb,CeeDee Lamb,Dallas Cowboys,Seattle Seahawks,Home,WR,WR,8900,8800,35.6,26.6
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,jalen-tolbert,Jalen Tolbert,Dallas Cowboys,Seattle Seahawks,Home,WR,WR,3200,4700,2.7,2.2
+NFL 2023 Regular Season,45260-SEA@DAL,2023-11-30 00:00:00,13,8:15 PM,kavontae-turpin,KaVontae Turpin,Dallas Cowboys,Seattle Seahawks,Home,WR,WR,3000,4600,2,1.5
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,ATL,Atlanta Falcons,Atlanta Falcons,New York Jets,Road,DST,DST,3400,4700,17,17
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,desmond-ridder,Desmond Ridder,Atlanta Falcons,New York Jets,Road,QB,QB,5000,6500,8.84,8.84
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,tyler-allgeier,Tyler Allgeier,Atlanta Falcons,New York Jets,Road,RB,RB,4500,5500,2.6,2.6
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,cordarrelle-patterson,Cordarrelle Patterson,Atlanta Falcons,New York Jets,Road,RB,RB,4100,4800,2.7,2.2
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,bijan-robinson,Bijan Robinson,Atlanta Falcons,New York Jets,Road,RB,RB,6700,8100,10.9,9.4
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,keith-smith,Keith Smith,Atlanta Falcons,New York Jets,Road,RB,RB,4000,4200,0,0
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,parker-hesse,Parker Hesse,Atlanta Falcons,New York Jets,Road,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,kyle-pitts,Kyle Pitts,Atlanta Falcons,New York Jets,Road,TE,TE,3800,5300,9.1,7.1
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,mycole-pruitt,MyCole Pruitt,Atlanta Falcons,New York Jets,Road,TE,TE,2500,4300,9,8.5
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,jonnu-smith,Jonnu Smith,Atlanta Falcons,New York Jets,Road,TE,TE,3200,5000,3,2
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,khadarel-hodge,KhaDarel Hodge,Atlanta Falcons,New York Jets,Road,WR,WR,3000,4900,0,0
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,van-jefferson,Van Jefferson,Atlanta Falcons,New York Jets,Road,WR,WR,3100,5000,0,0
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,drake-london,Drake London,Atlanta Falcons,New York Jets,Road,WR,WR,4900,6500,1.8,1.3
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,scott-miller,Scott Miller,Atlanta Falcons,New York Jets,Road,WR,WR,3000,4800,0,0
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,NYJ,New York Jets,New York Jets,Atlanta Falcons,Home,DST,DST,3500,4400,9,9
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,tim-boyle,Tim Boyle,New York Jets,Atlanta Falcons,Home,QB,QB,4800,6300,5.12,5.12
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,trevor-siemian,Trevor Siemian,New York Jets,Atlanta Falcons,Home,QB,QB,4500,6000,2.44,1.44
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,nick-bawden,Nick Bawden,New York Jets,Atlanta Falcons,Home,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,dalvin-cook,Dalvin Cook,New York Jets,Atlanta Falcons,Home,RB,RB,4400,4800,4.6,3.1
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,breece-hall,Breece Hall,New York Jets,Atlanta Falcons,Home,RB,RB,6400,6700,10.5,7.5
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,tyler-conklin,Tyler Conklin,New York Jets,Atlanta Falcons,Home,TE,TE,3000,4900,6.5,5
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,jeremy-ruckert,Jeremy Ruckert,New York Jets,Atlanta Falcons,Home,TE,TE,2500,4400,2.2,1.7
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,c-j-uzomah,C.J. Uzomah,New York Jets,Atlanta Falcons,Home,TE,TE,2500,4300,0,0
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,jason-brownlee,Jason Brownlee,New York Jets,Atlanta Falcons,Home,WR,WR,3000,5100,0,0
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,irvin-charles,Irvin Charles,New York Jets,Atlanta Falcons,Home,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,xavier-gipson,Xavier Gipson,New York Jets,Atlanta Falcons,Home,WR,WR,3100,5000,12.8,10.3
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,allen-lazard,Allen Lazard,New York Jets,Atlanta Falcons,Home,WR,WR,3200,5400,0,0
+NFL 2023 Regular Season,45263-ATL@NYJ,2023-12-03 00:00:00,13,1:00 PM,garrett-wilson,Garrett Wilson,New York Jets,Atlanta Falcons,Home,WR,WR,6000,6900,8,6.5
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,IND,Indianapolis Colts,Indianapolis Colts,Tennessee Titans,Road,DST,DST,3200,4500,18,18
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,gardner-minshew,Gardner Minshew,Indianapolis Colts,Tennessee Titans,Road,QB,QB,5300,6800,22.68,18.68
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,tyler-goodson,Tyler Goodson,Indianapolis Colts,Tennessee Titans,Road,RB,RB,4000,4000,3.1,2.1
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,zack-moss,Zack Moss,Indianapolis Colts,Tennessee Titans,Road,RB,RB,4600,5600,7.7,6.7
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,trey-sermon,Trey Sermon,Indianapolis Colts,Tennessee Titans,Road,RB,RB,4000,4200,0,0
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,mo-alie-cox,Mo Alie-Cox,Indianapolis Colts,Tennessee Titans,Road,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,kylen-granson,Kylen Granson,Indianapolis Colts,Tennessee Titans,Road,TE,TE,2500,4600,10.4,8.9
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,will-mallory,Will Mallory,Indianapolis Colts,Tennessee Titans,Road,TE,TE,2500,4500,2.4,1.4
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,andrew-ogletree,Andrew Ogletree,Indianapolis Colts,Tennessee Titans,Road,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,josh-downs,Josh Downs,Indianapolis Colts,Tennessee Titans,Road,WR,WR,5100,6100,4.4,2.9
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,isaiah-mckenzie,Isaiah McKenzie,Indianapolis Colts,Tennessee Titans,Road,WR,WR,3000,4600,0,0
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,d-j-montgomery,D.J. Montgomery,Indianapolis Colts,Tennessee Titans,Road,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,alec-pierce,Alec Pierce,Indianapolis Colts,Tennessee Titans,Road,WR,WR,3300,5300,22,17.5
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,michael-pittman-2,Michael Pittman,Indianapolis Colts,Tennessee Titans,Road,WR,WR,7100,7900,30.5,22
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,TEN,Tennessee Titans,Tennessee Titans,Indianapolis Colts,Home,DST,DST,2800,3400,9,9
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,will-levis,Will Levis,Tennessee Titans,Indianapolis Colts,Home,QB,QB,5200,6600,12.46,11.46
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,ryan-tannehill,Ryan Tannehill,Tennessee Titans,Indianapolis Colts,Home,QB,QB,4600,6100,0,0
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,derrick-henry,Derrick Henry,Tennessee Titans,Indianapolis Colts,Home,RB,RB,6800,8200,28,24.5
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,tyjae-spears,Tyjae Spears,Tennessee Titans,Indianapolis Colts,Home,RB,RB,4400,4900,12.8,10.8
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,chigoziem-okonkwo,Chigoziem Okonkwo,Tennessee Titans,Indianapolis Colts,Home,TE,TE,3100,4800,9.4,7.9
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,kevin-rader,Kevin Rader,Tennessee Titans,Indianapolis Colts,Home,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,trevon-wesco,Trevon Wesco,Tennessee Titans,Indianapolis Colts,Home,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,josh-whyle,Josh Whyle,Tennessee Titans,Indianapolis Colts,Home,TE,TE,2500,4400,2.6,2.1
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,treylon-burks,Treylon Burks,Tennessee Titans,Indianapolis Colts,Home,WR,WR,3400,5000,0,0
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,colton-dowell,Colton Dowell,Tennessee Titans,Indianapolis Colts,Home,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,deandre-hopkins,DeAndre Hopkins,Tennessee Titans,Indianapolis Colts,Home,WR,WR,6100,7000,18.9,16.4
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,chris-moore,Chris Moore,Tennessee Titans,Indianapolis Colts,Home,WR,WR,3100,5200,2.2,1.7
+NFL 2023 Regular Season,45263-IND@TEN,2023-12-03 00:00:00,13,1:00 PM,nick-westbrook-ikhine,Nick Westbrook-Ikhine,Tennessee Titans,Indianapolis Colts,Home,WR,WR,3200,5500,3.8,3.3
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,DEN,Denver Broncos,Denver Broncos,Houston Texans,Road,DST,DST,2700,4000,5,5
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,russell-wilson,Russell Wilson,Denver Broncos,Houston Texans,Road,QB,QB,5700,7400,18.84,18.84
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,michael-burton,Michael Burton,Denver Broncos,Houston Texans,Road,RB,RB,4000,4000,0.4,0.4
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,jaleel-mclaughlin,Jaleel McLaughlin,Denver Broncos,Houston Texans,Road,RB,RB,4000,5000,4.1,3.1
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,samaje-perine,Samaje Perine,Denver Broncos,Houston Texans,Road,RB,RB,4800,5700,2.6,1.6
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,dwayne-washington,Dwayne Washington,Denver Broncos,Houston Texans,Road,RB,RB,4000,4000,0,0
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,javonte-williams,Javonte Williams,Denver Broncos,Houston Texans,Road,RB,RB,5700,6600,10,8.5
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,lucas-krull,Lucas Krull,Denver Broncos,Houston Texans,Road,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,chris-manhertz,Chris Manhertz,Denver Broncos,Houston Texans,Road,TE,TE,2500,4200,0,0
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,adam-trautman,Adam Trautman,Denver Broncos,Houston Texans,Road,TE,TE,2900,4600,1.6,1.1
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,lil-jordan-humphrey,Lil'Jordan Humphrey,Denver Broncos,Houston Texans,Road,WR,WR,3000,4600,2.2,1.7
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,jerry-jeudy,Jerry Jeudy,Denver Broncos,Houston Texans,Road,WR,WR,4700,6000,8.1,6.6
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,brandon-johnson-3,Brandon Johnson,Denver Broncos,Houston Texans,Road,WR,WR,3000,4500,0,0
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,marvin-mims-jr,Marvin Mims Jr.,Denver Broncos,Houston Texans,Road,WR,WR,3300,4800,2.3,1.8
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,courtland-sutton,Courtland Sutton,Denver Broncos,Houston Texans,Road,WR,WR,5400,6900,15.7,14.7
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,HOU,Houston Texans,Houston Texans,Denver Broncos,Home,DST,DST,3300,3500,10,10
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,davis-mills,Davis Mills,Houston Texans,Denver Broncos,Home,QB,QB,4500,6200,0.72,0.72
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,c-j-stroud,C.J. Stroud,Houston Texans,Denver Broncos,Home,QB,QB,8100,8000,16.06,16.06
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,andrew-beck,Andrew Beck,Houston Texans,Denver Broncos,Home,RB,TE,4000,4400,1.5,1
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,dare-ogunbowale,Dare Ogunbowale,Houston Texans,Denver Broncos,Home,RB,RB,4000,4200,2.5,2
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,dameon-pierce,Dameon Pierce,Houston Texans,Denver Broncos,Home,RB,RB,5100,5900,10.1,10.1
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,devin-singletary,Devin Singletary,Houston Texans,Denver Broncos,Home,RB,RB,5900,7000,5,4.5
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,brevin-jordan,Brevin Jordan,Houston Texans,Denver Broncos,Home,TE,TE,2500,4300,9.4,7.9
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,eric-saubert,Eric Saubert,Houston Texans,Denver Broncos,Home,TE,TE,2500,4000,1.5,1
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,noah-brown,Noah Brown,Houston Texans,Denver Broncos,Home,WR,WR,4500,6400,0,0
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,nico-collins,Nico Collins,Houston Texans,Denver Broncos,Home,WR,WR,6800,7600,37.1,29.6
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,tank-dell,Tank Dell,Houston Texans,Denver Broncos,Home,WR,WR,7400,8200,0,0
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,john-metchie,John Metchie III,Houston Texans,Denver Broncos,Home,WR,WR,3000,4500,1.9,1.4
+NFL 2023 Regular Season,45263-DEN@HOU,2023-12-03 00:00:00,13,1:00 PM,robert-woods,Robert Woods,Houston Texans,Denver Broncos,Home,WR,WR,3900,5200,0,0
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,DET,Detroit Lions,Detroit Lions,New Orleans Saints,Road,DST,DST,3000,4300,5,5
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,jared-goff,Jared Goff,Detroit Lions,New Orleans Saints,Road,QB,QB,6500,7600,16.32,16.32
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,jahmyr-gibbs,Jahmyr Gibbs,Detroit Lions,New Orleans Saints,Road,RB,RB,6700,7700,6.4,5.9
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,david-montgomery,David Montgomery,Detroit Lions,New Orleans Saints,Road,RB,RB,6500,7800,12.5,12
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,craig-reynolds,Craig Reynolds,Detroit Lions,New Orleans Saints,Road,RB,RB,4000,4400,0,0
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,sam-laporta,Sam LaPorta,Detroit Lions,New Orleans Saints,Road,TE,TE,5600,7000,32,24.5
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,james-mitchell,James Mitchell,Detroit Lions,New Orleans Saints,Road,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,brock-wright,Brock Wright,Detroit Lions,New Orleans Saints,Road,TE,TE,2500,4400,1.8,1.3
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,donovan-peoples-jones,Donovan Peoples-Jones,Detroit Lions,New Orleans Saints,Road,WR,WR,3000,4500,0,0
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,kalif-raymond,Kalif Raymond,Detroit Lions,New Orleans Saints,Road,WR,WR,3200,5100,0.9,0.9
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,josh-reynolds,Josh Reynolds,Detroit Lions,New Orleans Saints,Road,WR,WR,3400,5600,2.2,1.7
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,amon-ra-st-brown,Amon-Ra St. Brown,Detroit Lions,New Orleans Saints,Road,WR,WR,8500,8500,12.9,11.9
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,jameson-williams,Jameson Williams,Detroit Lions,New Orleans Saints,Road,WR,WR,3600,5200,10,9.5
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,NO,New Orleans Saints,New Orleans Saints,Detroit Lions,Home,DST,DST,2700,3600,0,0
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,derek-carr,Derek Carr,New Orleans Saints,Detroit Lions,Home,QB,QB,5600,7000,10.94,9.94
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,jameis-winston,Jameis Winston,New Orleans Saints,Detroit Lions,Home,QB,QB,4600,6200,1.64,1.64
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,alvin-kamara,Alvin Kamara,New Orleans Saints,Detroit Lions,Home,RB,RB,8200,8300,28.9,25.9
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,adam-prentice,Adam Prentice,New Orleans Saints,Detroit Lions,Home,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,jamaal-williams,Jamaal Williams,New Orleans Saints,Detroit Lions,Home,RB,RB,4300,5000,2.6,2.1
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,jimmy-graham,Jimmy Graham,New Orleans Saints,Detroit Lions,Home,TE,TE,2500,4100,7.6,7.1
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,taysom-hill,Taysom Hill,New Orleans Saints,Detroit Lions,Home,TE,TE,5200,6500,15.4,14.4
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,juwan-johnson,Juwan Johnson,New Orleans Saints,Detroit Lions,Home,TE,TE,3400,4900,0,0
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,foster-moreau,Foster Moreau,New Orleans Saints,Detroit Lions,Home,TE,TE,2500,4400,4.8,3.8
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,lynn-bowden,Lynn Bowden,New Orleans Saints,Detroit Lions,Home,WR,WR,3000,5200,0.9,0.4
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,marquez-callaway,Marquez Callaway,New Orleans Saints,Detroit Lions,Home,WR,WR,3000,5000,0,0
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,keith-kirkwood,Keith Kirkwood,New Orleans Saints,Detroit Lions,Home,WR,WR,3000,4900,0,0
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,chris-olave,Chris Olave,New Orleans Saints,Detroit Lions,Home,WR,WR,6900,7500,19.9,14.4
+NFL 2023 Regular Season,45263-DET@NOR,2023-12-03 00:00:00,13,1:00 PM,a-t-perry,A.T. Perry,New Orleans Saints,Detroit Lions,Home,WR,WR,3300,5700,4,3.5
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,MIA,Miami Dolphins,Miami Dolphins,Washington Commanders,Road,DST,DST,3900,5000,12,12
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,tua-tagovailoa,Tua Tagovailoa,Miami Dolphins,Washington Commanders,Road,QB,QB,7900,8400,19.2,19.2
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,mike-white,Mike White,Miami Dolphins,Washington Commanders,Road,QB,QB,4600,6100,0.12,0.12
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,devon-achane,De'Von Achane,Miami Dolphins,Washington Commanders,Road,RB,RB,6900,7400,25.3,23.8
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,alec-ingold-x8122,Alec Ingold,Miami Dolphins,Washington Commanders,Road,RB,RB,4000,4200,0.7,0.2
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,raheem-mostert,Raheem Mostert,Miami Dolphins,Washington Commanders,Road,RB,RB,7300,8400,12.1,11.6
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,jeff-wilson,Jeff Wilson,Miami Dolphins,Washington Commanders,Road,RB,RB,4600,5500,1.1,1.1
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,tanner-conner,Tanner Conner,Miami Dolphins,Washington Commanders,Road,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,julian-hill,Julian Hill,Miami Dolphins,Washington Commanders,Road,TE,TE,2500,4100,4.3,3.3
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,durham-smythe,Durham Smythe,Miami Dolphins,Washington Commanders,Road,TE,TE,2500,4600,0,0
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,braxton-berrios,Braxton Berrios,Miami Dolphins,Washington Commanders,Road,WR,WR,3000,4700,0,0
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,chase-claypool,Chase Claypool,Miami Dolphins,Washington Commanders,Road,WR,WR,3000,4500,0,0
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,river-cracraft,River Cracraft,Miami Dolphins,Washington Commanders,Road,WR,WR,3000,4300,3.6,2.6
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,tyreek-hill,Tyreek Hill,Miami Dolphins,Washington Commanders,Road,WR,WR,9600,10000,35.3,29.8
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,jaylen-waddle,Jaylen Waddle,Miami Dolphins,Washington Commanders,Road,WR,WR,7600,7800,10.2,7.7
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,ced-wilson,Ced Wilson,Miami Dolphins,Washington Commanders,Road,WR,WR,3000,5000,0,0
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,WAS,Washington Commanders,Washington Commanders,Miami Dolphins,Home,DST,DST,2300,3000,-4,-4
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,jacoby-brissett,Jacoby Brissett,Washington Commanders,Miami Dolphins,Home,QB,QB,4500,6100,0,0
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,sam-howell,Sam Howell,Washington Commanders,Miami Dolphins,Home,QB,QB,6200,7500,20.18,20.18
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,antonio-gibson-2,Antonio Gibson,Washington Commanders,Miami Dolphins,Home,RB,RB,4500,5300,11.2,9.2
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,brian-robinson,Brian Robinson,Washington Commanders,Miami Dolphins,Home,RB,RB,6100,6800,5.3,5.3
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,chris-rodriguez-jr,Chris Rodriguez Jr.,Washington Commanders,Miami Dolphins,Home,RB,RB,4100,4600,2.9,2.9
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,john-bates,John Bates,Washington Commanders,Miami Dolphins,Home,TE,TE,2500,4500,0,0
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,logan-thomas,Logan Thomas,Washington Commanders,Miami Dolphins,Home,TE,TE,3600,5200,2,2
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,cole-turner,Cole Turner,Washington Commanders,Miami Dolphins,Home,TE,TE,2500,4300,1.2,0.7
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,dyami-brown,Dyami Brown,Washington Commanders,Miami Dolphins,Home,WR,WR,3000,4600,1,0.5
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,jamison-crowder,Jamison Crowder,Washington Commanders,Miami Dolphins,Home,WR,WR,3100,4500,0,0
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,jahan-dotson,Jahan Dotson,Washington Commanders,Miami Dolphins,Home,WR,WR,4600,5900,4.3,3.3
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,terry-mclaurin,Terry McLaurin,Washington Commanders,Miami Dolphins,Home,WR,WR,5500,6700,0,0
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,byron-pringle,Byron Pringle,Washington Commanders,Miami Dolphins,Home,WR,WR,3000,4700,0,0
+NFL 2023 Regular Season,45263-MIA@WAS,2023-12-03 00:00:00,13,1:00 PM,curtis-samuel,Curtis Samuel,Washington Commanders,Miami Dolphins,Home,WR,WR,4100,6200,10.5,8.5
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,LAC,Los Angeles Chargers,Los Angeles Chargers,New England Patriots,Road,DST,DST,4000,4600,17,17
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,justin-herbert,Justin Herbert,Los Angeles Chargers,New England Patriots,Road,QB,QB,8000,8200,7.98,7.98
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,austin-ekeler,Austin Ekeler,Los Angeles Chargers,New England Patriots,Road,RB,RB,8300,8000,4.7,3.7
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,joshua-kelley,Joshua Kelley,Los Angeles Chargers,New England Patriots,Road,RB,RB,4900,6000,4.5,3.5
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,stephen-anderson,Stephen Anderson,Los Angeles Chargers,New England Patriots,Road,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,gerald-everett,Gerald Everett,Los Angeles Chargers,New England Patriots,Road,TE,TE,3500,5000,8.4,6.4
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,donald-parham,Donald Parham,Los Angeles Chargers,New England Patriots,Road,TE,TE,3300,4800,3.2,2.2
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,stone-smartt,Stone Smartt,Los Angeles Chargers,New England Patriots,Road,TE,TE,2500,4500,0,0
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,keenan-allen,Keenan Allen,Los Angeles Chargers,New England Patriots,Road,WR,WR,9000,9000,10.8,8.3
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,derius-davis,Derius Davis,Los Angeles Chargers,New England Patriots,Road,WR,WR,3000,4700,0,0
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,alex-erickson,Alex Erickson,Los Angeles Chargers,New England Patriots,Road,WR,WR,3000,4100,3.3,2.8
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,jalen-guyton,Jalen Guyton,Los Angeles Chargers,New England Patriots,Road,WR,WR,3300,5300,1.5,1
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,quentin-johnston,Quentin Johnston,Los Angeles Chargers,New England Patriots,Road,WR,WR,4000,5700,10.2,7.7
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,NE,New England Patriots,New England Patriots,Los Angeles Chargers,Home,DST,DST,2400,3900,7,7
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,bailey-zappe,Bailey Zappe,New England Patriots,Los Angeles Chargers,Home,QB,QB,4800,6600,7.24,7.24
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,ezekiel-elliott,Ezekiel Elliott,New England Patriots,Los Angeles Chargers,Home,RB,RB,4500,5300,13.2,11.2
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,ty-montgomery,Ty Montgomery,New England Patriots,Los Angeles Chargers,Home,RB,RB,4000,4200,0.2,0.2
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,rhamondre-stevenson,Rhamondre Stevenson,New England Patriots,Los Angeles Chargers,Home,RB,RB,6000,7300,3.9,2.4
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,pharaoh-brown,Pharaoh Brown,New England Patriots,Los Angeles Chargers,Home,TE,TE,2500,4300,0,0
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,mike-gesicki,Mike Gesicki,New England Patriots,Los Angeles Chargers,Home,TE,TE,2500,4600,0,0
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,hunter-henry,Hunter Henry,New England Patriots,Los Angeles Chargers,Home,TE,TE,3100,5100,3.5,2.5
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,devante-parker,DeVante Parker,New England Patriots,Los Angeles Chargers,Home,WR,WR,3300,5300,10.4,8.4
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,jalen-reagor,Jalen Reagor,New England Patriots,Los Angeles Chargers,Home,WR,WR,3000,4200,2.1,1.6
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,matthew-slater,Matthew Slater,New England Patriots,Los Angeles Chargers,Home,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,juju-smith-schuster,JuJu Smith-Schuster,New England Patriots,Los Angeles Chargers,Home,WR,WR,3200,5400,2.1,1.6
+NFL 2023 Regular Season,45263-LAC@NWE,2023-12-03 00:00:00,13,1:00 PM,tyquan-thornton,Tyquan Thornton,New England Patriots,Los Angeles Chargers,Home,WR,WR,3000,5000,3.9,3.9
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,ARI,Arizona Cardinals,Arizona Cardinals,Pittsburgh Steelers,Road,DST,DST,2900,3100,6,6
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,kyler-murray,Kyler Murray,Arizona Cardinals,Pittsburgh Steelers,Road,QB,QB,7000,7700,11.8,11.8
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,michael-carter-3,Michael Carter,Arizona Cardinals,Pittsburgh Steelers,Road,RB,RB,4200,5100,2.5,2.5
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,james-conner,James Conner,Arizona Cardinals,Pittsburgh Steelers,Road,RB,RB,5800,6300,25.5,22.5
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,emari-demercado,Emari Demercado,Arizona Cardinals,Pittsburgh Steelers,Road,RB,RB,4400,4200,0,0
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,elijah-higgins,Elijah Higgins,Arizona Cardinals,Pittsburgh Steelers,Road,TE,WR,2500,4400,3.1,2.6
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,trey-mcbride,Trey McBride,Arizona Cardinals,Pittsburgh Steelers,Road,TE,TE,4900,6700,22.9,18.9
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,geoff-swaim,Geoff Swaim,Arizona Cardinals,Pittsburgh Steelers,Road,TE,TE,2500,4200,3,2
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,andre-baccellia,Andre Baccellia,Arizona Cardinals,Pittsburgh Steelers,Road,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,marquise-brown,Marquise Brown,Arizona Cardinals,Pittsburgh Steelers,Road,WR,WR,5200,6800,0,0
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,dan-chisena,Dan Chisena,Arizona Cardinals,Pittsburgh Steelers,Road,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,greg-dortch,Greg Dortch,Arizona Cardinals,Pittsburgh Steelers,Road,WR,WR,3700,5200,2.9,2.4
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,rondale-moore,Rondale Moore,Arizona Cardinals,Pittsburgh Steelers,Road,WR,WR,3400,5000,1.6,1.1
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,PIT,Pittsburgh Steelers,Pittsburgh Steelers,Arizona Cardinals,Home,DST,DST,3800,4900,2,2
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,kenny-pickett,Kenny Pickett,Pittsburgh Steelers,Arizona Cardinals,Home,QB,QB,5100,6700,3.1,3.1
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,mitchell-trubisky,Mitchell Trubisky,Pittsburgh Steelers,Arizona Cardinals,Home,QB,QB,4600,6200,8.18,7.18
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,najee-harris-x2665,Najee Harris,Pittsburgh Steelers,Arizona Cardinals,Home,RB,RB,5200,7200,9.7,8.7
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,godwin-igwebuike,Godwin Igwebuike,Pittsburgh Steelers,Arizona Cardinals,Home,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,jaylen-warren,Jaylen Warren,Pittsburgh Steelers,Arizona Cardinals,Home,RB,RB,5400,6500,6.5,6
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,pat-freiermuth,Pat Freiermuth,Pittsburgh Steelers,Arizona Cardinals,Home,TE,TE,4300,5800,5.9,4.4
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,connor-heyward,Connor Heyward,Pittsburgh Steelers,Arizona Cardinals,Home,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,darnell-washington,Darnell Washington,Pittsburgh Steelers,Arizona Cardinals,Home,TE,TE,2500,4300,0,0
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,rodney-williams-2,Rod Williams,Pittsburgh Steelers,Arizona Cardinals,Home,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,calvin-austin-iii,Calvin Austin III,Pittsburgh Steelers,Arizona Cardinals,Home,WR,WR,3000,4500,2,1.5
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,miles-boykin,Miles Boykin,Pittsburgh Steelers,Arizona Cardinals,Home,WR,WR,3000,4200,0,0
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,diontae-johnson,Diontae Johnson,Pittsburgh Steelers,Arizona Cardinals,Home,WR,WR,5000,6800,13.3,11.3
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,george-pickens,George Pickens,Pittsburgh Steelers,Arizona Cardinals,Home,WR,WR,4800,6600,12.6,10.6
+NFL 2023 Regular Season,45263-ARI@PIT,2023-12-03 00:00:00,13,1:00 PM,allen-robinson,Allen Robinson,Pittsburgh Steelers,Arizona Cardinals,Home,WR,WR,3000,5000,4.9,3.4
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,CAR,Carolina Panthers,Carolina Panthers,Tampa Bay Buccaneers,Road,DST,DST,2500,3200,3,3
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,bryce-young,Bryce Young,Carolina Panthers,Tampa Bay Buccaneers,Road,QB,QB,4900,6500,8.12,8.12
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,raheem-blackshear,Raheem Blackshear,Carolina Panthers,Tampa Bay Buccaneers,Road,RB,RB,4000,4400,0.6,0.6
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,chuba-hubbard,Chuba Hubbard,Carolina Panthers,Tampa Bay Buccaneers,Road,RB,RB,5300,6200,25.4,22.4
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,miles-sanders,Miles Sanders,Carolina Panthers,Tampa Bay Buccaneers,Road,RB,RB,4300,5600,3.9,3.4
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,stephen-sullivan,Stephen Sullivan,Carolina Panthers,Tampa Bay Buccaneers,Road,TE,TE,2500,4400,2.6,2.1
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,ian-thomas,Ian Thomas,Carolina Panthers,Tampa Bay Buccaneers,Road,TE,TE,2500,4300,1.6,1.1
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,d-j-chark,DJ Chark,Carolina Panthers,Tampa Bay Buccaneers,Road,WR,WR,3200,5600,8.6,7.1
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,jonathan-mingo,Jonathan Mingo,Carolina Panthers,Tampa Bay Buccaneers,Road,WR,WR,3300,5400,12.9,9.9
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,ihmir-smith-marsette,Ihmir Smith-Marsette,Carolina Panthers,Tampa Bay Buccaneers,Road,WR,WR,3000,4300,0,0
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,mike-strachan,Mike Strachan,Carolina Panthers,Tampa Bay Buccaneers,Road,WR,WR,3000,4200,0,0
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,adam-thielen,Adam Thielen,Carolina Panthers,Tampa Bay Buccaneers,Road,WR,WR,6600,7000,5.5,4
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,TB,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Carolina Panthers,Home,DST,DST,3600,4800,7,7
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,baker-mayfield,Baker Mayfield,Tampa Bay Buccaneers,Carolina Panthers,Home,QB,QB,5500,6800,10.88,10.88
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,chase-edmonds,Chase Edmonds,Tampa Bay Buccaneers,Carolina Panthers,Home,RB,RB,4300,4700,1.9,1.4
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,sean-tucker,Sean Tucker,Tampa Bay Buccaneers,Carolina Panthers,Home,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,rachaad-white,Rachaad White,Tampa Bay Buccaneers,Carolina Panthers,Home,RB,RB,6300,7500,19.6,18.1
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,payne-durham,Payne Durham,Tampa Bay Buccaneers,Carolina Panthers,Home,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,ko-kieft,Ko Kieft,Tampa Bay Buccaneers,Carolina Panthers,Home,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,cade-otton,Cade Otton,Tampa Bay Buccaneers,Carolina Panthers,Home,TE,TE,3200,5100,0,0
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,mike-evans,Mike Evans,Tampa Bay Buccaneers,Carolina Panthers,Home,WR,WR,7700,8300,32.2,25.7
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,chris-godwin,Chris Godwin,Tampa Bay Buccaneers,Carolina Panthers,Home,WR,WR,6300,6300,7.9,7.9
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,david-moore,David Moore,Tampa Bay Buccaneers,Carolina Panthers,Home,WR,WR,3000,4000,0,0
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,trey-palmer,Trey Palmer,Tampa Bay Buccaneers,Carolina Panthers,Home,WR,WR,3200,5200,4.5,3.5
+NFL 2023 Regular Season,45263-CAR@TAM,2023-12-03 00:00:00,13,4:05 PM,deven-thompkins,Deven Thompkins,Tampa Bay Buccaneers,Carolina Panthers,Home,WR,WR,3000,4500,2.1,1.6
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,CLE,Cleveland Browns,Cleveland Browns,Los Angeles Rams,Road,DST,DST,3100,4100,-1,-1
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,joe-flacco,Joe Flacco,Cleveland Browns,Los Angeles Rams,Road,QB,QB,4600,6000,17.16,17.16
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,jerome-ford,Jerome Ford,Cleveland Browns,Los Angeles Rams,Road,RB,RB,5500,6400,14.2,12.7
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,kareem-hunt,Kareem Hunt,Cleveland Browns,Los Angeles Rams,Road,RB,RB,4700,5800,5.8,5.3
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,pierre-strong,Pierre Strong,Cleveland Browns,Los Angeles Rams,Road,RB,RB,4000,4300,2,2
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,jordan-akins,Jordan Akins,Cleveland Browns,Los Angeles Rams,Road,TE,TE,2500,4200,1.6,1.1
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,harrison-bryant,Harrison Bryant,Cleveland Browns,Los Angeles Rams,Road,TE,TE,2500,4700,15.9,13.4
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,david-njoku,David Njoku,Cleveland Browns,Los Angeles Rams,Road,TE,TE,4100,5600,3.7,2.7
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,david-bell,David Bell,Cleveland Browns,Los Angeles Rams,Road,WR,WR,3000,4400,3.2,2.2
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,amari-cooper,Amari Cooper,Cleveland Browns,Los Angeles Rams,Road,WR,WR,5700,6700,6.4,4.9
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,elijah-moore,Elijah Moore,Cleveland Browns,Los Angeles Rams,Road,WR,WR,3500,6000,12.3,10.3
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,james-proche,James Proche,Cleveland Browns,Los Angeles Rams,Road,WR,WR,3000,4300,0,0
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,cedric-tillman-2,Cedric Tillman,Cleveland Browns,Los Angeles Rams,Road,WR,WR,3100,5300,4,3
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,LA,Los Angeles Rams,Los Angeles Rams,Cleveland Browns,Home,DST,DST,3700,3700,7,7
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,matthew-stafford,Matthew Stafford,Los Angeles Rams,Cleveland Browns,Home,QB,QB,5900,6900,22.96,22.96
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,zach-evans,Zach Evans,Los Angeles Rams,Cleveland Browns,Home,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,royce-freeman,Royce Freeman,Los Angeles Rams,Cleveland Browns,Home,RB,RB,4500,5400,0,0
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,kyren-williams,Kyren Williams,Los Angeles Rams,Cleveland Browns,Home,RB,RB,7200,8500,20.2,18.7
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,davis-allen,Davis Allen,Los Angeles Rams,Cleveland Browns,Home,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,tyler-higbee,Tyler Higbee,Los Angeles Rams,Cleveland Browns,Home,TE,TE,3700,5400,5.5,4.5
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,hunter-long,Hunter Long,Los Angeles Rams,Cleveland Browns,Home,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,tutu-atwell,Tutu Atwell,Los Angeles Rams,Cleveland Browns,Home,WR,WR,3800,5800,1.9,1.4
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,cooper-kupp,Cooper Kupp,Los Angeles Rams,Cleveland Browns,Home,WR,WR,7800,7100,15.9,12.9
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,puka-nacua,Puka Nacua,Los Angeles Rams,Cleveland Browns,Home,WR,WR,7000,7200,26.9,21.9
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,demarcus-robinson,Demarcus Robinson,Los Angeles Rams,Cleveland Browns,Home,WR,WR,3000,4700,15.5,13.5
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,ben-skowronek,Ben Skowronek,Los Angeles Rams,Cleveland Browns,Home,WR,WR,3000,4600,3.2,2.2
+NFL 2023 Regular Season,45263-CLE@LAR,2023-12-03 00:00:00,13,4:25 PM,austin-trammell,Austin Trammell,Los Angeles Rams,Cleveland Browns,Home,WR,WR,3000,4400,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,SF,San Francisco 49ers,San Francisco 49ers,Philadelphia Eagles,Road,DST,DST,3000,4200,4,4
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,sam-darnold,Sam Darnold,San Francisco 49ers,Philadelphia Eagles,Road,QB,QB,4600,6100,-0.1,-0.1
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,brock-purdy,Brock Purdy,San Francisco 49ers,Philadelphia Eagles,Road,QB,QB,6100,7800,32.46,29.46
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,kyle-juszczyk,Kyle Juszczyk,San Francisco 49ers,Philadelphia Eagles,Road,RB,RB,4000,4100,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,jordan-mason,Jordan Mason,San Francisco 49ers,Philadelphia Eagles,Road,RB,RB,4500,4200,1,1
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,christian-mccaffrey,Christian McCaffrey,San Francisco 49ers,Philadelphia Eagles,Road,RB,RB,9000,9800,22.3,20.8
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,elijah-mitchell-2,Elijah Mitchell,San Francisco 49ers,Philadelphia Eagles,Road,RB,RB,4300,4700,1.3,1.3
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,ross-dwelley,Ross Dwelley,San Francisco 49ers,Philadelphia Eagles,Road,TE,TE,2500,4200,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,george-kittle,George Kittle,San Francisco 49ers,Philadelphia Eagles,Road,TE,TE,6200,7400,10.8,8.8
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,charlie-woerner,Charlie Woerner,San Francisco 49ers,Philadelphia Eagles,Road,TE,TE,2500,4300,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,brandon-aiyuk,Brandon Aiyuk,San Francisco 49ers,Philadelphia Eagles,Road,WR,WR,7200,8000,15.6,13.1
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,ronnie-bell,Ronnie Bell,San Francisco 49ers,Philadelphia Eagles,Road,WR,WR,3000,4400,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,chris-conley,Chris Conley,San Francisco 49ers,Philadelphia Eagles,Road,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,jauan-jennings,Jauan Jennings,San Francisco 49ers,Philadelphia Eagles,Road,WR,WR,3500,4800,13.4,11.9
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,deebo-samuel,Deebo Samuel,San Francisco 49ers,Philadelphia Eagles,Road,WR,WR,6200,7300,38.8,33.8
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,PHI,Philadelphia Eagles,Philadelphia Eagles,San Francisco 49ers,Home,DST,DST,2800,3800,-2,-2
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,jalen-hurts,Jalen Hurts,Philadelphia Eagles,San Francisco 49ers,Home,QB,QB,8200,9000,23.92,23.92
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,marcus-mariota,Marcus Mariota,Philadelphia Eagles,San Francisco 49ers,Home,QB,QB,4800,6100,1.24,1.24
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,kenneth-gainwell,Kenneth Gainwell,Philadelphia Eagles,San Francisco 49ers,Home,RB,RB,4500,4900,9.7,7.2
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,boston-scott,Boston Scott,Philadelphia Eagles,San Francisco 49ers,Home,RB,RB,4000,4600,3.9,3.4
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,d-andre-swift,D'Andre Swift,Philadelphia Eagles,San Francisco 49ers,Home,RB,RB,6600,6700,4,3
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,grant-calcaterra,Grant Calcaterra,Philadelphia Eagles,San Francisco 49ers,Home,TE,TE,2500,4100,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,albert-okwuegbunam,Albert Okwuegbunam,Philadelphia Eagles,San Francisco 49ers,Home,TE,TE,2500,4200,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,jack-stoll,Jack Stoll,Philadelphia Eagles,San Francisco 49ers,Home,TE,TE,2700,4600,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,a-j-brown,A.J. Brown,Philadelphia Eagles,San Francisco 49ers,Home,WR,WR,8800,8400,22.4,15.4
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,britain-covey,Britain Covey,Philadelphia Eagles,San Francisco 49ers,Home,WR,WR,3000,4100,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,julio-jones,Julio Jones,Philadelphia Eagles,San Francisco 49ers,Home,WR,WR,3100,4800,0,0
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,devonta-smith,DeVonta Smith,Philadelphia Eagles,San Francisco 49ers,Home,WR,WR,7300,7700,24.6,20.1
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,quez-watkins,Quez Watkins,Philadelphia Eagles,San Francisco 49ers,Home,WR,WR,3000,4600,5.8,4.3
+NFL 2023 Regular Season,45263-SFO@PHI,2023-12-03 00:00:00,13,4:25 PM,olamide-zaccheaus-x1231,Olamide Zaccheaus,Philadelphia Eagles,San Francisco 49ers,Home,WR,WR,3000,5100,0,0
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,KC,Kansas City Chiefs,Kansas City Chiefs,Green Bay Packers,Road,DST,DST,3300,5000,2,2
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,patrick-mahomes,Patrick Mahomes,Kansas City Chiefs,Green Bay Packers,Road,QB,QB,7800,8300,14,14
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,clyde-edwards-helaire,Clyde Edwards-Helaire,Kansas City Chiefs,Green Bay Packers,Road,RB,RB,4200,4900,2.4,1.9
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,isiah-pacheco,Isiah Pacheco,Kansas City Chiefs,Green Bay Packers,Road,RB,RB,6500,7500,24.3,19.8
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,blake-bell,Blake Bell,Kansas City Chiefs,Green Bay Packers,Road,TE,TE,2500,4200,0,0
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,noah-gray,Noah Gray,Kansas City Chiefs,Green Bay Packers,Road,TE,TE,2500,4700,7.2,6.7
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,travis-kelce,Travis Kelce,Kansas City Chiefs,Green Bay Packers,Road,TE,TE,8000,8000,12.1,10.1
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,james-winchester,James Winchester,Kansas City Chiefs,Green Bay Packers,Road,TE,TE,2500,4000,0,0
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,richie-james,Richie James,Kansas City Chiefs,Green Bay Packers,Road,WR,WR,3000,4400,2.2,1.7
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,skyy-moore,Skyy Moore,Kansas City Chiefs,Green Bay Packers,Road,WR,WR,3000,4900,1.5,1
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,rashee-rice,Rashee Rice,Kansas City Chiefs,Green Bay Packers,Road,WR,WR,5600,6100,14.4,10.4
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,kadarius-toney,Kadarius Toney,Kansas City Chiefs,Green Bay Packers,Road,WR,WR,3200,5000,0.6,0.6
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,marquez-valdes-scantling,Marquez Valdes-Scantling,Kansas City Chiefs,Green Bay Packers,Road,WR,WR,3100,5200,4.5,3.5
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,justin-watson,Justin Watson,Kansas City Chiefs,Green Bay Packers,Road,WR,WR,3500,5300,0,0
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,GB,Green Bay Packers,Green Bay Packers,Kansas City Chiefs,Home,DST,DST,2500,3300,6,6
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,jordan-love,Jordan Love,Green Bay Packers,Kansas City Chiefs,Home,QB,QB,5800,7300,23.68,23.68
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,a-j-dillon,AJ Dillon,Green Bay Packers,Kansas City Chiefs,Home,RB,RB,5400,6500,9.7,9.2
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,henry-pearson,Henry Pearson,Green Bay Packers,Kansas City Chiefs,Home,RB,RB,4000,4000,0,0
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,james-robinson-3,James Robinson,Green Bay Packers,Kansas City Chiefs,Home,RB,RB,4000,4500,1,0.5
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,patrick-taylor,Patrick Taylor,Green Bay Packers,Kansas City Chiefs,Home,RB,RB,4000,4800,2.9,2.9
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,tucker-kraft,Tucker Kraft,Green Bay Packers,Kansas City Chiefs,Home,TE,TE,3000,4800,6.7,5.2
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,ben-sims,Ben Sims,Green Bay Packers,Kansas City Chiefs,Home,TE,TE,2500,4200,7.1,6.6
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,romeo-doubs,Romeo Doubs,Green Bay Packers,Kansas City Chiefs,Home,WR,WR,4800,5900,11.2,9.2
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,malik-heath,Malik Heath,Green Bay Packers,Kansas City Chiefs,Home,WR,WR,3000,4700,2.5,2
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,jayden-reed,Jayden Reed,Green Bay Packers,Kansas City Chiefs,Home,WR,WR,4400,6100,5.6,3.6
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,christian-watson,Christian Watson,Green Bay Packers,Kansas City Chiefs,Home,WR,WR,4600,6000,27.6,24.1
+NFL 2023 Regular Season,45263-KAN@GNB,2023-12-03 00:00:00,13,8:20 PM,dontayvion-wicks,Dontayvion Wicks,Green Bay Packers,Kansas City Chiefs,Home,WR,WR,3000,5000,7.3,5.8
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,CIN,Cincinnati Bengals,Cincinnati Bengals,Jacksonville Jaguars,Road,DST,DST,2600,3900,3,3
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,jake-browning,Jake Browning,Cincinnati Bengals,Jacksonville Jaguars,Road,QB,QB,5100,6500,29.66,26.16
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,chase-brown,Chase Brown,Cincinnati Bengals,Jacksonville Jaguars,Road,RB,RB,4000,4200,6.1,6.1
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,joe-mixon,Joe Mixon,Cincinnati Bengals,Jacksonville Jaguars,Road,RB,RB,6200,7200,29.7,26.7
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,trayveon-williams,Trayveon Williams,Cincinnati Bengals,Jacksonville Jaguars,Road,RB,RB,4000,4500,0,0
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,tanner-hudson,Tanner Hudson,Cincinnati Bengals,Jacksonville Jaguars,Road,TE,TE,2700,4700,7.5,5.5
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,drew-sample,Drew Sample,Cincinnati Bengals,Jacksonville Jaguars,Road,TE,TE,2500,4600,2.1,1.6
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,irv-smith,Irv Smith,Cincinnati Bengals,Jacksonville Jaguars,Road,TE,TE,2500,4400,0,0
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,mitchell-wilcox,Mitchell Wilcox,Cincinnati Bengals,Jacksonville Jaguars,Road,TE,TE,2500,4200,2.2,1.7
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,tyler-boyd,Tyler Boyd,Cincinnati Bengals,Jacksonville Jaguars,Road,WR,WR,4200,5500,8.2,5.7
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,ja-marr-chase,Ja'Marr Chase,Cincinnati Bengals,Jacksonville Jaguars,Road,WR,WR,8100,7900,34.62,26.12
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,tee-higgins,Tee Higgins,Cincinnati Bengals,Jacksonville Jaguars,Road,WR,WR,6300,6200,6.6,5.1
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,andrei-iosivas,Andrei Iosivas,Cincinnati Bengals,Jacksonville Jaguars,Road,WR,WR,3000,4500,0,0
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,trenton-irwin,Trenton Irwin,Cincinnati Bengals,Jacksonville Jaguars,Road,WR,WR,3000,4900,3.5,3
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,charlie-jones-3,Charlie Jones,Cincinnati Bengals,Jacksonville Jaguars,Road,WR,WR,3000,4200,0,0
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,JAX,Jacksonville Jaguars,Jacksonville Jaguars,Cincinnati Bengals,Home,DST,DST,3400,4400,3,3
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,c-j-beathard,C.J. Beathard,Jacksonville Jaguars,Cincinnati Bengals,Home,QB,QB,4600,6100,3.22,3.22
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,trevor-lawrence,Trevor Lawrence,Jacksonville Jaguars,Cincinnati Bengals,Home,QB,QB,6600,7900,25.12,25.12
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,tank-bigsby,Tank Bigsby,Jacksonville Jaguars,Cincinnati Bengals,Home,RB,RB,4000,5400,0,0
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,travis-etienne,Travis Etienne,Jacksonville Jaguars,Cincinnati Bengals,Home,RB,RB,7000,8700,17.9,15.9
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,d-ernest-johnson,D'Ernest Johnson,Jacksonville Jaguars,Cincinnati Bengals,Home,RB,RB,4300,5500,1.9,1.4
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,evan-engram,Evan Engram,Jacksonville Jaguars,Cincinnati Bengals,Home,TE,TE,4500,5600,23.2,18.7
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,luke-farrell,Luke Farrell,Jacksonville Jaguars,Cincinnati Bengals,Home,TE,TE,2500,4500,1.9,1.4
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,tim-jones-3,Tim Jones,Jacksonville Jaguars,Cincinnati Bengals,Home,WR,WR,3000,4400,0,0
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,zay-jones,Zay Jones,Jacksonville Jaguars,Cincinnati Bengals,Home,WR,WR,3700,5300,12.8,10.3
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,christian-kirk,Christian Kirk,Jacksonville Jaguars,Cincinnati Bengals,Home,WR,WR,5800,6900,3.6,3.1
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,calvin-ridley,Calvin Ridley,Jacksonville Jaguars,Cincinnati Bengals,Home,WR,WR,6400,7400,7.3,5.3
+NFL 2023 Regular Season,45264-CIN@JAX,2023-12-04 00:00:00,13,8:15 PM,parker-washington,Parker Washington,Jacksonville Jaguars,Cincinnati Bengals,Home,WR,WR,3000,4100,18.1,15.1
