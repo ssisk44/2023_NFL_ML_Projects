@@ -1,29 +1,41 @@
 import os
 import dotenv
 from src.routines.allFullPlayerEntryDataObjectsRoutines.mainAllFullPlayerEntryDataObjectsRoutine import mainAllFullPlayerEntryDataObjectsRoutine
-from src.routines.playerIDBridgeRoutines.mainPlayerIDBridgeCreationRoutine import createPlayerIDBridgeRecords
+from src.routines.dkContestParticipantBridgeRoutines.mainDKContestParticipantBridgeCreationRoutine import createAllYearsPlayerIDBridgeRecordsMap
+from src.routines.dkContestParticipantBridgeRoutines.mainDKContestParticipantBridgeCreationRoutine import createAllYearsTeamIDBridgeRecordsMap
+
 import pandas as pd
 def mainPlayerEfficiencyFilterModelCreationRoutine():
     """ This routine trains a player week efficiency filter model for a given week """
-    dotenv.load_dotenv()
+    #### get all player and team data (player & team dict shape: season -> week -> gameID -> teamID)
 
-    # get all player data with results
-    allPlayerDataMap = createPlayerIDBridgeRecords()
+    #### if necessary: create new player and team ID bridges
+    createAllYearsPlayerIDBridgeRecordsMap()
 
-    # acquire full (game, team, player, venue, weather) data by game
-    playerDataObjects = mainAllFullPlayerEntryDataObjectsRoutine(6, 16)
+    #### if necessary: create full player data records for referencing (**not all bdb players in contest have been in prev contests**)
 
-    # verify data integrity
+    #### if necessary: update historical game weather data
 
-    # scale data
+    #### Create training data by game using playerIDBridge,
 
-    # setup model
 
-    # train model
+    #### get all team data with results
+    # allTeamDataMap = createAllYearsTeamIDBridgeRecordsMap()
 
-    # analyze model results
+    #### acquire full (game, team, player, venue, weather) data by game
+    #playerDataObjects = mainAllFullPlayerEntryDataObjectsRoutine(6, 16)
 
-    # save model
+    #### verify data integrity
+
+    #### scale data
+
+    #### setup model
+
+    #### train model
+
+    #### analyze model results
+
+    #### save model
 
 
 

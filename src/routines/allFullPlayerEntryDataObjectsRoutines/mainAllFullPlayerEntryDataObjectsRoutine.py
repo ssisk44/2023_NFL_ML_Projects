@@ -10,7 +10,6 @@ from src.functions.data.msf.game import gameDataFuncs
 #from src.functions.data.msf.injury import injuryDataFuncs
 from src.functions.data.msf.venue import venueDataFuncs
 from src.functions.data.weather import weatherDataFuncs
-from src.functions.data.playerIDBridge import playerIDBridgeFuncs
 import pandas as pd
 from src import constants
 from src.functions.datetimeFuncs import calculateSeasonYearFromDate

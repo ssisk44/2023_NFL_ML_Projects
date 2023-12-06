@@ -64,24 +64,24 @@ def getPlayerRecordsForGameID(year:int, week:int, gameID:int):
     return df
 
 
-def getMSFPlayerDataByYearWeek(year:int, week:int):
+def getMSFPlayerDataByYearWeekGameIDTeamAbbrev(year:int, week:int, gameID:int, teamAbbrev:str):
     absProjectPath = os.getenv("ABS_PROJECT_PATH")
     targetDirectory = "data/msf/weekly_player_game_logs/"
     filepath = absProjectPath + targetDirectory + str(year) + '/' + str(week) + '.csv'
     df = pd.read_csv(filepath, index_col=False)
-    filteredDF = df.loc[df['#Position'].isin(['QB', 'RB', 'FB', 'WR', 'TE'])]
+    filteredDF = df.loc[(df["#Game ID"] == gameID) & (df["#Team Abbr."] == teamAbbrev) & df['#Position'].isin(['QB', 'RB', 'FB', 'WR', 'TE'])]
     df = filteredDF.sort_values(by=['#FirstName']).reset_index()
     return df
 
-def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerName, bdbHomeTeamName):
+def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerName, bdbPlayerTeamName):
     for i1, msfEntry in msfDF.iterrows():
-        msfHomeTeamName = msfEntry["#Home Team City"] + " " + msfEntry['#Home Team Name']
+        msfPlayerTeamName = msfEntry["#Team City"] + " " + msfEntry['#Team Name']
         msfPlayerName = msfEntry['#FirstName'] + " " + msfEntry['#LastName']
 
         ###### MULTIPLE PLAYERS WITH THE SAME NAME AT QB RB WR TE ON ONE TEAM?
 
         ### FIRST CHECK: was their name corrected to match in future player data?
-        if msfPlayerName == bdbPlayerName and msfHomeTeamName == bdbHomeTeamName:
+        if msfPlayerName == bdbPlayerName and msfPlayerTeamName == bdbPlayerTeamName:
             return msfEntry
 
         ### NAME TRIMMING
@@ -103,7 +103,7 @@ def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerName, bdbHomeTeamName):
             bdbPlayerName = ' '.join(splitBDBPlayerName[:-1])
 
         ### SECOND CHECK: was player alternate name changed in the future
-        if msfPlayerName == bdbPlayerName and msfHomeTeamName == bdbHomeTeamName:
+        if msfPlayerName == bdbPlayerName and msfPlayerTeamName == bdbPlayerTeamName:
             return msfEntry
 
         # # 4) manual bank of player names to ignore (LBs?)
@@ -140,7 +140,7 @@ def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerName, bdbHomeTeamName):
             msfPlayerName = alternateNamePlayerDict[msfPlayerName]
 
         ### FINAL CHECK
-        if msfPlayerName == bdbPlayerName and msfHomeTeamName == bdbHomeTeamName:
+        if msfPlayerName == bdbPlayerName and msfPlayerTeamName == bdbPlayerTeamName:
             return msfEntry
 
     return None

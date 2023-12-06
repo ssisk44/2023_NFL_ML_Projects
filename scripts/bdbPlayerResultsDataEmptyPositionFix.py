@@ -9,7 +9,7 @@ dotenv.load_dotenv()
 absProjectPath = os.getenv("ABS_PROJECT_PATH")
 apiDataYearStart = int(os.getenv("FIRST_API_SEASON_YEAR"))
 apiDataYearEnd = int(os.getenv("CURRENT_SEASON_YEAR"))
-for year in range(2021, 2021+1):
+for year in range(apiDataYearStart, apiDataYearEnd+1):
     df = pd.read_csv(absProjectPath + 'data/dfs/historicalDFSPlayerResults/csv/' + str(year) + '.csv', index_col=None)
     rowArr = []
     for i,row in df.iterrows():
