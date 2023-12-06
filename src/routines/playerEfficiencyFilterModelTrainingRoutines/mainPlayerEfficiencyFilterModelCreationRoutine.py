@@ -1,12 +1,16 @@
 import os
 import dotenv
 from src.routines.allFullPlayerEntryDataObjectsRoutines.mainAllFullPlayerEntryDataObjectsRoutine import mainAllFullPlayerEntryDataObjectsRoutine
+from src.routines.playerIDBridgeRoutines.mainPlayerIDBridgeCreationRoutine import createPlayerIDBridgeRecords
 import pandas as pd
 def mainPlayerEfficiencyFilterModelCreationRoutine():
     """ This routine trains a player week efficiency filter model for a given week """
     dotenv.load_dotenv()
 
-    # get all player data object
+    # get all player data with results
+    allPlayerDataMap = createPlayerIDBridgeRecords()
+
+    # acquire full (game, team, player, venue, weather) data by game
     playerDataObjects = mainAllFullPlayerEntryDataObjectsRoutine(6, 16)
 
     # verify data integrity

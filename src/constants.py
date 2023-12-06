@@ -16,7 +16,7 @@ msfPlayerWeeklyColumns = ['#Game ID', '#Game Date', '#Game Time', '#Away Team ID
 msfPlayerTrainingVariables = ['#Game Date', '#Game Time', '#Position', '#Height', '#Weight', '#Age', '#Rookie', '#PassAttempts', '#PassCompletions', '#PassPct', '#PassAttemptsPerGame', '#PassYards', '#PassYardsPerAtt', '#PassYardsPerGame', '#PassTD', '#PassTDPct', '#PassInt', '#PassIntPct', '#PassLng', '#PassAvg', '#Pass20Plus', '#Pass40Plus', '#PassSacks', '#PassSackY', '#QbRating', '#RushAttempts', '#RushAttemptsPerGame', '#RushYards', '#RushAverage', '#RushYardsPerGame', '#RushTD', '#RushLng', '#Rush1stDowns', '#Rush1stDownsPct', '#Rush20Plus', '#Rush40Plus', '#RushFumbles', '#Targets', '#Receptions', '#RecYards', '#RecAverage', '#RecYardsPerGame', '#RecTD', '#RecLng', '#Rec1stDowns', '#Rec20Plus', '#Rec40Plus', '#GamesStarted', '#TwoPtAtt', '#TwoPtMade', '#TwoPtPassAtt', '#TwoPtPassMade', '#TwoPtPassRec', '#TwoPtRushAtt']
 
 # msf to bdb constants
-teamID
+
 
 
 def getPlayerTrainingColumnIndexesFromAllColumnHeaders():

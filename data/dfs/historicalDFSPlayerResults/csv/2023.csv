@@ -1,3 +1,4 @@
+Season,GameID,Date,Week,Game Time,PlayerID,Player Name,Player Team,Player Opponent Team,Venue Ownership,DK Position,FD Position,DK Salary,FD Salary,DK Points,FD Points
 NFL 2023 Regular Season,45176-DET@KAN,2023-09-07 00:00:00,1,8:20 PM,DET,Detroit Lions,Detroit Lions,Kansas City Chiefs,Road,DST,DST,2200,3000,9,9
 NFL 2023 Regular Season,45176-DET@KAN,2023-09-07 00:00:00,1,8:20 PM,jared-goff,Jared Goff,Detroit Lions,Kansas City Chiefs,Road,QB,QB,6000,7500,14.02,14.02
 NFL 2023 Regular Season,45176-DET@KAN,2023-09-07 00:00:00,1,8:20 PM,jahmyr-gibbs,Jahmyr Gibbs,Detroit Lions,Kansas City Chiefs,Road,RB,RB,6100,6000,8,7

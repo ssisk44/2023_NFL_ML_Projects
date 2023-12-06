@@ -77,46 +77,71 @@ def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerName, bdbHomeTeamName):
     for i1, msfEntry in msfDF.iterrows():
         msfHomeTeamName = msfEntry["#Home Team City"] + " " + msfEntry['#Home Team Name']
         msfPlayerName = msfEntry['#FirstName'] + " " + msfEntry['#LastName']
+
+        ###### MULTIPLE PLAYERS WITH THE SAME NAME AT QB RB WR TE ON ONE TEAM?
+
+        ### FIRST CHECK: was their name corrected to match in future player data?
+        if msfPlayerName == bdbPlayerName and msfHomeTeamName == bdbHomeTeamName:
+            return msfEntry
+
         ### NAME TRIMMING
         # 1) make name all lowercase
         msfPlayerName = msfPlayerName.lower()
+        bdbPlayerName = bdbPlayerName.lower()
 
         # 2) remove special characters
-        msfPlayerName = msfPlayerName.replace(".", "")
+        msfPlayerName = msfPlayerName.replace(".", "").replace("'", "").replace("-","")
+        bdbPlayerName = bdbPlayerName.replace(".", "").replace("'", "").replace("-","")
 
         # 3) remove post name identifiers without string matching real names
         splitMSFPlayerName = msfPlayerName.split(" ")
         if splitMSFPlayerName[-1] in ['jr', 'sr', "ii", "iii", "iv", "v"]:
             msfPlayerName = ' '.join(splitMSFPlayerName[:-1])
 
+        splitBDBPlayerName = bdbPlayerName.split(" ")
+        if splitBDBPlayerName[-1] in ['jr', 'sr', "ii", "iii", "iv", "v"]:
+            bdbPlayerName = ' '.join(splitBDBPlayerName[:-1])
 
-
-        ### FIRST CHECK: was their name corrected to match in future player data?
+        ### SECOND CHECK: was player alternate name changed in the future
         if msfPlayerName == bdbPlayerName and msfHomeTeamName == bdbHomeTeamName:
             return msfEntry
 
-        # 4) manual bank of player names to ignore (LBs?)
-        ignoreNameArr = [
-            # 2017
-            'keith smith',
-            'brian hill',
-            'derek watt'
-        ]
-        if msfPlayerName in ignoreNameArr:
-            break
+        # # 4) manual bank of player names to ignore (LBs?)
+        # ignoreNameArr = [
+        #     'keith smith',
+        #     'brian hill',
+        #     'derek watt'
+        # ]
+        # if msfPlayerName in ignoreNameArr:
+        #     print(ignoreNameArr, msfPlayerName)
+        #     quit()
+        #     return 'manual_removal'
 
         # 5) manual bank of same players with different names
-        alternateNamePlayerDict = { # msf filtered name to forced id spelling
+        alternateNamePlayerDict = { # (msf to bdb) msf filtered name to forced id spelling for bdb
             'robbie anderson': "robby anderson",
             'mitchell trubisky': 'mitch trubisky',
             'benjamin watson': 'ben watson',
             'danny vitale': 'dan vitale',
+            'phillip walker': "pj walker",
+            "chig okonkwo": "chigoziem okonkwo",
+            "gabriel davis": "gabe davis",
+            'samouri toure': "samori toure",
+            'joshua palmer': 'josh palmer',
+            "zonovan knight": 'bam knight',
+            "elijah mitchell": "eli mitchell",
+            "deonte harty": "deonte harris",
+            "nick westbrookikhine": 'nick westbrook',
+            "olabisi johnson": "bisi johnson",
+            "drew ogletree": "andrew ogletree",
         }
-        if msfPlayerName in alternateNamePlayerDict.keys():
+
+        if msfPlayerName in alternateNamePlayerDict.keys(): #give msf record the name
             msfPlayerName = alternateNamePlayerDict[msfPlayerName]
 
         ### FINAL CHECK
         if msfPlayerName == bdbPlayerName and msfHomeTeamName == bdbHomeTeamName:
             return msfEntry
+
     return None
 
