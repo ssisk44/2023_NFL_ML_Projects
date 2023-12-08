@@ -8,7 +8,7 @@ Venue ID,Venue Name,Venue City,Venue State,Venue Country,Latitude,Longitude,Azim
 144,Estadio Azteca,Mexico City,,Mexico,-99.150442,19.302911,5.9,7200,Grass,Outdoor
 73,FedEx Field,Landover,MD,USA,-76.864444,38.907778,295,190,Grass,Outdoor
 50,FirstEnergy Stadium,Cleveland,OH,USA,-81.699444,41.506111,56.1,581,Grass,Outdoor
-53,Ford Field,Detroit,MI,USA,-83.045556,42.34,63.7,Artifical,45,Indoor
+53,Ford Field,Detroit,MI,USA,-83.045556,42.34,63.7,45,Artifical,Indoor
 58,Arrowhead Stadium,Kansas City,MO,USA,-94.483889,39.048889,316.3,889,Grass,Outdoor
 61,Gillette Stadium,Foxborough,MA,USA,-71.264,42.091,343,256,Articial,Outdoor
 59,Hard Rock Stadium,Miami Gardens,FL,USA,-80.238889,25.958056,10,16,Grass,Outdoor

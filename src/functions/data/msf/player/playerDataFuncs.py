@@ -1,7 +1,12 @@
 import os
 import dotenv
 import pandas as pd
+
+from src.functions.data.dfs.bdb.bdbDataRetrievalFuncs import getBDBDFSDHistoricalPlayerResultsByYearWeekTeamName
+from src.functions.data.msf.game import gameDataFuncs
 from src.functions.datetimeFuncs import calculateSeasonYearFromDate
+from src.functions.nflFuncs import getWeeksInSeason
+
 
 def createSeasonWeekPlayerIDDataMap():
     # build empty data map (season -> playerID -> week entry) *** flawed because weeks are not numbered
@@ -64,16 +69,33 @@ def getPlayerRecordsForGameID(year:int, week:int, gameID:int):
     return df
 
 
-def getMSFPlayerDataByYearWeekGameIDTeamAbbrev(year:int, week:int, gameID:int, teamAbbrev:str):
+def getMSFPlayerDataByYearWeekTeamName(year:int, week:int, teamName:str):
     absProjectPath = os.getenv("ABS_PROJECT_PATH")
     targetDirectory = "data/msf/weekly_player_game_logs/"
     filepath = absProjectPath + targetDirectory + str(year) + '/' + str(week) + '.csv'
     df = pd.read_csv(filepath, index_col=False)
-    filteredDF = df.loc[(df["#Game ID"] == gameID) & (df["#Team Abbr."] == teamAbbrev) & df['#Position'].isin(['QB', 'RB', 'FB', 'WR', 'TE'])]
+    filteredDF = df.loc[(df["#Team Name"] == teamName) & df['#Position'].isin(['QB', 'RB', 'FB', 'WR', 'TE'])]
     df = filteredDF.sort_values(by=['#FirstName']).reset_index()
     return df
 
-def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerName, bdbPlayerTeamName):
+def getMSFPlayerDataByYearWeekGameTeamName(year:int, week:int, teamName:str):
+    absProjectPath = os.getenv("ABS_PROJECT_PATH")
+    targetDirectory = "data/msf/weekly_player_game_logs/"
+    filepath = absProjectPath + targetDirectory + str(year) + '/' + str(week) + '.csv'
+    df = pd.read_csv(filepath, index_col=False)
+    filteredDF = df.loc[(df["#Team City"] + " " + df["#Team Name"] == teamName) & df['#Position'].isin(['QB', 'RB', 'FB', 'WR', 'TE'])]
+    df = filteredDF.sort_values(by=['#FirstName']).reset_index()
+    return df
+
+def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerEntry):
+    bdbPlayerName = bdbPlayerEntry['Player Name']
+    bdbPlayerTeamName = bdbPlayerEntry["Player Team"]
+    isHome = bdbPlayerEntry["Venue Ownership"] == "Home"
+    bdbPlayerDKPosition = bdbPlayerEntry['DK Position']
+    bdbPlayerDKSalary = bdbPlayerEntry['DK Salary']
+    bdbPlayerDKPoints = bdbPlayerEntry['DK Points']
+    bdbPlayerID = bdbPlayerEntry["PlayerID"]
+
     for i1, msfEntry in msfDF.iterrows():
         msfPlayerTeamName = msfEntry["#Team City"] + " " + msfEntry['#Team Name']
         msfPlayerName = msfEntry['#FirstName'] + " " + msfEntry['#LastName']
@@ -82,7 +104,7 @@ def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerName, bdbPlayerTeamName):
 
         ### FIRST CHECK: was their name corrected to match in future player data?
         if msfPlayerName == bdbPlayerName and msfPlayerTeamName == bdbPlayerTeamName:
-            return msfEntry
+            return pd.concat(pd.Series({"uPlayerName": msfEntry}) + bdbPlayerEntry + msfEntry)
 
         ### NAME TRIMMING
         # 1) make name all lowercase
@@ -104,7 +126,7 @@ def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerName, bdbPlayerTeamName):
 
         ### SECOND CHECK: was player alternate name changed in the future
         if msfPlayerName == bdbPlayerName and msfPlayerTeamName == bdbPlayerTeamName:
-            return msfEntry
+            return pd.concat(pd.Series({"uPlayerName": msfEntry}) + bdbPlayerEntry + msfEntry)
 
         # # 4) manual bank of player names to ignore (LBs?)
         # ignoreNameArr = [
@@ -141,7 +163,69 @@ def getMSFPlayerFromPlayerDF(msfDF, bdbPlayerName, bdbPlayerTeamName):
 
         ### FINAL CHECK
         if msfPlayerName == bdbPlayerName and msfPlayerTeamName == bdbPlayerTeamName:
-            return msfEntry
+            return pd.concat(pd.Series({"uPlayerName": msfEntry}) + bdbPlayerEntry + msfEntry)
 
     return None
+
+def createMSFPlayerDataMapFromAllRecords():
+    apiDataYearStart = int(os.getenv("FIRST_API_SEASON_YEAR"))
+    apiDataYearEnd = int(os.getenv("CURRENT_SEASON_YEAR"))
+    currentLastWeekNum = int(os.getenv("CURRENT_SEASON_LAST_COMPLETED_WEEK"))
+    absProjectFilepath = os.getenv("ABS_PROJECT_PATH")
+
+    """
+    ***Data Map Requirements***
+    training model - create all weeks of msf model entries, only when match found in bdb (salary and fantasy output req)
+        1) player maps - msfPlayerMap = [year][week][msfTeamID] = {playerID: playerEntry, ...}, bdbPlayerMap = [year][week][bdbTeamName] = {playerName: playerEntry, ...}
+            o Temporals -> for all seasons within week range getBridgedPlayerRecordsBySeasonWeekRangePlayerID()
+        2) team map - [year][week] = {teamName: teamEntry, ...}
+            o Temporals -> getTeamEntryForYearWeekTeamName(), getPlayerIDsForYearWeekTeamName()
+        3) game map - msfGameMap = [year][week] = {gameID: gameEntry, ...}
+            o Temporals -> yearWeekGameIDs = msfGameMap[str(year)][str(week)].keys(), getGameEntryByYearWeekGameID(year, week, msfGameID),
+            
+    predicting from model - create contest week model prediction data from dk entry csv
+        1) DKCD to BDB name,teamName bridge
+        
+        2) player map - [year][week][playerID]
+        3) team map - [year][week][gameID][teamID]
+        4) game map - [year][week][gameID]
+    """
+    msfPlayerDataMap = {}
+    bdbPlayerDataMap = {}
+    allTeamDataMap = {}
+    allGameMap = {}
+
+
+    for year in range(apiDataYearStart, apiDataYearEnd+1):
+        totalSeasonWeeks = getWeeksInSeason(year)
+        msfPlayerDataMap[str(year)] = {}
+        allTeamDataMap[str(year)] = {}
+        allGameMap[str(year)] = {}
+        for week in range(1, totalSeasonWeeks+1):
+            if year < apiDataYearEnd or (year == apiDataYearEnd and week <= currentLastWeekNum):
+                msfPlayerDataMap[str(year)][str(week)] = {}
+                allTeamDataMap[str(year)][str(week)] = {}
+                allGameMap[str(year)][str(week)] = {}
+                msfYearWeekGamesRecords = gameDataFuncs.getMSFGameDataByYearWeek(year, week)
+                for i, gameEntry in msfYearWeekGamesRecords.iterrows():
+                    msfGameID = gameEntry["#Game ID"]
+                    homeTeamID = gameEntry["#Home Team ID"]
+                    awayTeamID = gameEntry["#Away Team ID"]
+                    teamIDs = [homeTeamID, awayTeamID]
+                    for index in range(0, len(teamIDs)):
+                        # player data
+                        msfDF = getMSFPlayerDataByYearWeekGameIDTeamID(year, week, msfGameID, teamIDs[index])
+                        msfPlayerDataMap[str(year)][str(week)][str(teamIDs[index])] = {}
+
+                        # team data
+                        for i1,playerEntry in msfDF:
+                            playerID = msfDF["#Player ID"]
+                            msfPlayerDataMap[str(year)][str(week)][str(teamIDs[index])].update({str(playerID): playerEntry})
+                            #
+
+                    # game data
+                    allGameMap[str(year)][str(week)].update({str(msfGameID): gameEntry})
+
+
+    return allPlayerDataMap
 
