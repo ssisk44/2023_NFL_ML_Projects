@@ -19,10 +19,11 @@ bdbColumns = ['Season', 'GameID', 'Date', 'Week', 'Game Time', 'PlayerID', 'Play
 
 
 # data columns
-gDNumCols = ['#Game Week', '#Game Date', '#Game Time', "#Away Team ID", "#Home Team ID", '#Away Score Total', '#Home Score Total']
-gDCatCols = []
+gDNumCols = ['#Game Week', "#Away Team ID", "#Home Team ID", '#Away Score Total', '#Home Score Total']
+gDCatCols = ['#Game Date', '#Game Time']
 
-tDNumCols = ["#Away Team ID", "#Home Team ID", '#Team ID', '#PassAttempts', '#PassCompletions', '#PassPct', '#PassAttemptsPerGame', '#PassGrossYards', '#PassAvg', '#PassNetYards', '#PassYardsPerAtt', '#PassYardsPerGame',
+# ttDNumNonAvgCols = ['#Team ID']
+ttDNumCols = ['#PassAttempts', '#PassCompletions', '#PassPct', '#PassAttemptsPerGame', '#PassGrossYards', '#PassAvg', '#PassNetYards', '#PassYardsPerAtt', '#PassYardsPerGame',
              '#PassTD', '#PassTDPct', '#PassInt', '#PassIntPct', '#PassLng', '#Pass20Plus', '#Pass40Plus', '#PassSacks', '#PassSackY', '#QBRating', '#RushAttempts', '#RushAttemptsPerGame', '#RushYards', '#RushAverage',
              '#RushYardsPerGame', '#RushTD', '#RushLng', '#Rush1stDowns', '#Rush1stDownsPct', '#Rush20Plus', '#Rush40Plus', '#RushFumbles', '#Receptions', '#RecYards', '#RecAverage', '#RecYardsPerGame', '#RecTD', '#RecLng',
              '#Rec1stDowns', '#Rec20Plus', '#Rec40Plus', '#RecFumbles', '#TackleSolo', '#TackleTotal', '#TackleAst', '#Sacks', '#SackYds', '#TacklesForLoss', '#Interceptions', '#IntTD', '#IntYds', '#IntAverage', '#IntLng',
@@ -33,10 +34,10 @@ tDNumCols = ["#Away Team ID", "#Home Team ID", '#Team ID', '#PassAttempts', '#Pa
              '#Punts', '#PuntYds', '#PuntNetYds', '#PuntLng', '#PuntAvg', '#PuntNetAvg', '#PuntBlk', '#PuntOOB', '#PuntDown', '#PuntIn20', '#PuntIn20Pct', '#PuntTB', '#PuntTBPct', '#PuntFC', '#PuntRet', '#PuntRetYds',
              '#PuntRetAvg', '#TwoPtAtt', '#TwoPtMade', '#TwoPtPassAtt', '#TwoPtPassMade', '#TwoPtRushAtt', '#TwoPtRushMade', '#FirstDownsTotal', '#FirstDownsPass', '#FirstDownsRush', '#FirstDownsPenalty', '#ThirdDowns',
              '#ThirdDownsAtt', '#ThirdDownsPct', '#FourthDowns', '#FourthDownsAtt', '#FourthDownsPct', '#Penalties', '#PenaltyYds', '#OffensePlays', '#OffenseYds', '#OffenseAvgYds', '#TotalTD', '#Wins', '#Losses', '#Ties',
-             '#OTWins', '#OTLosses', '#WinPct', '#PointsFor', '#PointsAgainst', '#PointDifferential', 'DK Salary', 'DK Points']
-tDCatCols = ['Venue Ownership', 'DK Position', 'Game Time']
+             '#OTWins', '#OTLosses', '#WinPct', '#PointsFor', '#PointsAgainst', '#PointDifferential', 'DK Salary', 'DK Points', "PlayerDK200ptSalaryEff", "PlayerDKEffLabel"]
+tDCatCols = ['Venue Ownership']
 
-pDNumCols = ['#Height', '#Weight', '#Birth Date', '#Age', '#Team ID', '#PassAttempts', '#PassCompletions', '#PassPct', '#PassAttemptsPerGame', '#PassYards', '#PassYardsPerAtt', '#PassYardsPerGame', '#PassTD', '#PassTDPct', '#PassInt',
+ptDNumCols = ['#PassAttempts', '#PassCompletions', '#PassPct', '#PassAttemptsPerGame', '#PassYards', '#PassYardsPerAtt', '#PassYardsPerGame', '#PassTD', '#PassTDPct', '#PassInt',
              '#PassIntPct', '#PassLng', '#PassAvg', '#Pass20Plus','#Pass40Plus', '#PassSacks', '#PassSackY', '#QbRating', '#RushAttempts', '#RushAttemptsPerGame',
              '#RushYards', '#RushAverage', '#RushYardsPerGame', '#RushTD', '#RushLng', '#Rush1stDowns', '#Rush1stDownsPct',
              '#Rush20Plus', '#Rush40Plus', '#RushFumbles', '#Targets', '#Receptions', '#RecYards', '#RecAverage', '#RecYardsPerGame', '#RecTD', '#RecLng', '#Rec1stDowns', '#Rec20Plus', '#Rec40Plus', '#RecFumbles',
@@ -46,32 +47,80 @@ pDNumCols = ['#Height', '#Weight', '#Birth Date', '#Age', '#Team ID', '#PassAtte
              '#FgAtt30_39', '#Fg30_39Pct', '#FgMade40_49', '#FgAtt40_49', '#Fg40_49Pct', '#FgMade50Plus', '#FgAtt50Plus', '#Fg50PlusPct', '#FgLng', '#XpBlk', '#XpMade', '#XpAtt', '#XpPct', '#FgAndXpPts', '#KoPct', '#Kickoffs',
              '#KoYds', '#KoOOB', '#KoAvg', '#KoTB', '#KoRet', '#KoRetYds', '#KoRetAvgYds', '#KoTD', '#KoOS', '#KoOSR', '#Punts', '#PuntYds', '#PuntNetYds', '#PuntLng', '#PuntAvg', '#PuntNetAvg', '#PuntBlk', '#PuntOOB', '#PuntDown',
              '#PuntIn20', '#PuntIn20Pct', '#PuntTB', '#PuntTBPct', '#PuntFC', '#PuntRet', '#PuntRetYds', '#PuntRetAvg', '#GamesStarted', '#TwoPtAtt', '#TwoPtMade', '#TwoPtPassAtt', '#TwoPtPassMade', '#TwoPtPassRec', '#TwoPtRushAtt',
-             '#TwoPtRushMade', '#OffenseSnaps', '#DefenseSnaps', '#SpecialTeamSnaps', 'DK Salary', 'DK Points']
-
-pDCatCols = ['Venue Ownership', 'DK Position', 'Game Time', '#Position', '#Birth Country', '#Rookie']
+             '#TwoPtRushMade', '#OffenseSnaps', '#DefenseSnaps', '#SpecialTeamSnaps', 'DK Salary', 'DK Points', "PlayerDK200ptSalaryEff", "PlayerDKEffLabel"]
+ptDCatCols = ['DK Position', '#Position', '#Rookie'] #birth country '#Height', '#Weight', '#Age'
 
 vDNumCols = ['Latitude', 'Longitude', 'Azimuth Angle', 'Elevation']
 vDCatCols = ['Venue Country', 'Field Type', 'Stadium Type']
 
+trainingOutputCols = ['DK Points', "PlayerDK200ptSalaryEff", "PlayerDKEffLabel"]
 
-# def getPlayerTrainingColumnIndexesFromAllColumnHeaders():
-#     translatedIndexes = []
-#     for header in msfPlayerTrainingVariables:
-#         headerIndex = msfPlayerWeeklyColumns.index(header)
-#         translatedIndexes.append(headerIndex)
-#     return translatedIndexes
-#
-# def getTeamTrainingColumnIndexesFromAllColumnHeaders():
-#     translatedIndexes = []
-#     for header in msfTeamTrainingVariables:
-#         headerIndex = msfTeamWeeklyColumns.index(header)
-#         translatedIndexes.append(headerIndex)
-#     return translatedIndexes
-#
-# def getMSFHeaderIndex(headerTitle:str, columnArr):
-#     return columnArr.index(headerTitle)
+def convertColumnsToTemporal(columns, temporalArr):
+    convertedColumns = []
+    for temporalVal in temporalArr:
+        for column in columns:
+            column = column + str(temporalVal)
+            convertedColumns.append(column)
+    return convertedColumns
 
-# Miscellaneous
+
+def convertCatColumnToValues(columnName, columnValue):
+    if columnName == "Venue Ownership":
+        d = {
+            'Home': 1,
+            'Road': 0
+        }
+        return d[str(columnName)][str(columnValue)]
+
+    elif columnName == "#Game Date": # game month
+        gameMonth = columnValue[5:7]
+        return int(gameMonth)
+
+    elif columnName == "#Game Time": # is primetime?
+        time = columnValue[:-2]
+        hours = (time[:time.index(':')]-4) % 24
+        if 12 <= hours <= 18:
+            return 0
+        else:
+            return 1
+
+    elif columnName == "DK Position":
+        d = {
+            'QB': 1,
+            'RB': 2,
+            'WR': 3,
+            'TE': 4,
+            'DST': 5
+        }
+        return d[str(columnName)][str(columnValue)]
+    elif columnName == "#Position":
+        d = {
+            'QB': 1,
+            'RB': 2,
+            'WR': 3,
+            'TE': 4,
+            'FB': 5
+        }
+        return d[str(columnName)][str(columnValue)]
+    elif columnName == "#Rookie":
+        d = {
+            'Y': 1,
+            'N': 0
+        }
+        return d[str(columnName)][str(columnValue)]
+
+
+
+
+
+
+
+
+
+
+
+
+
 teamAbbrevToDepthChartLinkMap = {
     # AFC EAST
     'BUF': 'https://www.espn.com/nfl/team/depth/_/name/buf/buffalo-bills',
