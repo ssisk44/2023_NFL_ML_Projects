@@ -87,44 +87,35 @@ def getMSFandBDBTeamEntryByYearWeekTeamName(year, week, teamName):
 
 
 
-def getTemporalTeamData(temporalArr, year, week, teamName, teamMap):
-    allTemporalResults = []
-    largestRangeEntryAVG = None
-    temporalEntryCounter = 0
-    for temporalValue in temporalArr:
-        print(temporalValue)
-        weeksIntoPast = temporalValue
+def createTemporalTeamData(temporalArr, year, week, teamName, teamMap):
+    def getTeamTemporalFullRangeData(): # ex. 5 3 1 temporal default
+        fullRangeTemporalArrArr = []
         currentWeek = week
-        temporalWeek = week - weeksIntoPast
+        temporalMax = temporalArr[0]
+        temporalWeek = week - temporalMax
 
-        temporalWeeksDFs = []
-        ### retrieve all week team values
         for weekNum in range(temporalWeek, currentWeek):
             if teamName in teamMap[str(year)][str(weekNum)].keys():
-                sr = teamMap[str(year)][str(weekNum)][str(teamName)]
-                temporalWeeksDFs.append(sr)
-            else:  # bye week
-                temporalWeeksDFs.append(None)
+                sr = teamMap[str(year)][str(weekNum)][str(teamName)] # player entry
+                fullRangeTemporalArrArr.append(sr)
+            # else = bye week: dont add bye week to avg values
 
-        ### filter out bye weeks
-        filteredTemporalWeeksDF = []
-        for entry in temporalWeeksDFs:
-            if type(entry) == None:
-                continue
-            else:
-                filteredTemporalWeeksDF.append(entry)
+        for i in range(0, len(fullRangeTemporalArrArr)):
+            print(len(fullRangeTemporalArrArr[i].to_numpy()))
+            # pd.DataFrame(fullRangeTemporalArrArr[i]).to_csv(absProjectFilepath + "tmp/tt" + str(i) + ".csv", index=False)
+        exit()
+        return fullRangeTemporalArrArr
 
-        ### split by num and cat
-        ### convert cat
-        ### avg num and cat
+    # largestRangeEntryAVG = None # to fill in bye week gaps
+
+    teamTempFullRange = getTeamTemporalFullRangeData()
+    pd.DataFrame(teamTempFullRange).to_csv(absProjectFilepath + "tmp/123.csv", index=False)
 
 
-        quit()
 
-        if temporalEntryCounter == 0: # save first entry as avg for fill ins
-            largestRangeEntry = df
-        temporalEntryCounter+=1
-
+    ### split by num and cat
+    ### convert cat
+    ### avg num and cat
 
     # constants.tDNumCols  ################################################################################################# decide on how to average categorical and numerical data (big deal! one of the last few challenges)
     # constants.tDCatCols
@@ -138,27 +129,6 @@ def getTemporalTeamData(temporalArr, year, week, teamName, teamMap):
     # dfNumAVG = dfNum['mean'] = dfNum.mean(axis=1)
     # dfCatConvertedAVG = dfCatConverted['mean'] = dfCatConverted.mean(axis=1)
 
-
-
-
-    quit()
-
-
-
-# def createTTEntries(ttData):
-#     pass
-#
-#
-# def adjustTemporalColsArr(temporalArr, ttDNumericCols):
-#     pass
-#
-#
-# def getTemporalPlayerData(temporazArr):
-#     pass
-#
-#
-# def createPTEntries(ptData):
-#     pass
 
 
 def createAllSeasonsTrainingData(temporalArr, trainingWeekRangeStart, trainingWeekRangeEnd):
@@ -206,7 +176,7 @@ def createAllSeasonsTrainingData(temporalArr, trainingWeekRangeStart, trainingWe
                         if trainingWeekRangeStart <= week <= trainingWeekRangeEnd:  # build team DST model training entry
                             ### get team current week + temporal values and columns
                             # ttData = getTemporalTeamData(temporalArr, year, week, str(teamNames[index]), teamMap)
-                            ttData = getTemporalTeamData(temporalArr, year, week, str(teamNames[index]), teamMap)
+                            ttData = createTemporalTeamData(temporalArr, year, week, str(teamNames[index]), teamMap)
                             #########################################################################################
                             allTeamFinalEntries.append(pd.concat([venueEntry, gameEntry, ttData], axis=0))
                             print(ttData)

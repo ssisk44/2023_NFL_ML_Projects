@@ -8,7 +8,7 @@ def convertHistoricalDFSXLSXToCSV():
     dotenv.load_dotenv()
     absProjectPath = os.getenv("ABS_PROJECT_PATH")
     targetDirectory = "data/dfs/historicalDFSPlayerResults/"
-    currentSeasonYear = int(os.getenv('CURRENT_SEASON_YEAR'))
+    currentSeasonYear = int(os.getenv('CURRENT_SEASON_YEAR'))-1
     fullTargetDirPath = absProjectPath + targetDirectory + "xlsx/"
     for filename in os.listdir(fullTargetDirPath):
         filepath = fullTargetDirPath + filename
